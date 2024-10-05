@@ -1,5 +1,5 @@
-<main>
-    <section>
+<main class="container">
+    <section class="section">
         <article>
             <?php 
                 the_title('<h1 class="title-post">', '</h1>'); 
