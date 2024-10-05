@@ -45,10 +45,10 @@ function closeMenuMobile() {
     menuMobile = document.querySelector('.menu-mobile--wrapper')
     panelOverlay = document.querySelector('#panel-overlay')
 
-    menuMobile.style.transition = "all .5s ease"
+    menuMobile.style.transition = "all 1s ease"
     menuMobile.style.left = "-100%"
     menuMobile.style.boxShadow = "0 10px 20px rgba(61, 70, 81, 0)"
-    panelOverlay.style.transition = "opacity .5s ease"
+    panelOverlay.style.transition = "opacity 1s ease"
     panelOverlay.style.left = "-100%"
     panelOverlay.style.opacity = "0"
 }
