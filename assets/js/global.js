@@ -33,8 +33,11 @@ function openMenuMobile() {
     menuMobile = document.querySelector('.menu-mobile--wrapper')
     panelOverlay = document.querySelector('#panel-overlay')
 
+    menuMobile.style.transition = "left .3s ease"
+    menuMobile.style.transition = "box-shadow"
     menuMobile.style.left = "0"
-    menuMobile.style.boxShadow = "0 10px 21px rgb(61 70 81 / 50%)"
+    menuMobile.style.boxShadow = "0 10px 20px rgba(61, 70, 81, 1)"
+    panelOverlay.style.transition = "opacity .3s ease"
     panelOverlay.style.left = "0"
     panelOverlay.style.opacity = "1"
 }
@@ -44,7 +47,11 @@ function closeMenuMobile() {
     menuMobile = document.querySelector('.menu-mobile--wrapper')
     panelOverlay = document.querySelector('#panel-overlay')
 
+    menuMobile.style.transition = "left .3s ease"
+    menuMobile.style.transition = "box-shadow .3s ease"
     menuMobile.style.left = "-100%"
+    menuMobile.style.boxShadow = "0 10px 20px rgba(61, 70, 81, 0)"
+    panelOverlay.style.transition = "opacity .3s ease"
     panelOverlay.style.left = "-100%"
     panelOverlay.style.opacity = "0"
 }
