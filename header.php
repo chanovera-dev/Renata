@@ -9,4 +9,15 @@
 </head>
 <body <?php body_class(); ?>>
     <div class="site">
-        <header></header>
+        <?php include(TEMPLATEPATH.'/sections/header/menu-mobile.php'); ?>
+        <div id="panel-overlay"></div>
+        <header id="mobile-header" class="container main-header">
+            <section class="section header-content">
+                <?php
+                    include(TEMPLATEPATH.'/sections/header/menu-button.php');
+                    include(TEMPLATEPATH.'/sections/header/brand.php');
+                    include(TEMPLATEPATH.'/sections/header/searchform-button.php');
+                    get_search_form();
+                ?>
+            </section>
+        </header>
