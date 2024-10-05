@@ -61,6 +61,15 @@ function renata_theme_support(){
 
     add_theme_support( 'customize-selective-refresh-widgets' );
 
-    
+    add_theme_support( 'post-thumbnails', array( 
+        'post',
+        'page',
+        'movies' 
+    ) );
+
+    set_post_thumbnail_size( 300, 200, true ); // Normal post thumbnails, hard crop mode
+	add_image_size( 'post-image', 400, 300, true ); // Post thumbnails, hard crop mode
+	add_image_size( 'slider-image', 920, 300, true ); // Post thumbnails for slider, hard crop mode
+
 } 
 add_action('after_setup_theme', 'renata_theme_support');
