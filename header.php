@@ -17,7 +17,7 @@
                     include(TEMPLATEPATH.'/sections/header/menu-button.php');
                     include(TEMPLATEPATH.'/sections/header/brand.php');
                     include(TEMPLATEPATH.'/sections/header/searchform-button.php');
-                    get_search_form();
+                    include(TEMPLATEPATH.'/sections/header/searchform-mobile.php');
                 ?>
             </section>
         </header>
