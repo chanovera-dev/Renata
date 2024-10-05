@@ -48,7 +48,7 @@ function closeMenuMobile() {
         document.querySelector('.menu-mobile--wrapper').classList.remove('close');
         document.querySelector('#panel-overlay').classList.remove('hide');
         
-    }, 300);
+    }, 500);
 }
 
 // cierra el menú mobile y el sidebar mobile si se presiona el panel que cubre el contenido
