@@ -36,7 +36,6 @@ function openMenuMobile() {
     menuMobile.style.transition = "all .3s ease"
     menuMobile.style.left = "0"
     menuMobile.style.boxShadow = "0 10px 20px rgba(61, 70, 81, 1)"
-    panelOverlay.style.transition = "opacity .3s ease"
     panelOverlay.style.left = "0"
     panelOverlay.style.opacity = "1"
 }
