@@ -28,5 +28,11 @@ function renata_theme_support(){
 
     add_theme_support( 'automatic-feed-links' );
 
+    add_theme_support( 'custom-logo', array(
+        'width' = 200,
+        'height' = 100,
+        'flex-height' = true,
+    ) );
+
 } 
 add_action('after_setup_theme', 'renata_theme_support');
