@@ -37,10 +37,18 @@ function openMenuMobile() {
 }
 // cerrar el menú mobile
 function closeMenuMobile() {
-    // quita al menú la clase open, ocultándolo
-    document.querySelector('.menu-mobile--wrapper').classList.remove('open');
-    // quita la clase show a una capa que cubre el resto del sitio
-    document.querySelector('#panel-overlay').classList.remove('show');
+    // agrega al menú la clase close, ocultándolo
+    document.querySelector('.menu-mobile--wrapper').classList.add('close');
+    // agrega la clase hide a una capa que cubre el resto del sitio
+    document.querySelector('#panel-overlay').classList.add('hide');
+    // espera un tiempo antes de eliminar las clases
+    setTimeout(() => {
+        document.querySelector('.menu-mobile--wrapper').classList.remove('open');
+        document.querySelector('#panel-overlay').classList.remove('show');
+        document.querySelector('.menu-mobile--wrapper').classList.remove('close');
+        document.querySelector('#panel-overlay').classList.remove('hide');
+        
+    }, 300);
 }
 
 // cierra el menú mobile y el sidebar mobile si se presiona el panel que cubre el contenido
