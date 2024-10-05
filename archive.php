@@ -7,6 +7,9 @@
         <section class="section">
         
             <?php
+
+                the_archive_title( '<h1>', '</h1>' );
+
                 if ( have_posts() ){
 
                     echo '<div class="posts">';
