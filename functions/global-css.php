@@ -20,7 +20,7 @@ function renata_theme_custom_global_css() {
             #panel-overlay{position:fixed;width:100%;height:100%;top:0;left:-100%;opacity:0;z-index:7;background:rgb(255 255 255 / 50%);backdrop-filter:blur(20px);transition:opacity .3s ease;}
             #panel-overlay.show{left:0;opacity:1;}
             .menu-mobile--wrapper{position:fixed;top:0;left:-100%;width:100%;max-width:290px;height:100svh;background-color:#f6f6f6;transition:all .3s ease;z-index:8;}
-            .menu-mobile--wrapper.open{left:0;box-shadow:0 10px 21px rgba(0 0 0 / 25%);}
+            .menu-mobile--wrapper.open{left:0;box-shadow:0 10px 21px rgba(24 27 32 / 25%);}
         </style>
     <?php
 }

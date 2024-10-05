@@ -42,3 +42,10 @@ function closeMenuMobile() {
     // quita la clase show a una capa que cubre el resto del sitio
     document.querySelector('#panel-overlay').classList.remove('show');
 }
+
+// cierra el menú mobile y el sidebar mobile si se presiona el panel que cubre el contenido
+document.addEventListener("click", function(event) {
+    if (event.target && event.target.id === 'panel-overlay') {
+        closeMenuMobile();
+    }
+});
