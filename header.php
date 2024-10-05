@@ -10,7 +10,7 @@
 <body <?php body_class(); ?>>
     <div class="site">
         <?php include(TEMPLATEPATH.'/sections/header/menu-mobile.php'); ?>
-        <div id="panel-overlay" style="left=-100%;"></div>
+        <div id="panel-overlay" style="left=-100%;opacity=0;"></div>
         <header id="mobile-header" class="container main-header">
             <section class="section header-content">
                 <?php

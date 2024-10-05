@@ -35,6 +35,7 @@ function openMenuMobile() {
 
     menuMobile.style.left = "0"
     panelOverlay.style.left = "0"
+    panelOverlay.style.opacity = "1"
 }
 
 // cerrar el menú mobile
