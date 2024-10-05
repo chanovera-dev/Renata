@@ -3,6 +3,8 @@
 // carga componentes (estilos, javascript, etc) en el header
 function load_parts_header() {
     wp_dequeue_style( 'wp-block-library' );
+    wp_deregister_script( 'wp-polyfill' );
+    wp_deregister_script( 'regenerator-runtime' );
 }
 add_action( 'wp_enqueue_scripts', 'load_parts_header' );
 
@@ -73,3 +75,19 @@ function renata_theme_support(){
 
 } 
 add_action('after_setup_theme', 'renata_theme_support');
+
+function widgets_areas(){
+
+    register_sidebar(
+        array(
+            'name' => __('Blog Sidebar','renata'),
+            'id' => 'blog-sidebar',
+            'description' => __('Sidebar Widget Area','renata'),
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+}
+add_action( 'widgets_init', 'widgets_areas' );
