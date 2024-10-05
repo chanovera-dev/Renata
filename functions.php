@@ -12,3 +12,12 @@ function load_parts_footer(){
     wp_enqueue_script('generals', get_template_directory_uri() . '/assets/js/global.js', array(), '1.0', true);
 }
 add_action( 'get_footer', 'load_parts_footer' );
+
+// Registro de menús
+register_nav_menus( 
+    array(
+        'mobile' => __( 'Mobile', 'renata' ),
+        'primary' => __( 'Primary', 'renata' ),
+        'social' => __( 'Social', 'renata' ), 
+    ) 
+);
