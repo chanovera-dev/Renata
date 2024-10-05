@@ -18,7 +18,9 @@
 
                     }
 
-                    echo '</div>';
+                    echo '
+                        <div>'; the_posts_pagination(); echo '</div>
+                    </div>';
 
                     if ( is_active_sidebar('posts-sidebar') ) {
                         dynamic_sidebar('posts-sidebar'); 
