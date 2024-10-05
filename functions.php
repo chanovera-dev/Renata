@@ -92,3 +92,7 @@ function widgets_areas(){
     );
 }
 add_action( 'widgets_init', 'widgets_areas' );
+
+// A N E X O S
+/* anexo para cargar el css que se usa en todas las páginas */
+require_once(get_template_directory() . '/functions/global-css.php');
