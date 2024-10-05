@@ -46,5 +46,17 @@ function renata_theme_support(){
         'style', 
         'script' 
     ) );
+
+    add_theme_support( 'post-formats', array(
+        'aside',
+        'image', 
+        'video',
+        'quote',
+        'link',
+        'gallery',
+        'status',
+        'audio',
+        'chat',
+    ) );
 } 
 add_action('after_setup_theme', 'renata_theme_support');
