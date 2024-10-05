@@ -17,7 +17,7 @@ function renata_theme_custom_global_css() {
             /* estilos al hacer scroll */
             :is(.scroll-down,.scroll-up) .main-header{;z-index:6;}
             /* menú mobile */
-            .panel-overlay{position:fixed;width:100%;height:100%;top:0;left:0;opacity:1;z-index:7;background:rgb(255 255 255 / 90%);backdrop-filter:blur(20px);transition:opacity .3s ease;}
+            #panel-overlay{position:fixed;width:100%;height:100%;top:0;left:0;opacity:1;z-index:7;background:rgb(255 255 255 / 90%);backdrop-filter:blur(20px);transition:opacity .3s ease;}
         </style>
     <?php
 }
