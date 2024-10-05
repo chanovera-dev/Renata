@@ -6,7 +6,7 @@
 
         <section class="section">
 
-            <h1 class="title"><?php echo esc_html__('Resultados para "', 'renata') . the_search_query() . esc_html__('"', 'renata') ?></h1>
+            <h1 class="title"><?php echo esc_html__('Resultados para "', 'renata'); echo the_search_query(); echo esc_html__('"', 'renata') ?></h1>
         
             <?php
                 if ( have_posts() ){
