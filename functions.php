@@ -29,10 +29,22 @@ function renata_theme_support(){
     add_theme_support( 'automatic-feed-links' );
 
     add_theme_support( 'custom-logo', array(
-        'width' = 200,
-        'height' = 100,
-        'flex-height' = true,
+        'width'                => 200,
+        'height'               => 100,
+        'flex-width'           => true,
+        'flex-height'          => true,
+        'header-text'          => array( 'site-title', 'site-description' ),
+        'unlink-homepage-logo' => true,
     ) );
 
+    add_theme_support( 'html5', array( 
+        'comment-list', 
+        'comment-form', 
+        'search-form', 
+        'gallery', 
+        'caption', 
+        'style', 
+        'script' 
+    ) );
 } 
 add_action('after_setup_theme', 'renata_theme_support');
