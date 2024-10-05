@@ -30,30 +30,18 @@ scrollActions();
 
 // abrir el menú mobile
 function openMenuMobile() {
-    menuMobile = document.querySelector('.menu-mobile--wrapper')
-    panelOverlay = document.querySelector('#panel-overlay')
-
-    menuMobile.style.transition = "all .3s ease"
-    menuMobile.style.left = "0"
-    menuMobile.style.boxShadow = "0 10px 20px rgba(61, 70, 81, 1)"
-    panelOverlay.style.transition = "opacity .5s ease"
-    panelOverlay.style.left = "0"
-    panelOverlay.style.opacity = "1"
+    // agrega al menú la clase open, mostrándolo
+    document.querySelector('.menu-mobile--wrapper').classList.add('open');
+    // agrega la clase show a una capa que cubre el resto del sitio
+    document.querySelector('.panel-overlay').classList.add('show');
 }
-
 // cerrar el menú mobile
 function closeMenuMobile() {
-    menuMobile = document.querySelector('.menu-mobile--wrapper')
-    panelOverlay = document.querySelector('#panel-overlay')
-
-    menuMobile.style.transition = "all 1s ease"
-    menuMobile.style.left = "-100%"
-    menuMobile.style.boxShadow = "0 10px 20px rgba(61, 70, 81, 0)"
-    panelOverlay.style.transition = "opacity 1s ease"
-    panelOverlay.style.left = "-100%"
-    panelOverlay.style.opacity = "0"
+    // quita al menú la clase open, ocultándolo
+    document.querySelector('.menu-mobile--wrapper').classList.remove('open');
+    // quita la clase show a una capa que cubre el resto del sitio
+    document.querySelector('.panel-overlay').classList.remove('show');
 }
-
 // cierra el menú mobile y el sidebar mobile si se presiona el panel que cubre el contenido
 document.addEventListener("click", function(event) {
     if (event.target && event.target.id === 'panel-overlay') {
