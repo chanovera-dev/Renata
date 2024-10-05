@@ -34,6 +34,7 @@ function openMenuMobile() {
     panelOverlay = document.querySelector('#panel-overlay')
 
     menuMobile.style.left = "0"
+    menuMobile.style.boxShadow = "0 10px 21px rgb(61 70 81 / 50%)"
     panelOverlay.style.left = "0"
     panelOverlay.style.opacity = "1"
 }
