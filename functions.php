@@ -58,5 +58,9 @@ function renata_theme_support(){
         'audio',
         'chat',
     ) );
+
+    add_theme_support( 'customize-selective-refresh-widgets' );
+
+    
 } 
 add_action('after_setup_theme', 'renata_theme_support');
