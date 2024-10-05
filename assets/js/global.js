@@ -25,3 +25,20 @@ function scrollActions() {
     });
 }
 scrollActions();
+
+// F U N C I O N E S   D E L   M E N Ú   M O B I L E
+
+// abrir el menú mobile
+function openMenuMobile() {
+    // agrega al menú la clase open, mostrándolo
+    document.querySelector('.menu-mobile--wrapper').classList.add('open');
+    // agrega la clase show a una capa que cubre el resto del sitio
+    document.querySelector('#panel-overlay').classList.add('show');
+}
+// cerrar el menú mobile
+function closeMenuMobile() {
+    // quita al menú la clase open, ocultándolo
+    document.querySelector('.menu-mobile--wrapper').classList.remove('open');
+    // quita la clase show a una capa que cubre el resto del sitio
+    document.querySelector('#panel-overlay').classList.remove('show');
+}
