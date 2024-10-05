@@ -1,4 +1,4 @@
-<div class="menu-mobile--wrapper">
+<div class="menu-mobile--wrapper" style="left=-100%;">
     <div class="name-menu--wrapper">
         <p class="name-menu"><b><?php echo esc_html__('Menú', 'renata'); ?></b></p>
         <button id="close-menu-mobile" onclick="closeMenuMobile()">

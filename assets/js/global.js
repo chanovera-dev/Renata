@@ -30,11 +30,13 @@ scrollActions();
 
 // abrir el menú mobile
 function openMenuMobile() {
-    // agrega al menú la clase open, mostrándolo
-    document.querySelector('.menu-mobile--wrapper').classList.add('open');
-    // agrega la clase show a una capa que cubre el resto del sitio
-    document.querySelector('#panel-overlay').classList.add('show');
+    menuMobile = document.querySelector('.menu-mobile--wrapper')
+    panelOverlay = document.querySelector('#panel-overlay')
+
+    menuMobile.style.left = "0"
+    panelOverlay.style.left = "0"
 }
+
 // cerrar el menú mobile
 function closeMenuMobile() {
     // agrega al menú la clase close, ocultándolo
