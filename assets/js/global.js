@@ -50,3 +50,9 @@ document.addEventListener("click", function(event) {
         closeMenuMobile()
     }
 })
+// Cierra el menú mobile si presionas la tecla esc
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeMenuMobile()
+    }
+})
