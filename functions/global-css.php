@@ -26,6 +26,14 @@ function renata_theme_custom_global_css() {
             .menu-mobile--wrapper .name-menu--wrapper{display:flex;align-items:center;justify-content:space-between;height:54px;}
             .menu-mobile--wrapper .name-menu--wrapper .name-menu{padding:0 20px;}
             .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile{width:54px;height:54px;border:none;display:grid;place-content:center;background-color:transparent;}
+            /* listas */
+            #menu-mobile{height:100%;overflow-y:scroll;padding-bottom:80px;}
+            #menu-mobile::-webkit-scrollbar,
+            .menu-mobile::-webkit-scrollbar{display:none;}
+            #menu-mobile ul{padding:0;}
+            #menu-mobile ul li a{padding:0 20px;display:flex;align-items:center;height:48px;}
+            #menu-mobile ul li ul li a{padding-left:40px;}
+            #menu-mobile ul li ul li ul li a{padding-left:60px;}
         </style>
     <?php
 }
