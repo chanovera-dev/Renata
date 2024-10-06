@@ -23,7 +23,7 @@ function renata_theme_custom_global_css() {
             #panel-overlay{position:fixed;width:100%;height:100%;top:0;left:-100%;opacity:0;z-index:7;background:rgb(61 70 81 / 90%);backdrop-filter:blur(20px);transition:opacity .3s ease;}
             #panel-overlay.show{left:0;opacity:1;}
             .menu-mobile--wrapper{position:fixed;top:0;left:-100%;width:100%;max-width:290px;height:100svh;background-color:var(--wp--preset--color--bg-panel);transition:all .3s ease;z-index:8;box-shadow:0 10px 21px rgb(0 0 0 / 0%);}
-            .menu-mobile--wrapper.open{left:0;box-shadow:0 10px 21px rgb(0 0 0 / 25%);}
+            .menu-mobile--wrapper.open{left:0;box-shadow:var(--wp--preset--shadow--panel);}
             body.lock{overflow:hidden;}
             /* nombre del menú y botón de cerrado */
             .menu-mobile--wrapper .name-menu--wrapper{display:flex;align-items:center;justify-content:space-between;height:54px;}
@@ -36,7 +36,7 @@ function renata_theme_custom_global_css() {
             .menu-mobile::-webkit-scrollbar{display:none;}
             #menu-mobile ul{padding:0;list-style:none;}
             #menu-mobile ul li a{padding:0 20px;display:flex;align-items:center;height:48px;transition:background-color .3s ease;}
-            #menu-mobile ul li a:hover{background-color:#fff;}
+            #menu-mobile ul li a:hover{background-color:var(--wp--preset--color--white);}
             #menu-mobile ul li ul li a{padding-left:40px;}
             #menu-mobile ul li ul li ul li a{padding-left:60px;}
         </style>
