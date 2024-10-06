@@ -21,6 +21,7 @@ function renata_theme_custom_global_css() {
             #panel-overlay.show{left:0;opacity:1;}
             .menu-mobile--wrapper{position:fixed;top:0;left:-100%;width:100%;max-width:290px;height:100svh;background-color:#f6f6f6;transition:all .3s ease;z-index:8;box-shadow:0 10px 21px rgb(0 0 0 / 0%);}
             .menu-mobile--wrapper.open{left:0;box-shadow:0 10px 21px rgb(0 0 0 / 25%);}
+            .site.lock{overflow:hidden;}
         </style>
     <?php
 }
