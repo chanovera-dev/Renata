@@ -34,7 +34,7 @@ function openMenuMobile() {
     document.querySelector('.menu-mobile--wrapper').classList.add('open')
     // agrega la clase show a una capa que cubre el resto del sitio
     document.querySelector('#panel-overlay').classList.add('show')
-    document.querySelector('.site').classList.add('lock')
+    document.body.classList.add('lock')
 }
 // cerrar el menú mobile
 function closeMenuMobile() {
@@ -42,6 +42,7 @@ function closeMenuMobile() {
     document.querySelector('.menu-mobile--wrapper').classList.remove('open')
     // quita la clase show a una capa que cubre el resto del sitio
     document.querySelector('#panel-overlay').classList.remove('show')
+    document.body.classList.remove('lock')
 }
 // cierra el menú mobile y el sidebar mobile si se presiona el panel que cubre el contenido
 document.addEventListener("click", function(event) {
