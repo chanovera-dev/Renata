@@ -38,6 +38,11 @@
                     "color": "#777d85",
                     "name": "Link",
                     "slug": "link"
+                },
+                {
+                    "color": "#36c",
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ]
         },

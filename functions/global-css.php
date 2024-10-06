@@ -15,7 +15,7 @@ function renata_theme_custom_global_css() {
             a{color:var(--wp--preset--color--link);}
 
             /* C A B E C E R A */
-            #mobile-header{position:sticky;top:0;z-index:2;}
+            #mobile-header{position:sticky;top:0;z-index:2;background-color:var(--wp--preset--color--blue);}
             #mobile-header .header-content{display:flex;align-items:center;justify-content:space-between;height:54px;}
             /* estilos al hacer scroll */
             :is(.scroll-down,.scroll-up) .main-header{;z-index:6;}
