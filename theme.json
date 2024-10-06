@@ -15,6 +15,11 @@
 					"slug": "white"
 				},
                 {
+					"color": "#ffffff",
+					"name": "Background",
+					"slug": "background"
+				},
+                {
                     "color": "#f6f6f6",
                     "name": "Background color for panels",
                     "slug": "bg-panel"
