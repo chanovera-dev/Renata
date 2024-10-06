@@ -22,6 +22,10 @@ function renata_theme_custom_global_css() {
             .menu-mobile--wrapper{position:fixed;top:0;left:-100%;width:100%;max-width:290px;height:100svh;background-color:#f6f6f6;transition:all .3s ease;z-index:8;box-shadow:0 10px 21px rgb(0 0 0 / 0%);}
             .menu-mobile--wrapper.open{left:0;box-shadow:0 10px 21px rgb(0 0 0 / 25%);}
             body.lock{overflow:hidden;}
+            /* nombre del menú y botón de cerrado */
+            .menu-mobile--wrapper .name-menu--wrapper{display:flex;align-items:center;justify-content:space-between;height:54px;}
+            .menu-mobile--wrapper .name-menu--wrapper .name-menu{padding:0 20px;}
+            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile{width:54px;height:54px;border:none;display:grid;place-content:center;background-color:transparent;}
         </style>
     <?php
 }
