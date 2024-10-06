@@ -11,9 +11,24 @@
             "palette": [
                 {
 					"color": "#ffffff",
-					"name": "Background",
-					"slug": "background"
-				}
+					"name": "White",
+					"slug": "white"
+				},
+                {
+                    "color": "#3D4651",
+                    "name": "Text",
+                    "slug": "text"
+                },
+                {
+                    "color": "#505862",
+                    "name": "Title",
+                    "slug": "title"
+                },
+                {
+                    "color": "#777d85",
+                    "name": "Link",
+                    "slug": "link"
+                }
             ]
         },
         "shadow": {

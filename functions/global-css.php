@@ -10,6 +10,9 @@ function renata_theme_custom_global_css() {
             :is(header,footer,aside) :is(ol,ul){padding-left:0;list-style:none;}
             .container .section{width:min(100% - 30px, 1096px);margin-inline:auto;}
             img{display:block;height:auto;}
+            h1,h2,h3,h4,h5,h6{color:var(--wp--preset--color--title);}
+            p{color:var(--wp--preset--color--text);}
+            a{color:var(--wp--preset--color--link);}
 
             /* C A B E C E R A */
             #mobile-header{position:sticky;top:0;z-index:2;}
