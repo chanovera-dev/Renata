@@ -44,6 +44,10 @@ function renata_theme_custom_global_css() {
             /* formulario */
             #searchform-mobile input[type=text]{width:min(100% - 108px);height:54px;border:0 solid transparent;border-right:1px solid #aaa;padding:0 15px 0 15px;font-family:'Roboto';font-size:16px;}
             #searchform-mobile input[type=text]:focus{outline:none;}
+            /* botones */
+            #searchform-mobile .buttons-container{display:flex;align-items:center;padding:10px;gap:10px;}
+            #searchform-mobile .buttons-container button{display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--wp--preset--color--white);border-radius:6px;transition:background-color .3s ease;}
+            #searchform-mobile .buttons-container button:hover{background-color:var(--wp--preset--color--bg-panel);}
         </style>
     <?php
 }
