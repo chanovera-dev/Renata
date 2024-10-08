@@ -48,6 +48,7 @@ function closeMenuMobile() {
 document.addEventListener("click", function(event) {
     if (event.target && event.target.id === 'panel-overlay') {
         closeMenuMobile()
+        closeSearchformMobile()
     }
 })
 // Cierra el menú mobile si presionas la tecla esc
