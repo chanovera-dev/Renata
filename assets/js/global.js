@@ -56,3 +56,11 @@ document.addEventListener('keydown', function(event) {
         closeMenuMobile()
     }
 })
+
+function openSearchformMobile() {
+    document.querySelector('#searchform-mobile').classList.add('open')
+}
+
+function closeSearchformMobile() {
+    document.querySelector('#searchform-mobile').classList.remove('open')
+}
