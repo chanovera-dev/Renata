@@ -24,6 +24,11 @@
 					"name": "Background header",
 					"slug": "bg-header"
 				},
+				{
+					"color": "rgb(255 255 255 / 80%)",
+					"name": "Background header in scroll",
+					"slug": "bg-header-scroll"
+				},
                 {
                     "color": "#f6f6f6",
                     "name": "Background color for panels",

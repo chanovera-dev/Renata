@@ -18,7 +18,7 @@ function renata_theme_custom_global_css() {
             #mobile-header{position:sticky;top:0;z-index:2;background-color:var(--wp--preset--color--bg-header);}
             #mobile-header .header-content{position:relative;display:flex;align-items:center;justify-content:space-between;width:min(100%, 1096px);height:54px;padding:0 15px;}
             /* estilos al hacer scroll */
-            :is(.scroll-down,.scroll-up) .main-header{box-shadow:var(--wp--preset--shadow--header);background:rgb(255 255 255 / 80%);backdrop-filter:blur(20px);z-index:6;}
+            :is(.scroll-down,.scroll-up) #mobile-header.main-header{box-shadow:var(--wp--preset--shadow--header);background:var(--wp--preset--color--gb-header-scroll);backdrop-filter:blur(20px);z-index:6;}
             /* menú mobile */
             #panel-overlay{position:fixed;width:100%;height:100%;top:0;left:-100%;opacity:0;z-index:7;background:rgb(61 70 81 / 90%);backdrop-filter:blur(20px);transition:opacity .3s ease;}
             #panel-overlay.show{left:0;opacity:1;}
