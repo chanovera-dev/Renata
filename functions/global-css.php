@@ -41,6 +41,9 @@ function renata_theme_custom_global_css() {
             #menu-mobile ul li ul li ul li a{padding-left:60px;}
             /* searchform mobile */
             #searchform-mobile{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;background-color:var(--wp--preset--color--white);transition:top .3s ease;}
+            /* formulario */
+            #searchform-mobile input[type=text]{width:min(100% - 50px); height:54px; border:0 solid transparent; border-right:1px solid #aaa;background-color;padding:0 54px 0 10px;font-family:'Roboto';font-size:16px;}
+            #searchform-mobile input[type=text]:focus{outline:none;}
         </style>
     <?php
 }
