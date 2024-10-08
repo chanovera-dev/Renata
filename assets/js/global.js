@@ -61,10 +61,8 @@ document.addEventListener('keydown', function(event) {
 // abrir el formulario de búsqueda mobile
 function openSearchformMobile() {
     document.querySelector('#searchform-mobile').classList.add('open')
-    document.querySelector('#panel-overlay').classList.add('show')
 }
 // cerrar el formulario de búsqueda mobile
 function closeSearchformMobile() {
     document.querySelector('#searchform-mobile').classList.remove('open')
-    document.querySelector('#panel-overlay').classList.remove('show')
 }
