@@ -20,6 +20,7 @@ function renata_theme_custom_global_css() {
             /* botones */
             #mobile-header .header-content button{display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--wp--preset--color--white);border-radius:6px;transition:background-color .3s ease;}
             #mobile-header .header-content button:hover{background-color:var(--wp--preset--color--bg-panel);}
+            #mobile-header .header-content button svg{color:var(--wp--preset--color--text);}
             /* estilos al hacer scroll */
             :is(.scroll-down,.scroll-up) #mobile-header.main-header{box-shadow:var(--wp--preset--shadow--header);background:var(--wp--preset--color--bg-header-scroll);backdrop-filter:blur(20px);z-index:6;}
             /* menú mobile */
@@ -51,6 +52,7 @@ function renata_theme_custom_global_css() {
             /* botones */
             #searchform-mobile .buttons-container{display:flex;align-items:center;padding:10px;gap:10px;}
             #searchform-mobile .buttons-container :is(button,.close-searchform-mobile){display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--wp--preset--color--white);border-radius:6px;transition:background-color .3s ease;}
+            #searchform-mobile .buttons-container :is(button,.close-searchform-mobile) svg{color:var(--wp--preset--color--text);}
             #searchform-mobile .buttons-container :is(button:hover,.close-searchform-mobile:hover){background-color:var(--wp--preset--color--bg-panel);}
         </style>
     <?php
