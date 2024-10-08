@@ -83,8 +83,8 @@ function menuMobileWithChildrens() {
         // Crear el elemento SVG
         var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg")
         svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg')
-        svg.setAttribute('width', '16')
-        svg.setAttribute('height', '16')
+        svg.setAttribute('width', '13')
+        svg.setAttribute('height', '13')
         svg.setAttribute('fill', 'currentColor')
         svg.setAttribute('class', 'bi bi-chevron-down')
         svg.setAttribute('viewBox', '0 0 16 16')

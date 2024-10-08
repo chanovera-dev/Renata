@@ -50,7 +50,8 @@ function renata_theme_custom_global_css() {
                 #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li ul.sub-menu li a{background-color:#f0f0f0;}
                 #menu-mobile ul li.menu-item-has-children ul.sub-menu.open{display:block;max-height:2200px;}
                 /* botón */
-                #menu-mobile > ul li.menu-item-has-children .mobile-links__item-toggle{position:absolute;top:0;right:0;width:48px;height:48px;background-color:var(--wp--preset--color--background);border:none;border-left:1px solid var(--wp--preset--color--line);border-bottom:1px solid var(--wp--preset--color--line);border-radius:0;}
+                #menu-mobile > ul li.menu-item-has-children .mobile-links__item-toggle{position:absolute;top:0;right:0;width:34px;height:34px;margin:3px;background-color:var(--wp--preset--color--bg-panel);border:none;border-radius:6px;}
+                #menu-mobile > ul li.menu-item-has-children .mobile-links__item-toggle:hover{background-color:var(--wp--preset--color--white);}
                 #menu-mobile > ul li.menu-item-has-children ul li.menu-item-has-children .mobile-links__item-toggle{height:40px;background-color:#f7f7f7;}
                 #menu-mobile > ul li.menu-item-has-children .mobile-links__item-toggle svg{transition:all .3s ease;}
                 #menu-mobile > ul li.menu-item-has-children .mobile-links__item-toggle.rotate svg{transform:rotate(180deg);}
