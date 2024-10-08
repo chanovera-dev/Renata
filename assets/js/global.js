@@ -58,10 +58,11 @@ document.addEventListener('keydown', function(event) {
     }
 })
 
+// abrir el formulario de búsqueda mobile
 function openSearchformMobile() {
     document.querySelector('#searchform-mobile').classList.add('open')
 }
-
+// cerrar el formulario de búsqueda mobile
 function closeSearchformMobile() {
     document.querySelector('#searchform-mobile').classList.remove('open')
 }
