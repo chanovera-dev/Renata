@@ -113,6 +113,11 @@ function menuTopBarWithChildrens() {
     // Obtener todos los elementos li con la clase 'menu-item-has-children'
     let menuItems = document.querySelectorAll('.menu-item-has-children');
 
+    // asigna el tiempo de apertura y cierre
+    document.querySelectorAll('li.menu-item-has-children ul.sub-menu').forEach(function(subMenu) {
+        subMenu.style.transition = "all .5s ease-in-out";
+    });
+
     // Iterar sobre cada elemento y agregar el botón con el SVG y texto
     menuItems.forEach(function(item) {
         // Obtener el enlace más cercano al elemento li
