@@ -96,7 +96,7 @@ function renata_theme_custom_global_css() {
             #desktop-header .header-content .search-form .search-field::-webkit-search-results-button,
             #desktop-header .header-content .search-form .search-field::-webkit-search-results-decoration{display:none;}
             #desktop-header .header-content .search-form .search-field:focus{outline:none;}
-            #desktop-header .header-content .search-form .search-submit__button{position:absolute;top:0;right:0;display:grid;place-content:center;width:37px;height:37px;background-color:transparent;border:1px solid transparent;transition:color .3s ease;}
+            #desktop-header .header-content .search-form .search-submit__button{position:absolute;top:3px;right:3px;display:grid;place-content:center;width:34px;height:34px;background-color:transparent;border:1px solid transparent;border-radius:4px;transition:all .3s ease;}
             #desktop-header .header-content .search-form .search-submit__button:hover{background-color:var(--wp--preset--color--white);}
         </style>
     <?php
