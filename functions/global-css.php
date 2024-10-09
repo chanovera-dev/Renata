@@ -12,7 +12,8 @@ function renata_theme_custom_global_css() {
             img{display:block;height:auto;}
             h1,h2,h3,h4,h5,h6{color:var(--wp--preset--color--title);}
             p{color:var(--wp--preset--color--text);}
-            a{color:var(--wp--preset--color--link);}
+            a{color:var(--wp--preset--color--link);transition:background-color .3s ease;}
+            a:focus{outline:none;background-color:var(--wp--preset--color--focus);color:#fff;}
 
             /* C A B E C E R A */
             #mobile-header{position:sticky;top:0;z-index:2;background-color:var(--wp--preset--color--bg-header);}

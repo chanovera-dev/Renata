@@ -50,9 +50,9 @@
                     "slug": "link"
                 },
                 {
-                    "color": "#36c",
-                    "name": "Blue",
-                    "slug": "blue"
+                    "color": "#F74C2B",
+                    "name": "Color for focus",
+                    "slug": "focus"
                 }
             ]
         },
