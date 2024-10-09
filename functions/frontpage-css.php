@@ -20,6 +20,13 @@ function renata_theme_custom_frontpage_css(){
             #hero .introduction :is(h1, h2){font-weight:400;}
             #hero .introduction h2 span{font-size:36px;color:#ffc86b;}
             #hero .introduction .contact-me{padding:10px 20px;border:3px solid #ffc86b;border-radius:6px;background-color:transparent;color:#ffc86b;font-size:1.2em;font-weight:600;margin-top:16px;}
+
+            /* about | skills | portfolio */
+            :is(#about,#skills,#portfolio){background-color:#31333b;color:#fff;}
+            :is(#about,#skills,#portfolio) .content h2{font-weight:400;font-size:36px;margin-bottom:32px;font-family:'Times New Roman';}
+            #about .content{padding:150px 0 120px;}
+            #about p{font-size:1.3em;}
+            #about p:not(:last-child){margin-bottom:1.3em;}
         </style>
     <?php
 }

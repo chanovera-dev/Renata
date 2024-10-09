@@ -3,6 +3,7 @@
 <main>
     <?php
         include(TEMPLATEPATH.'/sections/frontpage/hero.php');
+        include(TEMPLATEPATH.'/sections/frontpage/about.php');
     ?>
 </main>
 
