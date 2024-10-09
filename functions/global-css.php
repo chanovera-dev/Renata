@@ -85,11 +85,19 @@ function renata_theme_custom_global_css() {
                 #searchform-mobile .buttons-container :is(button:focus,.close-searchform-mobile:focus){background-color:var(--wp--preset--color--focus);color:#fff;outline:none;}
 
             /* header desktop */
-            #desktop-header .header-content{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;}
+            #desktop-header .header-content{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:37px 0;}
             /* menú desktop */
             #desktop-header .header-content ul{margin:0;padding:0;list-style:none;display:flex;align-items:center;gap:30px;}
             /* searchform */
             #desktop-header .header-content .search-form{margin-left:auto;position:relative;}
+            #desktop-header .header-content .search-form .search-field{padding:10px 37px 10px 10px;background-color:var(--wp--preset--color--bg-panel);border:1px solid var(--wp--preset--color--bg-panel);border-radius:6px;font-size:16px;}
+            #desktop-header .header-content .search-form .search-field::-webkit-search-decoration,
+            #desktop-header .header-content .search-form .search-field::-webkit-search-cancel-button,
+            #desktop-header .header-content .search-form .search-field::-webkit-search-results-button,
+            #desktop-header .header-content .search-form .search-field::-webkit-search-results-decoration{display:none;}
+            #desktop-header .header-content .search-form .search-field:focus{outline:none;}
+            #desktop-header .header-content .search-form .search-submit__button{position:absolute;top:0;right:0;display:grid;place-content:center;width:37px;height:37px;background-color:transparent;border:1px solid transparent;transition:color .3s ease;}
+            #desktop-header .header-content .search-form .search-submit__button:hover{background-color:var(--wp--preset--color--white);}
         </style>
     <?php
 }
