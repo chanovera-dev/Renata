@@ -61,7 +61,7 @@ function renata_theme_custom_global_css() {
             /* searchform mobile */
             #searchform-mobile{position:absolute;top:-100%;left:0;width:100%;height:100%;background-color:var(--wp--preset--color--white);z-index:8;transition:top .3s ease;}
             #searchform-mobile.open{top:0;box-shadow:var(--wp--preset--shadow--header);}
-            #searchform-mobile > div{display:flex;align-items:center;padding-left:15px;}
+            #searchform-mobile > div{display:flex;align-items:center;padding-left:15px;width:min(100%, 1096px);margin-inline:auto;}
             /* formulario */
             #searchform-mobile input[type=text]{width:min(100% - 88px);height:34px;border:0 solid transparent;border-radius:6px;background-color:var(--wp--preset--color--bg-panel);padding:8px 15px 8px 10px;font-family:'Roboto';font-size:16px;}
             #searchform-mobile input[type=text]:focus{outline:none;}
