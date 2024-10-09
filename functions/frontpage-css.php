@@ -23,9 +23,9 @@ function renata_theme_custom_frontpage_css(){
 
             /* about | skills | portfolio */
             :is(#about,#skills,#portfolio){background-color:#31333b;color:#fff;}
-            :is(#about,#skills,#portfolio) .content h2{font-weight:400;font-size:36px;margin-bottom:32px;font-family:'Times New Roman';}
+            :is(#about,#skills,#portfolio) .content h2{font-weight:400;font-size:36px;margin-bottom:32px;font-family:'Times New Roman';color:#fff;}
             #about .content{padding:150px 0 120px;}
-            #about p{font-size:1.3em;}
+            #about p{font-size:1.3em;color:#fff;}
             #about p:not(:last-child){margin-bottom:1.3em;}
         </style>
     <?php
