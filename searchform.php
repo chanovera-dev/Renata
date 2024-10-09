@@ -1,4 +1,4 @@
-<form role="search" method="get" class="searchform" action="<?php echo home_url( '/' ); ?>">
+<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
     <input type="search" name="s" id="search-field" class="search-field" placeholder="<?php echo esc_html__('Buscar', 'renata'); ?>" value="" aria-label="search">
     <button type="submit" class="search-submit__button" aria-label="Botón buscar">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
