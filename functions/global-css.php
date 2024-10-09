@@ -36,8 +36,7 @@ function renata_theme_custom_global_css() {
             .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile:hover{background-color:var(--wp--preset--color--background);}
             /* listas */
             #menu-mobile{height:100%;overflow-y:scroll;padding-bottom:80px;}
-            #menu-mobile::-webkit-scrollbar,
-            .menu-mobile::-webkit-scrollbar{display:none;}
+            #menu-mobile::-webkit-scrollbar{display:none;}
             #menu-mobile ul{padding:0;list-style:none;}
             #menu-mobile ul li a{padding:0 20px;display:flex;align-items:center;height:48px;transition:background-color .3s ease;}
             #menu-mobile ul li a:hover{background-color:var(--wp--preset--color--white);}
