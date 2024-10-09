@@ -72,7 +72,7 @@ function menuMobileWithChildrens() {
     // Obtener todos los elementos li con la clase 'menu-item-has-children'
     let menuItems = document.querySelectorAll('#menu-mobile .menu .menu-item-has-children')
     // asigna el tiempo de apertura y cierre
-    document.querySelector('li.menu-item-has-children ul.sub-menu.open').style.transition = "all .5s ease-in-out"
+    document.querySelector('li.menu-item-has-children ul.sub-menu').style.transition = "all .5s ease-in-out"
 
     // Iterar sobre cada elemento y agregar el botón con el SVG
     menuItems.forEach(function(item) {
