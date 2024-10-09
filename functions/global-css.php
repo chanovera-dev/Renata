@@ -42,6 +42,7 @@ function renata_theme_custom_global_css() {
             #menu-mobile ul li a{padding:0 20px;display:flex;align-items:center;height:48px;transition:background-color .3s ease;}
             #menu-mobile ul li a:hover{background-color:var(--wp--preset--color--white);}
             #menu-mobile ul li a:has(button){padding:0;}
+            #menu-mobile ul li a:has(button):hover{background-color:var(--wp--preset--color--bg-panel);}
                 /* submenús */
                 #menu-mobile > ul li.menu-item-has-children{position:relative;}
                 #menu-mobile > ul li.menu-item-has-children ul.sub-menu{overflow:hidden;max-height:0;}
