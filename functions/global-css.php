@@ -61,7 +61,10 @@ function renata_theme_custom_global_css() {
                     #menu-mobile ul.sub-menu li:first-child a{box-shadow:inset 0px 17px 10px -17px rgb(0 0 0 / 15%);}
                     #menu-mobile ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 15%);}
                         /* tercer nivel */
-                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a, button){padding-left:60px;}
+                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a, button){padding-left:60px;background-color:#e0e0e0;}
+                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a:hover, button:hover){background-color:#e4e4e4;}
+                        #menu-mobile ul.sub-menu ul.sub-menu li:first-child a{box-shadow:inset 0px 17px 10px -17px rgb(0 0 0 / 15%);}
+                        #menu-mobile ul.sub-menu ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 15%);}
 
             /* searchform mobile */
             #searchform-mobile{position:absolute;top:-100%;left:0;width:100%;height:100%;background-color:var(--wp--preset--color--white);z-index:8;transition:top .3s ease;}
