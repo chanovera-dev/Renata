@@ -15,7 +15,8 @@ function renata_theme_custom_global_css() {
             a{color:var(--wp--preset--color--link);}
 
             /* C A B E C E R A */
-            #mobile-header{position:sticky;top:0;z-index:2;background-color:var(--wp--preset--color--bg-header);}
+            #mobile-header,
+            #desktop-header{position:sticky;top:0;z-index:2;background-color:var(--wp--preset--color--bg-header);}
             #mobile-header .header-content{position:relative;display:flex;align-items:center;justify-content:space-between;height:54px;}
             
             /* botones en el header */
@@ -24,7 +25,7 @@ function renata_theme_custom_global_css() {
             #mobile-header .header-content button:focus{background-color:var(--wp--preset--color--focus);color:#fff;outline:none;}
 
             /* estilos del header al hacer scroll */
-            :is(.scroll-down,.scroll-up) #mobile-header.main-header{box-shadow:var(--wp--preset--shadow--header);background:var(--wp--preset--color--bg-header-scroll);backdrop-filter:blur(20px);z-index:6;}
+            :is(.scroll-down,.scroll-up) .main-header{box-shadow:var(--wp--preset--shadow--header);background:var(--wp--preset--color--bg-header-scroll);backdrop-filter:blur(20px);z-index:6;}
             
             /* panel que cubre el contenido al abrir el menó mobile */
             #panel-overlay{position:fixed;width:100%;height:100%;top:0;left:-100%;opacity:0;z-index:7;background:rgb(61 70 81 / 90%);backdrop-filter:blur(20px);transition:opacity .3s ease;}
@@ -42,7 +43,7 @@ function renata_theme_custom_global_css() {
             .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile:hover{background-color:var(--wp--preset--color--background);}
             .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile:focus{background-color:var(--wp--preset--color--focus);color:#fff;outline:none;}
 
-            /* menús */
+            /* menús del menú mobile */
             #menu-mobile{height:100%;overflow-y:scroll;padding-bottom:60px;}
             #menu-mobile::-webkit-scrollbar{display:none;}
             #menu-mobile ul{padding:0;list-style:none;}
@@ -74,14 +75,17 @@ function renata_theme_custom_global_css() {
             #searchform-mobile{position:absolute;top:-100%;left:0;width:100%;height:100%;background-color:var(--wp--preset--color--white);z-index:8;transition:top .3s ease;}
             #searchform-mobile.open{top:0;box-shadow:var(--wp--preset--shadow--header);}
             #searchform-mobile > div{display:flex;align-items:center;margin-inline:auto;}
-            /* formulario */
-            #searchform-mobile input[type=text]{width:min(100% - 88px);height:34px;border:0 solid transparent;border-radius:6px;background-color:var(--wp--preset--color--bg-panel);padding:8px 15px 8px 10px;font-family:'Roboto';font-size:16px;}
-            #searchform-mobile input[type=text]:focus{outline:none;}
-            /* botones */
-            #searchform-mobile .buttons-container{display:flex;align-items:center;padding:10px 0 10px 10px;gap:10px;}
-            #searchform-mobile .buttons-container :is(button,.close-searchform-mobile){display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--wp--preset--color--white);color:var(--wp--preset--color--text);border-radius:6px;transition:all .3s ease;}
-            #searchform-mobile .buttons-container :is(button:hover,.close-searchform-mobile:hover){background-color:var(--wp--preset--color--bg-panel);}
-            #searchform-mobile .buttons-container :is(button:focus,.close-searchform-mobile:focus){background-color:var(--wp--preset--color--focus);color:#fff;outline:none;}
+                /* formulario */
+                #searchform-mobile input[type=text]{width:min(100% - 88px);height:34px;border:0 solid transparent;border-radius:6px;background-color:var(--wp--preset--color--bg-panel);padding:8px 15px 8px 10px;font-family:'Roboto';font-size:16px;}
+                #searchform-mobile input[type=text]:focus{outline:none;}
+                /* botones */
+                #searchform-mobile .buttons-container{display:flex;align-items:center;padding:10px 0 10px 10px;gap:10px;}
+                #searchform-mobile .buttons-container :is(button,.close-searchform-mobile){display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--wp--preset--color--white);color:var(--wp--preset--color--text);border-radius:6px;transition:all .3s ease;}
+                #searchform-mobile .buttons-container :is(button:hover,.close-searchform-mobile:hover){background-color:var(--wp--preset--color--bg-panel);}
+                #searchform-mobile .buttons-container :is(button:focus,.close-searchform-mobile:focus){background-color:var(--wp--preset--color--focus);color:#fff;outline:none;}
+
+            /* header desktop */
+            #desktop-header .header-content{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;}
         </style>
     <?php
 }
