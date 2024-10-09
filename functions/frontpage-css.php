@@ -25,8 +25,9 @@ function renata_theme_custom_frontpage_css(){
             :is(#about,#skills,#portfolio){background-color:#31333b;color:#fff;}
             :is(#about,#skills,#portfolio) .content h2{font-weight:400;font-size:36px;margin-bottom:32px;font-family:'Times New Roman';color:#fff;}
             #about .content{padding:150px 0 120px;}
-            #about p{font-size:1.3em;color:#fff;margin:left:50px;position:relative;}
-            #about p:nth-child(1):before{position:relative;content:'';width:40px;height:2px;background-color:#ffc86b;}
+            #about p{font-size:1.3em;color:#fff;}
+            #about > div{margin:left:50px;position:relative;}
+            #about > div:before{position:relative;content:'';width:40px;height:2px;background-color:#ffc86b;}
             #about p:not(:last-child){margin-bottom:1.3em;}
         </style>
     <?php
