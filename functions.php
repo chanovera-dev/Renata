@@ -95,3 +95,5 @@ add_action( 'widgets_init', 'widgets_areas' );
 require_once(get_template_directory() . '/functions/global-css.php');
 /* anexo para los breakpoints del sitio */
 require_once(get_template_directory() . '/functions/media-queries.php');
+// Anexo para definir los componentes personalizados en las plantillas
+require_once(get_template_directory() . '/functions/templates.php');
