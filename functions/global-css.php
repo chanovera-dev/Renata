@@ -52,6 +52,9 @@ function renata_theme_custom_global_css() {
                 /* submenús */
                 #menu-mobile ul li.menu-item-has-children ul.sub-menu{overflow:hidden;max-height:0;}
                 #menu-mobile ul li.menu-item-has-children ul.sub-menu.open{display:block;max-height:2200px;}
+                /* indicador de submenú */
+                #menu-mobile ul .mobile-links__item-toggle svg{transition:all .3s ease;}
+                #menu-mobile ul .mobile-links__item-toggle.rotate svg{transform:rotate(180deg);}
             /* listas *
            
             
