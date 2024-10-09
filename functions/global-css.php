@@ -44,13 +44,14 @@ function renata_theme_custom_global_css() {
                 /* submenús */
                 #menu-mobile > ul li.menu-item-has-children{position:relative;}
                 #menu-mobile > ul li.menu-item-has-children ul.sub-menu{overflow:hidden;max-height:0;transition:all 0.5s ease-out;}
+                #menu-mobile > ul li.menu-item-has-children ul.sub-menu.open{display:block;max-height:2200px;}
                 /* primer nivel */
                 #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li a{font-size:14px;height:40px;background-color:#e3e3e3;padding-left:40px;}
                 #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li a:hover{background-color:#e6e6e6;}
                 #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li:first-child a{box-shadow:inset 0px 17px 10px -17px rgb(0 0 0 / 15%);}
                 #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 15%);}
                 #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li ul.sub-menu li a{background-color:#f0f0f0;}
-                #menu-mobile ul li.menu-item-has-children ul.sub-menu.open{display:block;max-height:2200px;}
+                
                 /* botón */
                 #menu-mobile > ul li.menu-item-has-children .mobile-links__item-toggle{position:absolute;top:0;right:0;width:34px;height:34px;margin:7px 10px;background-color:var(--wp--preset--color--bg-panel);border:none;border-radius:6px;display:grid;place-content:center;}
                 #menu-mobile > ul li.menu-item-has-children .mobile-links__item-toggle:hover{background-color:var(--wp--preset--color--white);}
