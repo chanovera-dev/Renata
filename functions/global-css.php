@@ -22,7 +22,6 @@ function renata_theme_custom_global_css() {
             #mobile-header .header-content button{display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--wp--preset--color--white);border-radius:6px;transition:all .3s ease;}
             #mobile-header .header-content button:hover{background-color:var(--wp--preset--color--bg-panel);}
             #mobile-header .header-content button:focus{background-color:var(--wp--preset--color--focus);color:#fff;outline:none;}
-            #mobile-header .header-content button svg{color:var(--wp--preset--color--text);}
 
             /* estilos del header al hacer scroll */
             :is(.scroll-down,.scroll-up) #mobile-header.main-header{box-shadow:var(--wp--preset--shadow--header);background:var(--wp--preset--color--bg-header-scroll);backdrop-filter:blur(20px);z-index:6;}
