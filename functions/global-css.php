@@ -16,7 +16,7 @@ function renata_theme_custom_global_css() {
 
             /* C A B E C E R A */
             #mobile-header{position:sticky;top:0;z-index:2;background-color:var(--wp--preset--color--bg-header);}
-            #mobile-header .header-content{position:relative;display:flex;align-items:center;justify-content:space-between;width:min(100%, 1096px);height:54px;padding:0 15px;}
+            #mobile-header .header-content{position:relative;display:flex;align-items:center;justify-content:space-between;height:54px;padding:0 15px;}
             /* botones */
             #mobile-header .header-content button{display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--wp--preset--color--white);border-radius:6px;transition:background-color .3s ease;}
             #mobile-header .header-content button:hover{background-color:var(--wp--preset--color--bg-panel);}
@@ -61,7 +61,7 @@ function renata_theme_custom_global_css() {
             /* searchform mobile */
             #searchform-mobile{position:absolute;top:-100%;left:0;width:100%;height:100%;background-color:var(--wp--preset--color--white);z-index:8;transition:top .3s ease;}
             #searchform-mobile.open{top:0;box-shadow:var(--wp--preset--shadow--header);}
-            #searchform-mobile > div{display:flex;align-items:center;padding-left:15px;width:min(100%, 1096px);margin-inline:auto;}
+            #searchform-mobile > div{display:flex;align-items:center;width:min(100%, 1096px);margin-inline:auto;}
             /* formulario */
             #searchform-mobile input[type=text]{width:min(100% - 88px);height:34px;border:0 solid transparent;border-radius:6px;background-color:var(--wp--preset--color--bg-panel);padding:8px 15px 8px 10px;font-family:'Roboto';font-size:16px;}
             #searchform-mobile input[type=text]:focus{outline:none;}
