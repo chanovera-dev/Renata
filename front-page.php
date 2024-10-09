@@ -2,7 +2,7 @@
 
 <main>
     <?php
-        include(TEMPLATEPATH.'/section/frontpage/hero.php');
+        include(TEMPLATEPATH.'/sections/frontpage/hero.php');
     ?>
 </main>
 
