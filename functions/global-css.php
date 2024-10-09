@@ -12,8 +12,7 @@ function renata_theme_custom_global_css() {
             img{display:block;height:auto;}
             h1,h2,h3,h4,h5,h6{color:var(--wp--preset--color--title);}
             p{color:var(--wp--preset--color--text);}
-            a{color:var(--wp--preset--color--link);transition:background-color .3s ease;}
-            a:focus{outline:none;background-color:var(--wp--preset--color--focus);color:#fff;}
+            a{color:var(--wp--preset--color--link);}
 
             /* C A B E C E R A */
             #mobile-header{position:sticky;top:0;z-index:2;background-color:var(--wp--preset--color--bg-header);}
@@ -50,6 +49,7 @@ function renata_theme_custom_global_css() {
             #menu-mobile a:has(button) button{display:flex;align-items:center;justify-content:space-between;}
             #menu-mobile :is(a, button){display:flex;width:100%;padding:12px 20px;background-color:var(--wp--preset--color--bg-panel);font-size:16px;font-family:'Roboto';color:var(--wp--preset--color--text);border:none;transition:background-color .3s ease;}
             #menu-mobile :is(a:hover, button:hover){background-color:#f4f4f4;}
+            #menu-mobile :is(a:focus, button:focus){outline:none;background-color:var(--wp--preset--color--focus);color:#fff;}
                 /* submenús */
                 #menu-mobile ul.sub-menu{overflow:hidden;max-height:0;}
                 #menu-mobile ul.sub-menu.open{display:block;max-height:2200px;}
