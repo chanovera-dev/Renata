@@ -28,14 +28,14 @@
                         <li id="menu-item-1162" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1162"><a href="#">Link 2</a></li>
                         <li id="menu-item-1163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1163"><a href="#">Link 3</a></li>
                         <li id="menu-item-1164" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1164"><a href="javascript:void(0)" disabled="true"><button class="mobile-links__item-toggle rotate" onclick="toggleSubMenu(this)">Link 4 – submenú 1<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></button></a>
-                            <ul class="sub-menu open" style="transition: 0.5s ease-in-out;">
+                            <ul class="sub-menu" style="transition: 0.5s ease-in-out;">
                                 <li id="menu-item-1165" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1165"><a href="#">Link 1</a></li>
                                 <li id="menu-item-1166" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1166"><a href="#">Link 2</a></li>
                                 <li id="menu-item-1167" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1167"><a href="#">Link 3</a></li>
                                 <li id="menu-item-1168" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1168"><a href="#">Link 4</a></li>
                                 <li id="menu-item-1169" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1169"><a href="#">Link 5</a></li>
                                 <li id="menu-item-1170" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1170"><a href="javascript:void(0)" disabled="true"><button class="mobile-links__item-toggle rotate" onclick="toggleSubMenu(this)">Link 6 – submenú segundo nivel<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></button></a>
-                                    <ul class="sub-menu open" style="transition: 0.5s ease-in-out;">
+                                    <ul class="sub-menu" style="transition: 0.5s ease-in-out;">
                                         <li id="menu-item-1182" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1182"><a href="#">Link 1</a></li>
                                         <li id="menu-item-1183" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1183"><a href="#">Link 2</a></li>
                                         <li id="menu-item-1184" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1184"><a href="#">Link 3</a></li>
