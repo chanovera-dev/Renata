@@ -32,7 +32,7 @@ scrollActions()
 function openMenuMobile() {
     // agrega al menú la clase open, mostrándolo
     document.querySelector('.menu-mobile--wrapper').classList.add('open')
-    document.querySelector('.menu-mobile--wrapper').style.transition = "all .5s ease-in-out"
+    document.querySelector('.menu-mobile--wrapper').style.transition = "all .3s ease-in-out"
     // agrega la clase show a una capa que cubre el resto del sitio
     document.querySelector('#panel-overlay').classList.add('show')
     document.body.classList.add('lock')
@@ -73,7 +73,7 @@ function menuMobileWithChildrens() {
     // Obtener todos los elementos li con la clase 'menu-item-has-children'
     let menuItems = document.querySelectorAll('#menu-mobile .menu .menu-item-has-children')
     // asigna el tiempo de apertura y cierre
-    document.querySelector('li.menu-item-has-children ul.sub-menu').style.transition = "all .5s ease-in-out"
+    document.querySelectorAll('li.menu-item-has-children ul.sub-menu').style.transition = "all .5s ease-in-out"
 
     // Iterar sobre cada elemento y agregar el botón con el SVG
     menuItems.forEach(function(item) {
