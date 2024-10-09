@@ -38,9 +38,10 @@ function renata_theme_custom_global_css() {
             /* nombre del menú y botón de cerrado */
             .menu-mobile--wrapper .name-menu--wrapper{display:flex;align-items:center;justify-content:space-between;height:54px;}
             .menu-mobile--wrapper .name-menu--wrapper .name-menu{padding:0 20px;}
-            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile{width:34px;height:34px;margin:10px;border:none;display:grid;place-content:center;border-radius:6px;background-color:transparent;transition:background-color .3s ease;}
+            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile{width:34px;height:34px;margin:10px;border:none;display:grid;place-content:center;border-radius:6px;background-color:transparent;transition:all .3s ease;}
             .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile:hover{background-color:var(--wp--preset--color--background);}
-            
+            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile:focus{background-color:var(--wp--preset--color--focus);color:#fff;}
+
             /* menús */
             #menu-mobile{height:100%;overflow-y:scroll;padding-bottom:60px;}
             #menu-mobile::-webkit-scrollbar{display:none;}
