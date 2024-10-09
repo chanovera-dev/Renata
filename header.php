@@ -21,3 +21,12 @@
             </section>
             <?php include(TEMPLATEPATH.'/sections/header/searchform-mobile.php'); ?>
         </header>
+        <header id="desktop-header" class="container main-header">
+            <section class="section header-content">
+                <?php
+                    include(TEMPLATEPATH.'/sections/header/brand.php');
+                    include(TEMPLATEPATH.'/sections/header/menu-desktop.php');
+                    get_search_form();
+                ?>
+            </section>
+        </header>

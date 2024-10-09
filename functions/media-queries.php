@@ -3,8 +3,11 @@
 function renata_theme_media_queries() {
     ?>
         <style>
+            #desktop-header{display:none;
+            }
             @media(min-width:769px){
                 #mobile-header{display:none;}
+                #ddesktop-header{display:inherit;}
             }
         </style>
     <?php
