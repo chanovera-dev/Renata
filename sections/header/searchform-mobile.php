@@ -1,5 +1,5 @@
 <form role="search" method="get" id="searchform-mobile" action="<?php echo home_url( '/' ); ?>">
-    <div>
+    <div class="section">
         <label class="screen-reader-text" for="s"><?php esc_html__('Buscar', 'renata'); ?></label>
         <input type="text" value="" name="s" id="s" placeholder="<?php esc_html__('Buscar', 'renata'); ?>">
         <div class="buttons-container">
