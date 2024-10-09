@@ -7,7 +7,7 @@ function renata_theme_media_queries() {
             }
             @media(min-width:769px){
                 #mobile-header{display:none;}
-                #ddesktop-header{display:inherit;}
+                #desktop-header{display:inherit;}
             }
         </style>
     <?php
