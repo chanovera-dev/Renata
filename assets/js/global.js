@@ -112,6 +112,7 @@ function toggleSubMenu(button) {
 
     // Alternar la clase 'open' para el submenú actual
     subMenu.classList.toggle('open')
+    document.querySelector('li.menu-item-has-children ul.sub-menu.open').style.transition = "all .5s ease-in-out"
 
     // Alternar la clase 'rotate' para el botón actual
     button.classList.toggle('rotate')

@@ -43,9 +43,8 @@ function renata_theme_custom_global_css() {
             #menu-mobile ul li a:hover{background-color:var(--wp--preset--color--white);}
                 /* submenús */
                 #menu-mobile > ul li.menu-item-has-children{position:relative;}
+                #menu-mobile > ul li.menu-item-has-children ul.sub-menu{overflow:hidden;max-height:0;transition:all 1s ease-out;}
                 #menu-mobile > ul li.menu-item-has-children ul.sub-menu.open{display:block;max-height:2200px;}
-                #menu-mobile > ul li.menu-item-has-children ul.sub-menu{overflow:hidden;max-height:0;transition:all 0.5s ease-out;}
-                
                 /* primer nivel */
                 #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li a{font-size:14px;height:40px;background-color:#e3e3e3;padding-left:40px;}
                 #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li a:hover{background-color:#e6e6e6;}
