@@ -45,44 +45,23 @@ function renata_theme_custom_global_css() {
             #menu-mobile{height:100%;overflow-y:scroll;padding-bottom:60px;}
             #menu-mobile::-webkit-scrollbar{display:none;}
             #menu-mobile ul{padding:0;list-style:none;}
-            #menu-mobile a:has(button){padding:0;}
+            #menu-mobile a:has(button){padding:0!important;}
             #menu-mobile a:has(button) button{display:flex;justify-content:space-between;}
             #menu-mobile :is(a, button){display:flex;width:100%;padding:12px 20px;background-color:var(--wp--preset--color--bg-panel);font-size:16px;font-family:'Roboto';color:var(--wp--preset--color--text);border:none;transition:background-color .3s ease;}
             #menu-mobile :is(a:hover, button:hover){background-color:var(--wp--preset--color--white);}
                 /* submenús */
                 #menu-mobile ul.sub-menu{overflow:hidden;max-height:0;}
                 #menu-mobile ul.sub-menu.open{display:block;max-height:2200px;}
+                /* indicador de submenú */
+                #menu-mobile ul .mobile-links__item-toggle svg{transition:all .5s ease;}
+                #menu-mobile ul .mobile-links__item-toggle.rotate svg{transform:rotate(180deg);}
                     /* segundo nivel */
                     #menu-mobile ul.sub-menu li a{font-size:14px;background-color:#f0f0f0;padding:10px 20px;padding-left:40px;}
                     #menu-mobile ul.sub-menu li a:hover{background-color:#f4f4f4;}
                     #menu-mobile ul.sub-menu li:first-child a{box-shadow:inset 0px 17px 10px -17px rgb(0 0 0 / 15%);}
                     #menu-mobile ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 15%);}
-                /* indicador de submenú */
-                #menu-mobile ul .mobile-links__item-toggle svg{transition:all .5s ease;}
-                #menu-mobile ul .mobile-links__item-toggle.rotate svg{transform:rotate(180deg);}
-            /* listas *
-           
-            
-            #menu-mobile ul li a{padding:0 20px;display:flex;align-items:center;height:48px;transition:background-color .3s ease;}
-            #menu-mobile ul li a:hover{background-color:var(--wp--preset--color--white);}
-            #menu-mobile ul li a:has(button){padding:0;}
-            #menu-mobile ul li a:has(button):hover{background-color:var(--wp--preset--color--bg-panel);}
-                /* submenús *
-                #menu-mobile > ul li.menu-item-has-children{position:relative;}
-                #menu-mobile > ul li.menu-item-has-children ul.sub-menu{overflow:hidden;max-height:0;}
-                #menu-mobile > ul li.menu-item-has-children ul.sub-menu.open{display:block;max-height:2200px;}
-                /* primer nivel *
-                #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li a{font-size:14px;height:40px;background-color:#f0f0f0;padding-left:40px;}
-                #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li a:hover{background-color:#f4f4f4;}
-                #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li:first-child a{box-shadow:inset 0px 17px 10px -17px rgb(0 0 0 / 15%);}
-                #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 15%);}
-                #menu-mobile > ul li.menu-item-has-children > ul.sub-menu li ul.sub-menu li a{background-color:#f0f0f0;}
-                /* botón *
-                #menu-mobile > ul li.menu-item-has-children .mobile-links__item-toggle{background-color:var(--wp--preset--color--bg-panel);border:none;width: 100%;height:100%;font-size:16px;font-family:'Roboto';color:var(--wp--preset--color--link);text-align:left;padding:0 20px;display:flex;align-items:center;justify-content:space-between;}
-                #menu-mobile > ul li.menu-item-has-children .mobile-links__item-toggle:hover{background-color:var(--wp--preset--color--white);}
-                #menu-mobile > ul li.menu-item-has-children ul li.menu-item-has-children .mobile-links__item-toggle{height:40px;background-color:#f7f7f7;}
-                #menu-mobile > ul li.menu-item-has-children .mobile-links__item-toggle svg{transition:all .3s ease;}
-                #menu-mobile > ul li.menu-item-has-children .mobile-links__item-toggle.rotate svg{transform:rotate(180deg);}
+                
+
             /* searchform mobile */
             #searchform-mobile{position:absolute;top:-100%;left:0;width:100%;height:100%;background-color:var(--wp--preset--color--white);z-index:8;transition:top .3s ease;}
             #searchform-mobile.open{top:0;box-shadow:var(--wp--preset--shadow--header);}
