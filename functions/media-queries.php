@@ -8,7 +8,7 @@ function renata_theme_media_queries() {
             @media(min-width:769px){
                 #mobile-header{display:none;}
                 #desktop-header{display:inherit;}
-                #hero .introduction{text-align:left;}
+                #hero.container .introduction{text-align:left;}
             }
         </style>
     <?php
