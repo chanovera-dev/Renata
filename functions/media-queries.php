@@ -23,6 +23,11 @@ function renata_theme_media_queries() {
                 #portfolio.container .content > ul{grid-template-columns:repeat(3, 1fr);}
             }
 
+            @media(min-width:1200px){
+                #portfolio.container .content > ul li figure img{display:inherit;}
+                #portfolio.container .content > ul li figure figcaption{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rbg(0 0 0 / 50%);backdrop-filter:saturate(180%) blur(20px);}
+            }
+
         </style>
     <?php
 }
