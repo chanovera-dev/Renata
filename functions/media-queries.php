@@ -11,7 +11,8 @@ function renata_theme_media_queries() {
                 #hero.container .introduction{text-align:left;height:calc(100svh - 114px);}
                 .blog main .container .section .posts{grid-template-columns:1fr 1fr;}
                 .page-template-front-page :is(#skills,#portfolio) .content > ul{grid-template-columns:repeat(3, 1fr);gap:30px;}
-                #portfolio.container .content > ul{grid-template-columns:1fr 1fr;}
+                #portfolio.container .content > ul{grid-template-columns:1fr 1fr;gap:30px;}
+                #portfolio.container .content > ul li figure figcaption{padding:30px;}
             }
 
             @media(min-width:1024px){
