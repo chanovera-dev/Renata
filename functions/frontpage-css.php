@@ -60,7 +60,7 @@ function renata_theme_custom_frontpage_css(){
             #experience{position:relative;background-color:#34353a;color:#fff;box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
             #experience .content{padding-bottom:61px;}
             #experience .content h2{font-size:36px;font-family:'Times New Roman';position:relative;top:-23px;}
-            .certifications .card-timeline{position:relative;display:grid;padding-left:216px;}
+            .certifications .card-timeline{position:relative;display:grid;padding-left:4px;}
             .certifications{position:relative;display:grid;gap:20px;align-content:flex-start;}
             .certifications .card-item:before{position:absolute;left:5px;width:1px;top:10px;height:100%;content:'';background:linear-gradient(to top, #aaa 0%, #aaa 100%);}
             .certifications .card-item{position:relative;font-size:14px;padding-left:40px;padding-bottom:50px;z-index:1;line-height:1.9;margin:0;}
@@ -82,7 +82,7 @@ function renata_theme_custom_frontpage_css(){
             }
             .certifications .card-item:last-child{padding-bottom:0;}
             .certifications .card-item:last-child::before{background:transparent;}
-            .certifications .card-item-title{font-size:24px;line-height:1;}
+            .certifications .card-item-title{font-size:24px;line-height:1.4;}
             .certifications .card-item-desc{color:#aaa;font-size:16px;margin-top:6px;}
         </style>
     <?php

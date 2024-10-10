@@ -15,6 +15,7 @@ function renata_theme_media_queries() {
                 #skills.container .content ul li,
                 #portfolio.container .content > ul > li{border-radius:10px;}
                 #portfolio.container .content > ul li figure figcaption{padding:30px;}
+                #experience .certifications .card-timeline{padding-left:216px;}
             }
 
             @media(min-width:1024px){
