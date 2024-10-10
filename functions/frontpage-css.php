@@ -45,7 +45,7 @@ function renata_theme_custom_frontpage_css(){
             /* portfolio */
             #portfolio .content{padding-bottom:150px;}
             #portfolio .content > ul{grid-template-columns:1fr;}
-            #portfolio .content > ul > li{overflow:hidden;box-shadow:rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 % 50%) 0 30px 60px -30px;}
+            #portfolio .content > ul > li{overflow:hidden;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;}
             #portfolio .content > ul li figure{margin:0;text-align:left;position:relative;}
             #portfolio .content > ul li figure img{display:none;}
             #portfolio .content > ul li figure figcaption{padding:15px;box-sizing:border-box;background-color:#3d3e42;}
