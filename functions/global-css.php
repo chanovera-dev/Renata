@@ -106,6 +106,9 @@ function renata_theme_custom_global_css() {
 
             /* P O S T S */
             main .container .section .posts{display:grid;gap:30px;}
+
+            /* nvegación */
+            .navigation.pagination{grid-column:1/-1;padding-bottom:30px;}
         </style>
     <?php
 }
