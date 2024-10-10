@@ -128,29 +128,6 @@ function widgets_areas(){
 }
 add_action( 'widgets_init', 'widgets_areas' );
 
-// Función para agregar iconos SVG a los enlaces de "Anterior" y "Siguiente"
-function custom_pagination() {
-    // Define los iconos SVG que deseas usar
-    $previous_icon = '
-        <svg class="page-link__arrow page-link__arrow--left" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-        </svg>';
-
-    $next_icon = '
-        <svg class="page-link__arrow page-link__arrow--right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-        </svg>';
-
-    // Obtiene los enlaces de paginación y reemplaza el texto por los iconos SVG
-    $pagination = paginate_links(array(
-        'prev_text' => $previous_icon,
-        'next_text' => $next_icon,
-    ));
-
-    // Muestra la paginación
-    echo $pagination;
-}
-
 // A N E X O S
 /* anexo para cargar el css que se usa en todas las páginas */
 require_once(get_template_directory() . '/functions/global-css.php');
