@@ -22,7 +22,7 @@ function renata_theme_custom_frontpage_css(){
             #hero .introduction{min-height:400px;height:100svh;max-height:600px;place-content:center;text-align:center;}
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;}
             #hero .introduction h2 span{font-size:36px;color:#ffc86b;}
-            #hero .introduction .contact-me{padding:10px 20px;border:3px solid #ffc86b;border-radius:6px;background-color:transparent;color:#ffc86b;font-size:1.2em;font-weight:600;margin-top:16px;}
+            #hero .introduction .contact-me{padding:10px 20px;border:3px solid #ffc86b;border-radius:6px;background-color:transparent;color:#ffc86b;font-size:1.2em;font-weight:600;margin-top:36px;}
 
             /* about | skills | portfolio */
             :is(#about,#skills,#portfolio){background-color:#31333b;color:#fff;}
