@@ -22,7 +22,7 @@ function renata_theme_media_queries() {
                 .page-template-front-page :is(#skills,#portfolio) .content > ul{grid-template-columns:repeat(4, 1fr);gap:30px;}
                 #portfolio.container .content > ul{grid-template-columns:repeat(3, 1fr);}
                 
-                #portfolio.container .content > ul li figure img{display:inherit;}
+                #portfolio.container .content > ul li figure img{display:block;width:100%;height:100%;object-fit:cover;}
                 #portfolio.container .content > ul li figure figcaption{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0, 0, 0, .5);backdrop-filter:saturate(180%) blur(20px);opacity:0;transition:opacity .3s ease;}
                 #portfolio.container .content > ul li:hover figure figcaption{opacity:1;}
             }
