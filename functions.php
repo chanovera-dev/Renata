@@ -74,12 +74,13 @@ function renata_theme_support(){
 } 
 add_action('after_setup_theme', 'renata_theme_support');
 
+// Registra los sidebars
 function widgets_areas(){
-
+    
     register_sidebar(
         array(
             'name' => __('Blog Sidebar','renata'),
-            'id' => 'blog-sidebar',
+            'id' => 'posts-sidebar',
             'description' => __('Sidebar Widget Area','renata'),
             'before_title' => '<h3 class="widget-title">',
             'after_title' => '</h3>',
@@ -87,6 +88,43 @@ function widgets_areas(){
             'after_widget' => '',
         )
     );
+
+    register_sidebar(
+        array(
+            'name' => __('Search Sidebar','renata'),
+            'id' => 'search-sidebar',
+            'description' => __('Sidebar Widget Area','renata'),
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name' => __('Article Sidebar','renata'),
+            'id' => 'single-sidebar',
+            'description' => __('Sidebar Widget Area','renata'),
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name' => __('Page Sidebar','renata'),
+            'id' => 'page-sidebar',
+            'description' => __('Sidebar Widget Area','renata'),
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+    
 }
 add_action( 'widgets_init', 'widgets_areas' );
 
