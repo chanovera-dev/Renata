@@ -45,13 +45,13 @@ function renata_theme_custom_frontpage_css(){
             /* portfolio */
             #portfolio .content{padding-bottom:150px;}
             #portfolio .content > ul{grid-template-columns:1fr;}
-            #portfolio .content > ul > li{overflow:hidden;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:6px;}
+            #portfolio .content > ul > li{overflow:hidden;background-color:#3d3e42;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:6px;}
             #portfolio .content > ul li figure{margin:0;text-align:left;position:relative;}
             #portfolio .content > ul li figure img{display:none;}
-            #portfolio .content > ul li figure figcaption{padding:15px;box-sizing:border-box;background-color:#3d3e42;}
+            #portfolio .content > ul li figure figcaption{padding:15px;box-sizing:border-box;}
             #portfolio .content > ul li figure figcaption h3{margin:0;margin-bottom:14px;font-weight:600;color:#fff;}
             #portfolio .content > ul li figure figcaption h4{font-weight:400;margin-bottom:0;line-height:1.6;color:#fff;}
-            #portfolio .content > ul li figure figcaption p{color:#fff;line-height:1.6;}
+            #portfolio .content > ul li figure figcaption p{color:#fff;line-height:1.6;margin-bottom:16px;}
             #portfolio .content > ul li figure figcaption ul{margin:0;padding-left:16px;}
             #portfolio .content > ul li figure figcaption ul li{line-height:1.6;}
             #portfolio .content > ul li figure figcaption .see-more-button{margin-top:16px;padding:7px 12px;display:inline-flex;gap:6px;align-items:center;background-color:#ffc86b;border:1px solid #ffc86b;border-radius:6px;text-decoration:none;color:#3d3e42;text-shadow:none;}
