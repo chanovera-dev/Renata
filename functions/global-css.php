@@ -88,7 +88,7 @@ function renata_theme_custom_global_css() {
             #desktop-header .header-content{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:37px 0;transition:padding .3s ease;}
 
             /* estilos del header al hacer scroll */
-            :is(.scroll-down,.scroll-up) #desktop-header .header-content{padding:10px 0;}
+            :is(.scroll-down,.scroll-up) #desktop-header .header-content{padding:7px 0;}
 
             /* menú desktop */
             #desktop-header .header-content ul{margin:0;padding:0;list-style:none;display:flex;align-items:center;gap:30px;}
