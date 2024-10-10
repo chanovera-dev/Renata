@@ -55,6 +55,35 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li figure figcaption ul{margin:0;padding-left:16px;}
             #portfolio .content > ul li figure figcaption ul li{line-height:1.6;}
             #portfolio .content > ul li figure figcaption .see-more-button{margin-top:16px;padding:7px 12px;display:inline-flex;gap:6px;align-items:center;background-color:#ffc86b;border:1px solid #ffc86b;border-radius:6px;text-decoration:none;color:#3d3e42;text-shadow:none;}
+
+            /* experience */
+            #experience{position:relative;background-color:#34353a;color:#fff;box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
+            #experience .content{padding-bottom:61px;}
+            #experience .content h2{font-size:36px;position:relative;top:-30px;}
+            .certifications .card-timeline{position:relative;display:grid;padding-left:216px;}
+            .certifications{position:relative;display:grid;gap:20px;align-content:flex-start;}
+            .certifications .card-item:before{position:absolute;left:5px;width:1px;top:10px;height:100%;content:'';background:linear-gradient(to top, #aaa 0%, #aaa 100%);}
+            .certifications .card-item{position:relative;font-size:14px;padding-left:40px;padding-bottom:50px;z-index:1;line-height:1.9;margin:0;}
+            .certifications .card-item:after{
+                content:attr(data-year);
+                position:absolute;
+                top:3px;
+                left:-3px;
+                width:16px;
+                height:16px;
+                line-height:1;
+                border:1px solid #ffc86b;
+                text-indent:-215px;
+                border-radius:50%;
+                color:#aaa;
+                font-size:16px;
+                background-color:#ffc86b;
+                box-shadow:0 0 10px #ffc86b;
+            }
+            .certifications .card-item:last-child{padding-bottom:0;}
+            .certifications .card-item:last-child::before{background:transparent;}
+            .certifications .card-item-title{font-size:24px;line-height:1;}
+            .certifications .card-item-desc{color:#aaa;font-size:16px;margin-top:6px;}
         </style>
     <?php
 }
