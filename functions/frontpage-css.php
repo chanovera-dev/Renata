@@ -59,7 +59,7 @@ function renata_theme_custom_frontpage_css(){
             /* experience */
             #experience{position:relative;background-color:#34353a;color:#fff;box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
             #experience .content{padding-bottom:61px;}
-            #experience .content h2{font-size:36px;position:relative;top:-30px;}
+            #experience .content h2{font-size:36px;font-family:'Times New Roman';position:relative;top:-30px;}
             .certifications .card-timeline{position:relative;display:grid;padding-left:216px;}
             .certifications{position:relative;display:grid;gap:20px;align-content:flex-start;}
             .certifications .card-item:before{position:absolute;left:5px;width:1px;top:10px;height:100%;content:'';background:linear-gradient(to top, #aaa 0%, #aaa 100%);}
