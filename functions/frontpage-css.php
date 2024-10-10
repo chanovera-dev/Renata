@@ -35,7 +35,7 @@ function renata_theme_custom_frontpage_css(){
 
             /* skills | portfolio */
             :is(#skills,#portfolio) .content{padding:30px 0;text-align:center;}
-            :is(#skills,#portfolio) .content ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2, 1fr);gap:15px;}
+            :is(#skills,#portfolio) .content > ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2, 1fr);gap:15px;}
             #skills .content ul li{place-content:center;aspect-ratio:1/1;background-color:#3d3e42;border-radius:6px;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;transition:all .3s ease;}
             #skills .content ul li.wordpress{background-color:#636467;}
             #skills .content ul li div{display:flex;flex-direction:column;align-items:center;}
@@ -49,8 +49,8 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li figure{margin:0;text-align:left;position:relative;}
             #portfolio .content > ul li figure img{display:none;}
             #portfolio .content > ul li figure figcaption{padding:15px;box-sizing:border-box;background-color:#3d3e42;}
-            #portfolio .content > ul li figure figcaption h3{margin:0;margin-bottom:14px;font-weight:600;}
-            #portfolio .content > ul li figure figcaption h4{font-weight:400;margin-bottom:0;line-height:1.6;}
+            #portfolio .content > ul li figure figcaption h3{margin:0;margin-bottom:14px;font-weight:600;color:#fff;}
+            #portfolio .content > ul li figure figcaption h4{font-weight:400;margin-bottom:0;line-height:1.6;color:#fff;}
             #portfolio .content > ul li figure figcaption ul{margin:0;padding-left:16px;}
             #portfolio .content > ul li figure figcaption ul li{line-height:1.6;}
             #portfolio .content > ul li figure figcaption .see-more-button{margin-top:16px;padding:7px 12px;display:inline-flex;gap:6px;align-items:center;background-color:#ffc86b;border:1px solid #ffc86b;border-radius:6px;text-decoration:none;color:#3d3e42;text-shadow:none;}
