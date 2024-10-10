@@ -17,7 +17,7 @@
 
                         }
 
-                        the_posts_pagination();
+                        custom_pagination();
 
                     } else {
                         echo esc_html__('No se han encontrado artículos', 'renata');
