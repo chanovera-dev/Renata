@@ -4,7 +4,9 @@ function renata_theme_custom_frontpage_css(){
     ?>
         <style>
             /* header */
+            .page-template-front-page #mobile-header,
             .page-template-front-page #desktop-header{background-color:#34353a;}
+            .page-template-front-page #mobile-header .site-brand,
             .page-template-front-page #desktop-header .site-brand{color:#fff;}
             .page-template-front-page #desktop-header .header-content ul li a{color:#9f9fa0;}
             .page-template-front-page #desktop-header .header-content ul li a:hover{color:#fff;}
