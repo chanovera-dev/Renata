@@ -105,7 +105,7 @@ function renata_theme_custom_global_css() {
             #desktop-header .header-content .search-form .search-submit__button:hover{background-color:var(--wp--preset--color--white);}
 
             /* P O S T S */
-            main .container .section .posts{display:grid;gap:30px;}
+            .blog main .container .section .posts{display:grid;gap:30px;}
 
             /* nvegación */
             .navigation.pagination{grid-column:1/-1;padding-bottom:30px;}
