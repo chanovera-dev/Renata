@@ -109,7 +109,8 @@ function renata_theme_custom_global_css() {
 
             /* nvegación */
             .navigation.pagination{grid-column:1/-1;padding-bottom:30px;}
-            .navigation.pagination .nav-links{text-align:center;}
+            .navigation.pagination .nav-links{text-align:center;display:flex;gap:20px;}
+
         </style>
     <?php
 }
