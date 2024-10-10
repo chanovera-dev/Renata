@@ -16,12 +16,18 @@
 
                     }
 
+                    the_posts_pagination();
+
+                    if ( is_active_sidebar('posts-sidebar') ) {
+                        dynamic_sidebar('posts-sidebar'); 
+                    } 
+
                 } else {
                     echo esc_html__('No se han encontrado artículos', 'renata');
                 }
             ?>
 
-        <section>
+        </section>
 
     </div>
 
