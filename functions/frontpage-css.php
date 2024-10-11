@@ -37,7 +37,7 @@ function renata_theme_custom_frontpage_css(){
             :is(#skills,#portfolio) .content{padding:30px 0;text-align:center;}
             :is(#skills,#portfolio) .content > ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2, 1fr);gap:15px;}
             #skills .content ul li{place-content:center;aspect-ratio:1/1;background-color:#11151A;border-radius:6px;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;transition:all .3s ease;}
-            #skills .content ul li.wordpress{background-color:#6e40c9;}
+            #skills .content ul li.wordpress{background-color:#636467;}
             #skills .content ul li div{display:flex;flex-direction:column;align-items:center;}
             #skills .content ul li svg{width:50%;height:50%;margin-bottom:16px;}
             #skills .content ul li:hover{background-color:#f0bf6c;color:#323232;}
