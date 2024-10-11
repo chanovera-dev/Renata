@@ -3,7 +3,7 @@
         <label class="screen-reader-text" for="s"><?php esc_html__('Buscar', 'renata'); ?></label>
         <input type="text" value="" name="s" id="s" placeholder="<?php esc_html__('Buscar', 'renata'); ?>">
         <div class="buttons-container">
-            <button type="submit" id="searchsubmit" value="Buscar">
+            <button type="submit" id="searchsubmit" value="Buscar" aria-label="Activate the search">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                 </svg>
