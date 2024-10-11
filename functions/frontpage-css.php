@@ -9,7 +9,7 @@ function renata_theme_custom_frontpage_css(){
             .page-template-front-page #mobile-header .site-brand,
             .page-template-front-page #desktop-header .site-brand{color:#fff;}
             .page-template-front-page #mobile-header .header-content button{background-color:#33353a;color:#fff;}
-            .page-template-front-page #desktop-header .header-content ul li a{color:#9f9fa0;}
+            .page-template-front-page #desktop-header .header-content ul li a{color:#9198a1;}
             .page-template-front-page #desktop-header .header-content ul li a:hover{color:#fff;}
             .page-template-front-page #desktop-header .search-form .search-field{background-color:#3d3d42;border:1px solid #3e3d42;color:#f1f1f1;}
             .page-template-front-page #desktop-header .search-form .search-field:focus{color:#fff;}
@@ -36,7 +36,7 @@ function renata_theme_custom_frontpage_css(){
             /* skills | portfolio */
             :is(#skills,#portfolio) .content{padding:30px 0;text-align:center;}
             :is(#skills,#portfolio) .content > ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2, 1fr);gap:15px;}
-            #skills .content ul li{place-content:center;aspect-ratio:1/1;background-color:#3d3e42;border-radius:6px;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;transition:all .3s ease;}
+            #skills .content ul li{place-content:center;aspect-ratio:1/1;background-color:#11151A;border-radius:6px;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;transition:all .3s ease;}
             #skills .content ul li.wordpress{background-color:#636467;}
             #skills .content ul li div{display:flex;flex-direction:column;align-items:center;}
             #skills .content ul li svg{width:50%;height:50%;margin-bottom:16px;}
@@ -45,7 +45,7 @@ function renata_theme_custom_frontpage_css(){
             /* portfolio */
             #portfolio .content{padding-bottom:150px;}
             #portfolio .content > ul{grid-template-columns:1fr;}
-            #portfolio .content > ul > li{overflow:hidden;background-color:#3d3e42;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;}
+            #portfolio .content > ul > li{overflow:hidden;background-color:#11151A;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;}
             #portfolio .content > ul li figure{margin:0;text-align:left;position:relative;}
             #portfolio .content > ul li figure img{display:none;}
             #portfolio .content > ul li figure figcaption{padding:15px;box-sizing:border-box;}
@@ -76,7 +76,7 @@ function renata_theme_custom_frontpage_css(){
                 border:1px solid #ffc86b;
                 text-indent:-215px;
                 border-radius:50%;
-                color:#aaa;
+                color:#9198a1;
                 font-size:16px;
                 background-color:#ffc86b;
                 box-shadow:0 0 10px #ffc86b;
@@ -84,7 +84,7 @@ function renata_theme_custom_frontpage_css(){
             .certifications .card-item:last-child{padding-bottom:0;}
             .certifications .card-item:last-child::before{background:transparent;}
             .certifications .card-item-title{font-size:24px;line-height:1.4;}
-            .certifications .card-item-desc{color:#aaa;font-size:16px;margin-top:6px;}
+            .certifications .card-item-desc{color:#9198a1;font-size:16px;margin-top:6px;}
         </style>
     <?php
 }
