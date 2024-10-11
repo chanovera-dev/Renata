@@ -138,3 +138,8 @@ function toggleSubMenu(button) {
     // Alternar la clase 'rotate' para el botón actual
     button.classList.toggle('rotate')
 }
+
+document.querySelectorAll('.menu-item a').addEventListener('click',function(e){
+    e.preventDefault();
+    closeMenuMobile()
+  })
