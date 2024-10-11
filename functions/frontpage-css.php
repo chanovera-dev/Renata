@@ -5,7 +5,7 @@ function renata_theme_custom_frontpage_css(){
         <style>
             /* header */
             .page-template-front-page #mobile-header,
-            .page-template-front-page #desktop-header{background-color:#34353a;}
+            .page-template-front-page #desktop-header{background-color:#11151A;}
             .page-template-front-page #mobile-header .site-brand,
             .page-template-front-page #desktop-header .site-brand{color:#fff;}
             .page-template-front-page #mobile-header .header-content button{background-color:#33353a;color:#fff;}
@@ -17,7 +17,7 @@ function renata_theme_custom_frontpage_css(){
             .page-template-front-page #desktop-header .search-form .search-submit__button:hover{background-color:transparent;color:#fff;}
 
             /* hero */
-            #hero{position:relative;background-color:#34353a;color:#fff;box-shadow:0 18px 20px 0 rgb(0 0 0 / 15%);}
+            #hero{position:relative;background-color:#11151A;color:#fff;box-shadow:0 18px 20px 0 rgb(0 0 0 / 15%);}
             #hero .section{display:grid;}
             #hero .introduction{min-height:400px;height:calc(100svh - 54px);max-height:1000px;place-content:center;text-align:center;}
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:#fff;}
@@ -25,7 +25,7 @@ function renata_theme_custom_frontpage_css(){
             #hero .introduction .contact-me{padding:10px 20px;border:3px solid #ffc86b;border-radius:6px;background-color:transparent;color:#ffc86b;font-size:1.2em;font-weight:600;margin-top:36px;}
 
             /* about | skills | portfolio */
-            :is(#about,#skills,#portfolio){background-color:#31333b;color:#fff;}
+            :is(#about,#skills,#portfolio){background-color:#0C0E12;color:#fff;}
             :is(#about,#skills,#portfolio) .content h2{font-weight:400;font-size:36px;margin-bottom:32px;font-family:'Times New Roman';color:#fff;}
             #about .content{padding:150px 0 120px;}
             #about .content > div{margin-left:50px;position:relative;}
@@ -58,7 +58,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li figure figcaption .see-more-button:hover{cursor:pointer;}
 
             /* experience */
-            #experience{position:relative;background-color:#34353a;color:#fff;box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
+            #experience{position:relative;background-color:#11151A;color:#fff;box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
             #experience .content{padding-bottom:61px;}
             #experience .content h2{font-size:36px;font-family:'Times New Roman';position:relative;top:-23px;}
             .certifications .card-timeline{position:relative;display:grid;padding-left:4px;}
