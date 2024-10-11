@@ -11,7 +11,7 @@ function renata_theme_custom_frontpage_css(){
             .page-template-front-page #mobile-header .header-content button{background-color:#11151A;color:#fff;}
             .page-template-front-page #desktop-header .header-content ul li a{color:#9198a1;}
             .page-template-front-page #desktop-header .header-content ul li a:hover{color:#fff;}
-            .page-template-front-page #desktop-header .search-form .search-field{background-color:#212529;border:1px solid #818b98;color:#f6f6f6;}
+            .page-template-front-page #desktop-header .search-form .search-field{background-color:#212529;border:1px solid #212529;color:#f6f6f6;}
             .page-template-front-page #desktop-header .search-form .search-field:focus{color:#fff;}
             .page-template-front-page #desktop-header .search-form .search-submit__button{color:#f1f1f1;}
             .page-template-front-page #desktop-header .search-form .search-submit__button:hover{background-color:transparent;color:#fff;}
