@@ -139,7 +139,10 @@ function toggleSubMenu(button) {
     button.classList.toggle('rotate')
 }
 
-document.querySelectorAll('.menu-item a').addEventListener('click',function(e){
-    e.preventDefault();
+const menuItemsHeader = document.querySelectorAll('.menu-item a');
+
+menuItemsHeader.forEach(item => {
+  item.addEventListener('click', function(e) {
     closeMenuMobile()
   })
+})
