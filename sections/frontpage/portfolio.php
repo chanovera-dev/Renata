@@ -12,7 +12,7 @@
                         <source srcset="<?php echo get_theme_mod('img_portfolio1_jpg', get_bloginfo('template_url') . '/assets/img/trueOmniDesktop.jpg'); ?>" type="image/jpeg" media="(width < 1095px)">
                         <source srcset="<?php echo get_theme_mod('img_portfolio1_png', get_bloginfo('template_url') . '/assets/img/trueOmniDesktop.png'); ?>" type="image/png" media="(width < 1096px)">
                         -->
-                        <img src="<?php echo get_theme_mod('img_portfolio1_webp', get_bloginfo('template_url') . '/assets/img/trueOmniDesktop.webp'); ?>" alt="Picture descriptive for True Omni website">
+                        <img src="<?php echo get_theme_mod('img_portfolio1_webp', get_bloginfo('template_url') . '/assets/img/trueOmniDesktop.webp'); ?>" alt="Picture descriptive for True Omni website" loading="lazy">
                     </picture>
                     <figcaption>
                         <h3>TrueOmni</h3>
@@ -41,7 +41,7 @@
                         <source srcset="<?php echo get_theme_mod('img_portfolio2_jpg', get_bloginfo('template_url') . '/assets/img/pinplastDesktop.jpg'); ?>" type="image/jpeg" media="(width < 1095px)">
                         <source srcset="<?php echo get_theme_mod('img_portfolio2_png', get_bloginfo('template_url') . '/assets/img/pinplastDesktop.png'); ?>" type="image/png" media="(width < 1096px)">
                         -->
-                        <img src="<?php echo get_theme_mod('img_portfolio2_webp', get_bloginfo('template_url') . '/assets/img/pinplastDesktop.webp'); ?>" alt="Picture descriptive for Pinplast website">
+                        <img src="<?php echo get_theme_mod('img_portfolio2_webp', get_bloginfo('template_url') . '/assets/img/pinplastDesktop.webp'); ?>" alt="Picture descriptive for Pinplast website" loading="lazy">
                     </picture>
                     <figcaption>
                         <h3>Pinplast</h3>
@@ -72,7 +72,7 @@
                         <source srcset="<?php echo get_theme_mod('img_portfolio3_jpg', get_bloginfo('template_url') . '/assets/img/revistaEstilo.jpg'); ?>" type="image/jpeg" media="(width < 1095px)">
                         <source srcset="<?php echo get_theme_mod('img_portfolio3_png', get_bloginfo('template_url') . '/assets/img/revistaEstilo.png'); ?>" type="image/png" media="(width < 1096px)">
                         -->
-                        <img src="<?php echo get_theme_mod('img_portfolio3_webp', get_bloginfo('template_url') . '/assets/img/revistaEstilo.webp'); ?>" alt="Picture descriptive for Pinplast website">
+                        <img src="<?php echo get_theme_mod('img_portfolio3_webp', get_bloginfo('template_url') . '/assets/img/revistaEstilo.webp'); ?>" alt="Picture descriptive for Pinplast website" loading="lazy">
                     </picture>
                     <figcaption>
                         <h3>Estilo Magazine</h3>
