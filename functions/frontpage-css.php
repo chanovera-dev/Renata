@@ -55,6 +55,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li figure figcaption ul{margin:0;padding-left:16px;}
             #portfolio .content > ul li figure figcaption ul li{line-height:1.6;}
             #portfolio .content > ul li figure figcaption .see-more-button{margin-top:16px;padding:7px 12px;display:inline-flex;gap:6px;align-items:center;background-color:#ffc86b;border:1px solid #ffc86b;border-radius:6px;text-decoration:none;color:#3d3e42;text-shadow:none;}
+            #portfolio .content > ul li figure figcaption .see-more-button:hover{cursor:pointer;}
 
             /* experience */
             #experience{position:relative;background-color:#34353a;color:#fff;box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
