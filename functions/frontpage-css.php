@@ -21,8 +21,8 @@ function renata_theme_custom_frontpage_css(){
             #hero .section{display:grid;}
             #hero .introduction{min-height:400px;height:calc(100svh - 54px);max-height:1000px;place-content:center;text-align:center;}
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:#fff;}
-            #hero .introduction h2 span{font-size:36px;color:#ffc86b;}
-            #hero .introduction .contact-me{padding:10px 20px;border:3px solid #ffc86b;border-radius:6px;background-color:transparent;color:#ffc86b;font-size:1.2em;font-weight:600;margin-top:36px;}
+            #hero .introduction h2 span{font-size:36px;color:#3fb950;}
+            #hero .introduction .contact-me{padding:10px 20px;border:3px solid #3fb950;border-radius:6px;background-color:transparent;color:#3fb950;font-size:1.2em;font-weight:600;margin-top:36px;}
 
             /* about | skills | portfolio */
             :is(#about,#skills,#portfolio){background-color:#0C0E12;color:#fff;}
@@ -63,7 +63,7 @@ function renata_theme_custom_frontpage_css(){
             #experience .content h2{font-size:36px;font-family:'Times New Roman';position:relative;top:-23px;}
             .certifications .card-timeline{position:relative;display:grid;padding-left:4px;}
             .certifications{position:relative;display:grid;gap:20px;align-content:flex-start;}
-            .certifications .card-item:before{position:absolute;left:5px;width:1px;top:10px;height:100%;content:'';background:linear-gradient(to top, #aaa 0%, #aaa 100%);}
+            .certifications .card-item:before{position:absolute;left:4px;width:2px;top:10px;height:calc(100% - 65px);content:'';background:linear-gradient(#3fb950, transparent);}
             .certifications .card-item{position:relative;font-size:14px;padding-left:40px;padding-bottom:50px;z-index:1;line-height:1.9;margin:0;}
             .certifications .card-item:after{
                 content:attr(data-year);
@@ -73,13 +73,13 @@ function renata_theme_custom_frontpage_css(){
                 width:16px;
                 height:16px;
                 line-height:1;
-                border:1px solid #ffc86b;
+                border:1px solid #3fb950;
                 text-indent:-215px;
                 border-radius:50%;
                 color:#9198a1;
                 font-size:16px;
-                background-color:#ffc86b;
-                box-shadow:0 0 10px #ffc86b;
+                background-color:#3fb950;
+                box-shadow:0 0 15px #3fb950;
             }
             .certifications .card-item:last-child{padding-bottom:0;}
             .certifications .card-item:last-child::before{background:transparent;}
