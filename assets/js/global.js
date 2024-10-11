@@ -138,11 +138,13 @@ function toggleSubMenu(button) {
     // Alternar la clase 'rotate' para el botón actual
     button.classList.toggle('rotate')
 }
+// cierra el menú mobile al presionar un link cuando la resolución es menor a 767 px
+if (window.innerWidth < 767) {
+    const linkOnMenuMobile = document.querySelectorAll('.menu-item a');
 
-const menuItemsHeader = document.querySelectorAll('.menu-item a');
-
-menuItemsHeader.forEach(item => {
-  item.addEventListener('click', function(e) {
-    closeMenuMobile()
-  })
-})
+    linkOnMenuMobile.forEach(item => {
+    item.addEventListener('click', function(e) {
+        closeMenuMobile()
+    })
+    })
+}
