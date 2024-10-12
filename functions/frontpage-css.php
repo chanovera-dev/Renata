@@ -50,16 +50,9 @@ function renata_theme_custom_frontpage_css(){
 
             /* skills | portfolio */
             :is(#skills,#portfolio) .content{padding:30px 0;text-align:center;}
-            :is(#skills,#portfolio) .content > :is(ul,.main__cards .cards__inner){margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2, 1fr);gap:15px;}
+            #portfolio .content > ul,
+            #skills .content .cards__inner{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2, 1fr);gap:15px;}
             .cards {position:relative;}
-            .cards__inner{
-                
-                
-
-       
-                
-            }
-
             .card {
                 --flow-space: 0.5em;
                 --hsl: var(--hue), var(--saturation), var(--lightness);
