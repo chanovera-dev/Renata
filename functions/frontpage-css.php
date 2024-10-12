@@ -7,12 +7,12 @@ function renata_theme_custom_frontpage_css(){
             /* header */
             .page-template-front-page #mobile-header,
             .page-template-front-page #desktop-header{
-                background-color:#11151A;
-                animation-name:animation-header; animation-direction:normal; animation-duration:1s; animation-timing-function:ease; animation-iteration-count:1;
+                background-color:#11151A;opacity:1;
+                animation-name:animation-header; animation-direction:normal; animation-duration:6s; animation-timing-function:ease; animation-iteration-count:1;
             }
             @keyframes animation-header{
                 0%   {opacity:0;transform:translateY(-60px);}
-                20%  {opacity:1;transform:translateY(0);}
+                100% {opacity:1;transform:translateY(0);}
             }
             .page-template-front-page #mobile-header .site-brand,
             .page-template-front-page #desktop-header .site-brand{color:#fff;}
@@ -32,8 +32,8 @@ function renata_theme_custom_frontpage_css(){
                 animation-name:animation-introduction; animation-direction:normal; animation-duration:1; animation-timing-function:ease; animation-iteration-count:1;
             }
             @keyframes animation-introduction{
-                0%  {opacity:0;transform:translateY(60px);}
-                100%{opacity:1;transform:translateY(0);}
+                0%   {opacity:0;transform:translateY(60px);}
+                100% {opacity:1;transform:translateY(0);}
             }
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:#fff;}
             #hero .introduction h2 span{font-size:36px;color:#3fb950;}
