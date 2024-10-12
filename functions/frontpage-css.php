@@ -59,7 +59,17 @@ function renata_theme_custom_frontpage_css(){
                 --hue:165;
                 --saturation:82.26%;
                 --lightness:51.37%;
-                color:#fff;background-color:#11151A;border:1px solid #11151A33;aspect-ratio:1/1;display:flex;flex-direction:column;gap:16px;align-items:center;justify-content:center;border-radius:10px;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+                color:#fff;
+                background-color:#11151A;
+                border:1px solid #11151A33;
+                aspect-ratio:1/1;
+                display:flex;
+                flex-direction:column;
+                gap:16px;
+                align-items:center;
+                justify-content:center;
+                border-radius:10px;
+                box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
             }
             #skills .card svg{width:50%;height:50%;}
             #skills .card__bullets{line-height:1.4;}
