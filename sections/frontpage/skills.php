@@ -1,7 +1,7 @@
 <div id="skills" class="container">
     <section class="section content">
         <h2>My Skills</h2>
-        <ul>
+        <ul class="cards__inner">
             <li>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 100 50" width="70" height="70" fill="currentColor">
@@ -25,7 +25,7 @@
                 </div>
             </li>
             <li>
-                <div>
+                <div class="cards__card card">
                     <svg width="70" height="70" viewBox="-52.5 0 361 361" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
                         <g>
                             <path d="M127.843868,360.087912 L23.6617143,331.166242 L0.445186813,70.7657143 L255.554813,70.7657143 L232.31367,331.125451 L127.843868,360.087912 L127.843868,360.087912 Z" fill="#264DE4"></path>
@@ -92,5 +92,6 @@
                 </div>
             </li>
         </ul>
+        <ul class="overlay cards__inner"></ul>
     </section>
 </div>

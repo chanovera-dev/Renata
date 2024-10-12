@@ -55,7 +55,49 @@ function renata_theme_custom_frontpage_css(){
             #skills .content ul li.wordpress{background-color:#212529;}
             #skills .content ul li div{display:flex;flex-direction:column;align-items:center;}
             #skills .content ul li svg{width:50%;height:50%;margin-bottom:16px;}
-            #skills .content ul li:hover{background-color:#f0bf6c;color:#323232;}
+            /* #skills .content ul li:hover{background-color:#f0bf6c;color:#323232;} */
+            .card {
+                --hue: 165;
+                --saturation: 82.26%;
+                --lightness: 51.37%;
+                --flow-space: 0.5em;
+                --hsl: var(--hue), var(--saturation), var(--lightness);
+            }
+            .overlay {
+                position: absolute;
+                inset: 0;
+                pointer-events: none;
+                user-select: none;
+                opacity: var(--opacity, 0);
+                -webkit-mask: radial-gradient(
+                        25rem 25rem at var(--x) var(--y),
+                        #000 1%,
+                        transparent 50%
+                );
+                mask: radial-gradient(
+                        25rem 25rem at var(--x) var(--y),
+                        #000 1%,
+                        transparent 50%
+                );
+                transition: 400ms mask ease;
+                will-change: mask;
+            }
+
+            .overlay .card {
+                background-color: hsla(var(--hsl), 0.15);
+                border-color: hsla(var(--hsl), 1);
+                box-shadow: 0 0 0 1px inset hsl(var(--hsl));
+            }
+            :not(.overlay) > .card {
+                transition: 400ms background ease;
+                will-change: background;
+            }
+
+            :not(.overlay) > .card:hover {
+                --lightness: 95%;
+                background: hsla(var(--hsl), 0.1);
+            }
+
 
             /* portfolio */
             #portfolio .content{padding-bottom:150px;}
