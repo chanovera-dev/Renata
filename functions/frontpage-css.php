@@ -129,16 +129,8 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li figure figcaption h3{font-size:24px;font-weight:400;color:#3fb950;}
             #portfolio .content > ul li figure figcaption :is(p,h4){color:#9198a1;font-weight:400;}
             #portfolio .content > ul li figure figcaption ul{margin:0;padding-left:0;list-style:none;}
-            /* #portfolio .content > ul li figure{margin:0;text-align:left;position:relative;}
-            #portfolio .content > ul li figure img{position:absolute;transform:translate(-50%, -50%);top:50%;left:50%;z-index:0;object-fit:cover;}
-            #portfolio .content > ul li figure figcaption{position:relative;padding:15px;box-sizing:border-box;z-index:1;}
-            #portfolio .content > ul li figure figcaption h3{margin:0;margin-bottom:14px;font-weight:600;color:#fff;}
-            #portfolio .content > ul li figure figcaption h4{font-weight:400;margin-bottom:0;line-height:1.6;color:#fff;}
-            #portfolio .content > ul li figure figcaption p{color:#fff;line-height:1.6;margin-bottom:16px;}
-            #portfolio .content > ul li figure figcaption ul{margin:0;padding-left:16px;}
-            #portfolio .content > ul li figure figcaption ul li{line-height:1.6;}
             #portfolio .content > ul li figure figcaption .see-more-button{margin-top:16px;padding:7px 12px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;text-decoration:none;color:#11151A;text-shadow:none;}
-            #portfolio .content > ul li figure figcaption .see-more-button:hover{cursor:pointer;} */
+            #portfolio .content > ul li figure figcaption .see-more-button:hover{cursor:pointer;}
 
             /* experience */
             #experience{position:relative;background-color:#11151A;color:#fff;box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
