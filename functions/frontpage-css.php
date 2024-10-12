@@ -174,7 +174,6 @@ function renata_theme_custom_frontpage_css(){
                 background-color:#3fb950;
                 box-shadow:0 0 15px #3fb950;
             }
-            .certifications .card-item:last-child{padding-bottom:0;}
             .certifications .card-item-title{font-size:24px;line-height:1.4;}
             .certifications .card-item-desc{color:#9198a1;font-size:16px;margin-top:6px;}
         </style>
