@@ -7,8 +7,8 @@ function renata_theme_custom_frontpage_css(){
             /* header */
             .page-template-front-page #mobile-header,
             .page-template-front-page #desktop-header{
-                background-color:#11151A;transition:all .3s ease;
-                animation-name:animation-header; animation-direction:normal; animation-duration:6s; animation-timing-function:ease; animation-iteration-count:1;
+                background-color:#11151A;
+                animation-name:animation-header; animation-direction:normal; animation-duration:1s; animation-timing-function:ease; animation-iteration-count:1;
             }
             @keyframes animation-header{
                 0%   {opacity:0;transform:translateY(-60px);}
@@ -29,11 +29,11 @@ function renata_theme_custom_frontpage_css(){
             #hero .section{display:grid;}
             #hero .introduction{
                 min-height:400px;height:calc(100svh - 54px);max-height:1000px;place-content:center;text-align:center;opacity:1;
-                animation-name:animation-introduction; animation-direction:normal; animation-duration:6s; animation-timing-function:ease; animation-iteration-count:1;
+                animation-name:animation-introduction; animation-direction:normal; animation-duration:1; animation-timing-function:ease; animation-iteration-count:1;
             }
             @keyframes animation-introduction{
-                0%  {opacity:0;transform:translateY(30px);}
-                20% {opacity:1;transform:translateY(0);}
+                0%  {opacity:0;transform:translateY(60px);}
+                100%{opacity:1;transform:translateY(0);}
             }
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:#fff;}
             #hero .introduction h2 span{font-size:36px;color:#3fb950;}
