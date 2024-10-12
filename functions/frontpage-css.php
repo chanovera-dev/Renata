@@ -3,6 +3,7 @@
 function renata_theme_custom_frontpage_css(){
     ?>
         <style>
+            body{background-color:#11151A;}
             /* header */
             .page-template-front-page #mobile-header,
             .page-template-front-page #desktop-header{
