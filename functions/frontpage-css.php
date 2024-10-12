@@ -37,7 +37,7 @@ function renata_theme_custom_frontpage_css(){
             }
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:#fff;}
             #hero .introduction h2 span{font-size:36px;color:#3fb950;}
-            #hero .introduction p{padding:3px 5px;background-color:#3fb950;border:1px solid #3fb950;border-radius:4px;color:#11151A;margin-bottom:24px;font-size:13px;}
+            #hero .introduction p{padding:3px 5px;background-color:#3fb950;border:1px solid #3fb950;border-radius:4px;color:#11151A;margin-bottom:24px;font-size:13px;display:inline-block;}
             #hero .introduction .contact-me{padding:10px 20px;border:3px solid #3fb950;border-radius:6px;background-color:transparent;color:#3fb950;font-size:1.2em;font-weight:600;margin-top:36px;}
 
             /* about | skills | portfolio */
