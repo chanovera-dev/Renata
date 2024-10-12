@@ -53,7 +53,24 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul,
             #skills .content .cards__inner{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2, 1fr);gap:15px;}
             .cards {position:relative;}
-            .card {--flow-space:0.5em;--hsl:var(--hue), var(--saturation), var(--lightness);--hue:165;--saturation:82.26%;--lightness:51.37%;color:#fff;background-color:#11151A;border:1px solid #11151A33;aspect-ratio:1/1;display:flex;flex-direction:column;gap:16px;align-items:center;justify-content:center;border-radius:10px;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;}
+            .card {
+                --flow-space:0.5em;
+                --hsl:var(--hue), var(--saturation), var(--lightness);
+                --hue:165;
+                --saturation:82.26%;
+                --lightness:51.37%;
+                color:#fff;
+                background-color:#11151A;
+                border:1px solid #11151A33;
+                aspect-ratio:1/1;
+                display:flex;
+                flex-direction:column;
+                gap:16px;
+                align-items:center;
+                justify-content:center;
+                border-radius:10px;
+                box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+            }
             .card svg{width:50%;height:50%;}
 
             .card__bullets {
