@@ -42,10 +42,10 @@
                         <p>Online store of paints and accessories.</p>
                         <h4>Design and build with:</h4>
                         <ul>
-                            <li><i>PHP</i></li>
-                            <li><i>Javascript</i></li>
-                            <li><i>Wordpress</i></li>
-                            <li><i>Woocommerce</i></li>
+                            <li>PHP</li>
+                            <li>Javascript</li>
+                            <li>Wordpress</li>
+                            <li>Woocommerce</li>
                         </ul>
                         <button onclick="window.open('https://www.pinplast.com.mx/', '_blank')" class="see-more-button" aria-label="Link to the pinplast website">
                             See more
@@ -70,8 +70,8 @@
                         <p>Style magazine in digital format.</p>
                         <h4>Design and build with:</h4>
                         <ul>
-                            <li><i>Wordpress</i></li>
-                            <li><i>Elementor</i></li>
+                            <li>Wordpress</li>
+                            <li>Elementor</li>
                         </ul>
                         <button onclick="window.open('https://www.revistaestilo.com.mx/', '_blank')" class="see-more-button" aria-label="Link to the estilo magazine website">
                             See more
@@ -96,9 +96,9 @@
                         <p>Specialist in minimally invasive techniques for the treatment of various injuries</p>
                         <h4>Design and build with:</h4>
                         <ul>
-                            <li><i>PHP</i></li>
-                            <li><i>Javascript</i></li>
-                            <li><i>Wordpress</i></li>
+                            <li>PHP</li>
+                            <li>Javascript</li>
+                            <li>Wordpress</li>
                         </ul>
                         <button onclick="window.open('https://www.jesusmendezfisioterapia.com/', '_blank')" class="see-more-button" aria-label="Link to the Jesus Mendez Fisioteraphy website">
                             See more
@@ -123,8 +123,8 @@
                         <p>It was created to remind you of your human nature and how important you are on this beautiful planet</p>
                         <h4>Design and build with:</h4>
                         <ul>
-                            <li><i>Wordpress</i></li>
-                            <li><i>Divi</i></li>
+                            <li>Wordpress</li>
+                            <li>Divi</li>
                         </ul>
                         <button onclick="window.open('https://www.mujerexpansiva.com/', '_blank')" class="see-more-button" aria-label="Link to the Jesus Mendez Fisioteraphy website">
                             See more
