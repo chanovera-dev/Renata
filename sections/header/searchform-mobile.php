@@ -1,7 +1,7 @@
 <form role="search" method="get" id="searchform-mobile" action="<?php echo home_url( '/' ); ?>">
     <div class="section">
-        <label class="screen-reader-text" for="s"><?php esc_html__('Buscar', 'renata'); ?></label>
-        <input type="text" value="" name="s" id="s" placeholder="<?php esc_html__('Buscar', 'renata'); ?>">
+        <label class="screen-reader-text" for="s"><?php esc_html__('Search', 'renata'); ?></label>
+        <input type="text" value="" name="s" id="s" placeholder="<?php esc_html__('Search', 'renata'); ?>">
         <div class="buttons-container">
             <button type="submit" id="searchsubmit" value="Buscar" aria-label="Activate the search">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
