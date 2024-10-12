@@ -123,8 +123,9 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content{padding-bottom:150px;}
             #portfolio .content > ul{grid-template-columns:1fr;}
             #portfolio .content > ul > li{overflow:hidden;background-color:#11151A;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:10px;padding:15px;}
-            #portfolio .content > ul > li figure{display:grid;gap:16px;}
+            #portfolio .content > ul > li figure{display:grid;gap:16px;color:#fff;}
             #portfolio .content > ul > li figure img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:3px;}
+            #portfolio .content > ul li figure figcaption h3{font-size:24px;font-weight:400;color:#3fb950;}
             /* #portfolio .content > ul li figure{margin:0;text-align:left;position:relative;}
             #portfolio .content > ul li figure img{position:absolute;transform:translate(-50%, -50%);top:50%;left:50%;z-index:0;object-fit:cover;}
             #portfolio .content > ul li figure figcaption{position:relative;padding:15px;box-sizing:border-box;z-index:1;}
