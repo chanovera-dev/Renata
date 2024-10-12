@@ -127,6 +127,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul > li figure img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:3px;}
             #portfolio .content > ul li figure figcaption{display:grid;gap:16px;color:#fff;}
             #portfolio .content > ul li figure figcaption h3{font-size:24px;font-weight:400;color:#3fb950;}
+            #portfolio .content > ul li figure figcaption :is(p,h4){color:#9198a1;}
             /* #portfolio .content > ul li figure{margin:0;text-align:left;position:relative;}
             #portfolio .content > ul li figure img{position:absolute;transform:translate(-50%, -50%);top:50%;left:50%;z-index:0;object-fit:cover;}
             #portfolio .content > ul li figure figcaption{position:relative;padding:15px;box-sizing:border-box;z-index:1;}
