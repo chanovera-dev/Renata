@@ -56,6 +56,17 @@ function renata_theme_custom_frontpage_css(){
             #skills .card {--flow-space:0.5em;--hsl:var(--hue), var(--saturation), var(--lightness);--hue:165;--saturation:82.26%;--lightness:51.37%;color:#fff;background-color:#11151A;border:1px solid #11151A33;aspect-ratio:1/1;display:flex;flex-direction:column;gap:16px;align-items:center;justify-content:center;border-radius:10px;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;}
             #skills .card svg{width:50%;height:50%;}
 
+            .card__bullets {
+                line-height: 1.4;
+            }
+
+            .card__bullets li::before {
+                display: inline-block;
+                content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='16' title='check' fill='%23dddddd'%3E%3Cpath d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z' /%3E%3C/svg%3E");
+                transform: translatey(0.25ch);
+                margin-right: 1ch;
+            }
+
             .flow > * + * {
                 margin-top: var(--flow-space, 1.25em);
             }
