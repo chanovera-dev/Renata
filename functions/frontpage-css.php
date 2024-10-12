@@ -27,7 +27,14 @@ function renata_theme_custom_frontpage_css(){
             /* hero */
             #hero{position:relative;background-color:#11151A;color:#fff;box-shadow:0 18px 20px 0 rgb(0 0 0 / 15%);}
             #hero .section{display:grid;}
-            #hero .introduction{min-height:400px;height:calc(100svh - 54px);max-height:1000px;place-content:center;text-align:center;}
+            #hero .introduction{
+                min-height:400px;height:calc(100svh - 54px);max-height:1000px;place-content:center;text-align:center;opacity:1;
+                animation-name:animation-introduction; animation-direction:normal; animation-duration:6s; animation-timing-function:ease; animation-iteration-count:1;
+            }
+            @keyframes animation-introduction{
+                0%  {opacity:0;transform:translateY(30px);}
+                20% {opacity:1;transform:translateY(0);}
+            }
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:#fff;}
             #hero .introduction h2 span{font-size:36px;color:#3fb950;}
             #hero .introduction .contact-me{padding:10px 20px;border:3px solid #3fb950;border-radius:6px;background-color:transparent;color:#3fb950;font-size:1.2em;font-weight:600;margin-top:36px;}
