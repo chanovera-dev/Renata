@@ -79,11 +79,9 @@ function renata_theme_custom_frontpage_css(){
                 transform:translatey(0.25ch);
                 margin-right:1ch;
             }
-
             .flow > * + * {
                 margin-top: var(--flow-space, 1.25em);
             }
-
             .overlay {
                 position: absolute;
                 inset: 0;
@@ -103,18 +101,15 @@ function renata_theme_custom_frontpage_css(){
                 transition: 400ms mask ease;
                 will-change: mask;
             }
-
             .overlay .card {
                 background-color: hsla(var(--hsl), 0.15);
                 border-color: hsla(var(--hsl), 1);
                 box-shadow: 0 0 0 1px inset hsl(var(--hsl));
             }
-
             :not(.overlay) > .card {
                 transition: 400ms background ease;
                 will-change: background;
             }
-
             :not(.overlay) > .card:hover {
                 --lightness: 95%;
                 background: hsla(var(--hsl), 0.1);
