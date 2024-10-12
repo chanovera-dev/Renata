@@ -8,7 +8,7 @@ function renata_theme_custom_frontpage_css(){
             .page-template-front-page #mobile-header,
             .page-template-front-page #desktop-header{
                 background-color:#11151A;opacity:1;
-                animation-name:animation-header; animation-direction:normal; animation-duration:6s; animation-timing-function:ease; animation-iteration-count:1;
+                animation-name:animation-header; animation-direction:normal; animation-duration:3s; animation-timing-function:ease; animation-iteration-count:1;
             }
             @keyframes animation-header{
                 0%   {opacity:0;transform:translateY(-60px);}
@@ -29,7 +29,7 @@ function renata_theme_custom_frontpage_css(){
             #hero .section{display:grid;}
             #hero .introduction{
                 min-height:400px;height:calc(100svh - 54px);max-height:1000px;place-content:center;text-align:center;opacity:1;
-                animation-name:animation-introduction; animation-direction:normal; animation-duration:1; animation-timing-function:ease; animation-iteration-count:1;
+                animation-name:animation-introduction; animation-direction:normal; animation-duration:3s; animation-timing-function:ease; animation-iteration-count:1;
             }
             @keyframes animation-introduction{
                 0%   {opacity:0;transform:translateY(60px);}
