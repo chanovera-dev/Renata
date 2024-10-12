@@ -12,9 +12,9 @@ function renata_theme_media_queries() {
                 .blog main .container .section .posts{grid-template-columns:1fr 1fr;}
                 #portfolio.container .content > ul,
                 #skills.container .content .cards__inner{grid-template-columns:repeat(3, 1fr);gap:30px;}
-                /* #portfolio.container .content > ul{grid-template-columns:1fr 1fr;gap:30px;} */
+                #portfolio.container .content > ul{grid-template-columns:1fr 1fr;gap:30px;}
                 #skills.container .content ul li{border-radius:10px;}
-                /* #portfolio.container .content > ul li figure figcaption{padding:30px;} */
+                #portfolio.container .content > ul li figure figcaption{padding:30px;}
                 #experience .certifications .card-timeline{padding-left:216px;}
             }
 
