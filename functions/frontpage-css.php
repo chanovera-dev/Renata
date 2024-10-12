@@ -69,14 +69,7 @@ function renata_theme_custom_frontpage_css(){
                 align-items:center;
                 justify-content:center;
                 border-radius:10px;
-                opacity:1;
-                animation:fadeOut 1.5s forwards;
-                animation-timeline:scroll();
                 box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
-            }
-            @keyframes fadeOut {
-                from { opacity:1;transform:translateY(-60px); }
-                to { opacity: 0;transform:translate(0);}
             }
             .card svg{width:50%;height:50%;}
             .card__bullets{line-height:1.4;}
