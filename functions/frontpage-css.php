@@ -129,7 +129,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li figure figcaption h3{font-size:24px;font-weight:400;color:#3fb950;}
             #portfolio .content > ul li figure figcaption :is(p,h4){color:#9198a1;font-weight:400;}
             #portfolio .content > ul li figure figcaption ul{margin:0;padding-left:0;list-style:none;}
-            #portfolio .content > ul li figure figcaption .see-more-button{margin-top:16px;padding:7px 12px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;text-decoration:none;color:#11151A;text-shadow:none;}
+            #portfolio .content > ul li figure figcaption .see-more-button{margin-inline:auto;padding:7px 12px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;}
             #portfolio .content > ul li figure figcaption .see-more-button:hover{cursor:pointer;}
 
             /* experience */
