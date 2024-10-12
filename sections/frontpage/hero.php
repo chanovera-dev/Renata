@@ -2,6 +2,7 @@
     <section class="section">
         <div class="introduction">
             <h2>I'm <span>Chano Vera</span></h2>
+            <p>Available for work</p>
             <h1>Frontend & Wordpress developer consultant</h1>
             <button onclick="window.open('https://api.whatsapp.com/send?phone=+52<?php echo get_theme_mod('phone_number', '9211243148'); ?>&text=Hi Chano, we want you to build us a website ...', '_blank')" class="contact-me">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
