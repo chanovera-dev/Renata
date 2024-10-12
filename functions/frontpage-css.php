@@ -51,16 +51,13 @@ function renata_theme_custom_frontpage_css(){
             /* skills | portfolio */
             :is(#skills,#portfolio) .content{padding:30px 0;text-align:center;}
             :is(#skills,#portfolio) .content > ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2, 1fr);gap:15px;}
-            .cards {
-                position: relative;
-            }
+            .cards {position:relative;}
+            .cards__inner{
+                
+                
 
-            .cards__inner {
-                display: grid;
-                grid-template-columns:repeat(4, 1fr);
-                gap: 30px;
-                width:min(100% - 30px, 1096px);
-                margin-inline:auto;
+       
+                
             }
 
             .card {
