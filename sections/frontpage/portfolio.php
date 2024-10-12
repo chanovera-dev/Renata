@@ -137,6 +137,7 @@
                     </figure>
                 </li>
             </ul>
+            <div class="overlay cards__inner"></div> 
         </div>
     </section>
 </div>
