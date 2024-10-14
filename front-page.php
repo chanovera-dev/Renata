@@ -7,6 +7,7 @@
         include(TEMPLATEPATH.'/sections/frontpage/portfolio.php');
         include(TEMPLATEPATH.'/sections/frontpage/skills.php');
         include(TEMPLATEPATH.'/sections/frontpage/experience.php');
+        include(TEMPLATEPATH.'/sections/frontpage/contact.php');
     ?>
 </main>
 
