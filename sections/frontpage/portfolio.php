@@ -227,7 +227,7 @@
                     </picture>
                     <figcaption>
                         <h3>Jaquie Rosillo</h3>
-                        <p>We build value through strategic communication</p>
+                        <p>A professional showcase and portfolio for Jaquie Rosillo, featuring her extensive experience and versatile skills. The site highlights her work in digital media and photography, providing a comprehensive view of her creative accomplishments and professional background</p>
                     </figcaption>
                 </figure>
                 <div>
