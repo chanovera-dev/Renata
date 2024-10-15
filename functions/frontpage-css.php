@@ -59,9 +59,9 @@ function renata_theme_custom_frontpage_css(){
             .card {
                 --flow-space:0.5em;
                 --hsl:var(--hue), var(--saturation), var(--lightness);
-                --hue:165;
-                --saturation:82.26%;
-                --lightness:51.37%;
+                --hue:.36;
+                --saturation:.49%;
+                --lightness:.49%;
                 color:#fff;
                 background-color:#11151A;
                 border:1px solid #11151A33;
@@ -117,7 +117,6 @@ function renata_theme_custom_frontpage_css(){
                 --lightness: 95%;
                 background: hsla(var(--hsl), 0.1);
             }
-
 
             /* portfolio */
             #portfolio .content{padding-bottom:150px;}
