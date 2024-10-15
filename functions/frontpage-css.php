@@ -52,6 +52,7 @@ function renata_theme_custom_frontpage_css(){
 
             /* skills | portfolio */
             :is(#skills,#portfolio) .content{padding:60px 0;text-align:center;}
+            #skills .content{padding-bottom:120px;}
             #portfolio .content > ul,
             #skills .content .cards__inner{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2, 1fr);gap:15px;}
             .cards {position:relative;}
@@ -118,7 +119,6 @@ function renata_theme_custom_frontpage_css(){
             }
 
             /* portfolio */
-            #portfolio .content{padding-bottom:150px;}
             #portfolio .content > ul{grid-template-columns:1fr;}
             #portfolio .content > ul > li{overflow:hidden;background-color:#11151A;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:10px;padding:8px;display:grid;}
             #portfolio .content > ul > li figure{position:relative;display:grid;gap:10px;height:100%;}
