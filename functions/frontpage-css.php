@@ -44,7 +44,7 @@ function renata_theme_custom_frontpage_css(){
             /* about | skills | portfolio */
             :is(#about,#skills,#portfolio){background-color:#0C0E12;color:#fff;}
             :is(#about,#skills,#portfolio) .content h2{font-weight:400;font-size:36px;margin-bottom:32px;font-family:'Text me one';color:#fff;}
-            #about .content{padding:150px 0 120px;}
+            #about .content{padding:60px 0;}
             #about .content > div{margin-left:50px;position:relative;}
             #about .content > div:before{position:absolute;top:10px;left:-50px;content:'';width:30px;height:3px;background-color:#3fb950;}
             #about p{font-size:1.3em;color:#fff;}
