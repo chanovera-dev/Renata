@@ -128,12 +128,14 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li figure figcaption{position:absolute;display:grid;gap:16px;align-content:baseline;text-align:left;background-color:rgb(0 0 0 / 75%);padding:20px;width:100%;height:100%;}
             #portfolio .content > ul li figure figcaption h3{font-size:24px;font-weight:400;color:#fff;}
             #portfolio .content > ul li figure figcaption p{color:#fff;;}
-            #portfolio .content > ul li div{display:flex;align-items:center;justify-content:space-between;padding-top:9px;}
-            #portfolio .content > ul li div ul{margin:0;padding-left:0;list-style:none;display:inline-flex;align-items:center;gap:16px;}
-            #portfolio .content > ul li div ul li{line-height:1;}
-            #portfolio .content > ul li div ul li svg{color:#fff;width:24px;height:24px;}
-            #portfolio .content > ul li div .see-more-button{padding:7px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;}
-            #portfolio .content > ul li div .see-more-button:hover{cursor:pointer;}
+            #portfolio .content > ul li > div{display:flex;align-items:center;justify-content:space-between;padding-top:9px;}
+            #portfolio .content > ul li > div ul{margin:0;padding-left:0;list-style:none;display:inline-flex;align-items:center;gap:16px;}
+            #portfolio .content > ul li > div ul li{line-height:1;}
+            #portfolio .content > ul li > div ul li div{position:relative;}
+            #portfolio .content > ul li > div ul li div:before:nth-child(1){position:absolute;top:20px;left:0;content:'Wordpress';}
+            #portfolio .content > ul li > div ul li svg{color:#fff;width:24px;height:24px;}
+            #portfolio .content > ul li > div .see-more-button{padding:7px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;}
+            #portfolio .content > ul li > div .see-more-button:hover{cursor:pointer;}
 
             /* experience */
             #experience{position:relative;background-color:#11151A;color:#fff;box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
