@@ -16,16 +16,18 @@
                         <p>Website for self-service kiosks, digital signage and mobile solutions.</p>
                     </figcaption>
                 </figure>
-                <ul>
-                    <li>Wordpress</li>
-                    <li>Elementor</li>
-                </ul>
-                <button onclick="window.open('https://www.trueomni.com/', '_blank')" class="see-more-button" aria-label="Link to the trueomni website">
-                    See more
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-                    </svg>
-                </button>
+                <div>
+                    <ul>
+                        <li>Wordpress</li>
+                        <li>Elementor</li>
+                    </ul>
+                    <button onclick="window.open('https://www.trueomni.com/', '_blank')" class="see-more-button" aria-label="Link to the trueomni website">
+                        See more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                    </button>
+                </div>
             </li>
             <li>
                 <figure>
@@ -41,18 +43,20 @@
                         <p>Online store of paints and accessories.</p>
                     </figcaption>
                 </figure>
-                <ul>
-                    <li>PHP</li>
-                    <li>Javascript</li>
-                    <li>Wordpress</li>
-                    <li>Woocommerce</li>
-                </ul>
-                <button onclick="window.open('https://www.pinplast.com.mx/', '_blank')" class="see-more-button" aria-label="Link to the pinplast website">
-                    See more
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-                    </svg>
-                </button>
+                <div>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Javascript</li>
+                        <li>Wordpress</li>
+                        <li>Woocommerce</li>
+                    </ul>
+                    <button onclick="window.open('https://www.pinplast.com.mx/', '_blank')" class="see-more-button" aria-label="Link to the pinplast website">
+                        See more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                    </button>
+                </div>
             </li>
             <li>
                 <figure>
@@ -68,16 +72,18 @@
                         <p>Style magazine in digital format.</p>
                     </figcaption>
                 </figure>
-                <ul>
-                    <li>Wordpress</li>
-                    <li>Elementor</li>
-                </ul>
-                <button onclick="window.open('https://www.revistaestilo.com.mx/', '_blank')" class="see-more-button" aria-label="Link to the estilo magazine website">
-                    See more
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-                    </svg>
-                </button>  
+                <div>
+                    <ul>
+                        <li>Wordpress</li>
+                        <li>Elementor</li>
+                    </ul>
+                    <button onclick="window.open('https://www.revistaestilo.com.mx/', '_blank')" class="see-more-button" aria-label="Link to the estilo magazine website">
+                        See more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                    </button>  
+                </div>
             </li>
             <li>
                 <figure>
@@ -93,17 +99,19 @@
                         <p>Specialist in minimally invasive techniques for the treatment of various injuries</p>
                     </figcaption>
                 </figure>
-                <ul>
-                    <li>PHP</li>
-                    <li>Javascript</li>
-                    <li>Wordpress</li>
-                </ul>
-                <button onclick="window.open('https://www.jesusmendezfisioterapia.com/', '_blank')" class="see-more-button" aria-label="Link to the Jesus Mendez Fisioteraphy website">
-                    See more
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-                    </svg>
-                </button>  
+                <div>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Javascript</li>
+                        <li>Wordpress</li>
+                    </ul>
+                    <button onclick="window.open('https://www.jesusmendezfisioterapia.com/', '_blank')" class="see-more-button" aria-label="Link to the Jesus Mendez Fisioteraphy website">
+                        See more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                    </button>  
+                </div>
             </li>
             <li>
                 <figure>
@@ -119,16 +127,18 @@
                         <p>It was created to remind you of your human nature and how important you are on this beautiful planet</p>
                     </figcaption>
                 </figure>
-                <ul>
-                    <li>Wordpress</li>
-                    <li>Divi</li>
-                </ul>
-                <button onclick="window.open('https://www.mujerexpansiva.com/', '_blank')" class="see-more-button" aria-label="Link to the Jesus Mendez Fisioteraphy website">
-                    See more
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-                    </svg>
-                </button>  
+                <div>
+                    <ul>
+                        <li>Wordpress</li>
+                        <li>Divi</li>
+                    </ul>
+                    <button onclick="window.open('https://www.mujerexpansiva.com/', '_blank')" class="see-more-button" aria-label="Link to the Jesus Mendez Fisioteraphy website">
+                        See more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                    </button>
+                </div>  
             </li>
         </ul>
     </section>

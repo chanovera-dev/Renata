@@ -128,9 +128,10 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li figure figcaption{position:absolute;display:grid;gap:16px;color:#fff;background-color:rgb(0 0 0 / 50%);padding:20px;width:100%;height:100%;}
             #portfolio .content > ul li figure figcaption h3{font-size:24px;font-weight:400;color:#3fb950;}
             #portfolio .content > ul li figure figcaption p{color:#9198a1;}
-            #portfolio .content > ul li ul{margin:0;padding-left:0;list-style:none;display:inline-flex;gap:10px;}
-            #portfolio .content > ul li .see-more-button{margin-inline:auto;padding:7px 12px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;}
-            #portfolio .content > ul li .see-more-button:hover{cursor:pointer;}
+            #portfolio .content > ul li div{display:flex;align-items:center;justify-content:space-between;}
+            #portfolio .content > ul li div ul{margin:0;padding-left:0;list-style:none;display:inline-flex;gap:10px;}
+            #portfolio .content > ul li div .see-more-button{margin-inline:auto;padding:7px 12px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;}
+            #portfolio .content > ul li div .see-more-button:hover{cursor:pointer;}
 
             /* experience */
             #experience{position:relative;background-color:#11151A;color:#fff;box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
