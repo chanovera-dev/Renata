@@ -51,8 +51,7 @@ function renata_theme_custom_frontpage_css(){
             #about p:not(:last-child){margin-bottom:1.3em;}
 
             /* skills | portfolio */
-            :is(#skills,#portfolio) .content{padding:30px 0;text-align:center;}
-            #skills .content{padding-bottom:120px;}
+            :is(#skills,#portfolio) .content{padding:60px 0;text-align:center;}
             #portfolio .content > ul,
             #skills .content .cards__inner{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2, 1fr);gap:15px;}
             .cards {position:relative;}
