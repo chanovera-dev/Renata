@@ -227,7 +227,7 @@
                     </picture>
                     <figcaption>
                         <h3>Jaquie Rosillo</h3>
-                        <p>A professional showcase and portfolio for Jaquie Rosillo, featuring her extensive experience and versatile skills. The site highlights her work in digital media and photography, providing a comprehensive view of her creative accomplishments and professional background</p>
+                        <p>A professional showcase and portfolio for Jaquie Rosillo, featuring her extensive experience and versatile skills. The site highlights her work, her creative accomplishments and professional background</p>
                     </figcaption>
                 </figure>
                 <div>
