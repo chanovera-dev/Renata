@@ -59,9 +59,9 @@ function renata_theme_custom_frontpage_css(){
             .card {
                 --flow-space:0.5em;
                 --hsl:var(--hue), var(--saturation), var(--lightness);
-                --hue:.36;
-                --saturation:.49%;
-                --lightness:.49%;
+                --hue:165;
+                --saturation:82.49%;
+                --lightness:51.37%;
                 color:#fff;
                 background-color:#11151A;
                 border:1px solid #11151A33;
