@@ -44,7 +44,7 @@
                     </picture>
                     <figcaption>
                         <h3>Pinplast</h3>
-                        <p>Online store of paints and accessories.</p>
+                        <p>Online Hardware Store</p>
                     </figcaption>
                 </figure>
                 <div>
@@ -87,7 +87,7 @@
                     </picture>
                     <figcaption>
                         <h3>Estilo Magazine</h3>
-                        <p>Style magazine in digital format.</p>
+                        <p>Digital format fot "Estilo Magazine"</p>
                     </figcaption>
                 </figure>
                 <div>
@@ -118,7 +118,7 @@
                     </picture>
                     <figcaption>
                         <h3>Jesus Mendez physiotherapy</h3>
-                        <p>Specialist in minimally invasive techniques for the treatment of various injuries</p>
+                        <p>Specialist in minimal invasive techniques applied to physiotherapy</p>
                     </figcaption>
                 </figure>
                 <div>
@@ -158,7 +158,7 @@
                     </picture>
                     <figcaption>
                         <h3>Mujer Expansiva</h3>
-                        <p>It was created to remind you of your human nature and how important you are on this beautiful planet</p>
+                        <p>A transformative online platform dedicated to empowering women through personal growth, spiritually, and conscious living resources</p>
                     </figcaption>
                 </figure>
                 <div>
