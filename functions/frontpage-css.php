@@ -136,7 +136,7 @@ function renata_theme_custom_frontpage_css(){
 
             /* experience */
             #experience{position:relative;background-color:#11151A;color:#fff;box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
-            #experience .content{padding:60px 0;}
+            #experience .content{padding:60px 0 10px;}
             #experience .content h2{font-size:36px;font-family:'Text me one';position:relative;}
             .certifications .card-timeline{position:relative;display:grid;padding-left:4px;}
             .certifications{position:relative;display:grid;gap:20px;align-content:flex-start;}
