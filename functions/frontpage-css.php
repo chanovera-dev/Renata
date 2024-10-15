@@ -125,11 +125,12 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul > li{overflow:hidden;background-color:#11151A;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:10px;padding:5px;display:grid;gap:10px;}
             #portfolio .content > ul > li figure{position:relative;display:grid;gap:16px;height:100%;}
             #portfolio .content > ul > li figure img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:6px;}
-            #portfolio .content > ul li figure figcaption{position:absolute;display:grid;gap:16px;color:#fff;background-color:rgb(0 0 0 / 50%);padding:20px;width:100%;height:100%;}
-            #portfolio .content > ul li figure figcaption h3{font-size:24px;font-weight:400;color:#3fb950;}
+            #portfolio .content > ul li figure figcaption{position:absolute;display:grid;gap:16px;align-content:baseline;text-align:left;color:#fff;background-color:rgb(0 0 0 / 75%);padding:20px;width:100%;height:100%;}
+            #portfolio .content > ul li figure figcaption h3{font-size:24px;font-weight:400;}
             #portfolio .content > ul li figure figcaption p{color:#9198a1;}
             #portfolio .content > ul li div{display:flex;align-items:center;justify-content:space-between;}
             #portfolio .content > ul li div ul{margin:0;padding-left:0;list-style:none;display:inline-flex;gap:10px;}
+            #portfolio .content > ul li div ul li i{color:#fff;width:32px;height:32px;}
             #portfolio .content > ul li div .see-more-button{padding:7px 12px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;}
             #portfolio .content > ul li div .see-more-button:hover{cursor:pointer;}
 
