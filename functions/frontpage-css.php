@@ -132,7 +132,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li div ul{margin:0;padding-left:0;list-style:none;display:inline-flex;gap:16px;}
             #portfolio .content > ul li div ul li{line-height:1;}
             #portfolio .content > ul li div ul li svg{color:#fff;width:24px;height:24px;}
-            #portfolio .content > ul li div .see-more-button{padding:7px 12px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;}
+            #portfolio .content > ul li div .see-more-button{padding:7px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;}
             #portfolio .content > ul li div .see-more-button:hover{cursor:pointer;}
 
             /* experience */
