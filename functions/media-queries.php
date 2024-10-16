@@ -14,6 +14,7 @@ function renata_theme_media_queries() {
                 #skills.container .content ul li{border-radius:10px;}
                 #experience .certifications .card-timeline{padding-left:216px;}
                 #contact.container .section{grid-template-columns:auto 250px;width:min-content;}
+                #contact.container .section > div:nth-child(1){min-width:400px;}
             }
 
             @media(min-width:1024px){

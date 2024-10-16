@@ -171,26 +171,26 @@ function renata_theme_custom_frontpage_css(){
                             0 28px 28px rgb(0 0 0 / 5%),
                             0 38px 38px rgb(0 0 0 / 6%);
             }
-            #contact.container .section h2{font-weight:400;}
-            #contact.container .section > div{padding:20px;}
-            #contact.container .section > div:nth-child(1){background-color:#fff;position:relative;}
-            #contact.container .section > div:nth-child(2){background-color:#0C0E12;display:grid;gap:20px;align-content:baseline;}
-            #contact.container .section .contact-form{display:flex;flex-wrap:wrap;gap:1rem;overflow:hidden;margin-bottom:0;transition:all .3s ease;}
-            #contact.container .section .contact-form p{display:flex;flex-direction:column;flex:1 0 14rem;}
-            #contact.container .section .contact-form p.button-wrapper{flex:1 0 20rem;}
-            #contact.container .section .contact-form p label{color:#323232;margin-bottom:5px;}
-            #contact.container .section .contact-form p .input{border:1px solid transparent;border-bottom:1px solid #323232;background-color:#fff;font-family:'Roboto';font-weight:400;font-size:16px;padding:10px;transition:all.3s ease;}
-            #contact.container .section .contact-form p .input:focus{outline:none;border-bottom-color:orange;color:#323232;}
-            #contact.container .section .contact-form p.textarea-wrapper textarea{box-sizing:border-box;width:100%;}
-            #contact.container .section .contact-form p button{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:10px 20px;border:1px solid #323232;border-radius:4px;background-color:transparent;color:#323232;transition:all .3s ease;}
-            #contact.container .section .contact-form p button:hover{background-color:#323232;color:#fff;cursor:pointer;}
-            #contact.container .section .contact-form p button:focus{outline:none;background-color:orange;color:#fff;border-color:orange;}
-            #contact.container .section .contact-form p :is(button.disabled,button.disabled:hover){border:1px solid #ccc;color:#ccc;background-color:#f6f6f6;cursor:auto;}
-            #contact.container .section ul{padding-left:0;margin:0;list-style:none;display:grid;}
-            #contact.container .section ul li{display:inline-flex;align-items:center;gap:10px;height:38px;color:#fff;}
-            #contact.container .section ul li a{text-decoration:none;display:inline-flex;align-items:center;gap:10px;color:#fff;border-radius:2px;transition:all .3s ease;}
-            #contact.container .section ul li a:focus{outline:none;background-color:orange;box-shadow: 0 0 0 3px orange;}
-            #contact.container .section .contact__information--people{display:flex;align-items:center;gap:20px;}
+            #contact .section h2{font-weight:400;}
+            #contact .section > div{padding:20px;}
+            #contact .section > div:nth-child(1){background-color:#fff;position:relative;}
+            #contact .section > div:nth-child(2){background-color:#0C0E12;display:grid;gap:20px;align-content:baseline;}
+            #contact .section .contact-form{display:flex;flex-wrap:wrap;gap:1rem;overflow:hidden;margin-bottom:0;transition:all .3s ease;}
+            #contact .section .contact-form p{display:flex;flex-direction:column;flex:1 0 14rem;}
+            #contact .section .contact-form p.button-wrapper{flex:1 0 20rem;}
+            #contact .section .contact-form p label{color:#323232;margin-bottom:5px;}
+            #contact .section .contact-form p .input{border:1px solid transparent;border-bottom:1px solid #323232;background-color:#fff;font-family:'Roboto';font-weight:400;font-size:16px;padding:10px;transition:all.3s ease;}
+            #contact .section .contact-form p .input:focus{outline:none;border-bottom-color:orange;color:#323232;}
+            #contact .section .contact-form p.textarea-wrapper textarea{box-sizing:border-box;width:100%;}
+            #contact .section .contact-form p button{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:10px 20px;border:1px solid #323232;border-radius:4px;background-color:transparent;color:#323232;transition:all .3s ease;}
+            #contact .section .contact-form p button:hover{background-color:#323232;color:#fff;cursor:pointer;}
+            #contact .section .contact-form p button:focus{outline:none;background-color:orange;color:#fff;border-color:orange;}
+            #contact .section .contact-form p :is(button.disabled,button.disabled:hover){border:1px solid #ccc;color:#ccc;background-color:#f6f6f6;cursor:auto;}
+            #contact .section ul{padding-left:0;margin:0;list-style:none;display:grid;}
+            #contact .section ul li{display:inline-flex;align-items:center;gap:10px;height:38px;color:#fff;}
+            #contact .section ul li a{text-decoration:none;display:inline-flex;align-items:center;gap:10px;color:#fff;border-radius:2px;transition:all .3s ease;}
+            #contact .section ul li a:focus{outline:none;background-color:orange;box-shadow: 0 0 0 3px orange;}
+            #contact .section .contact__information--people{display:flex;align-items:center;gap:20px;}
             #title--get-in-touch{overflow:hidden;transition:all .3s ease;}
             #message-sent__wrapper{overflow:hidden;transition:all .3s ease;}
             #message-sent__wrapper h2{font-weight:400;}
