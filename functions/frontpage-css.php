@@ -171,8 +171,8 @@ function renata_theme_custom_frontpage_css(){
             #contact .section .contact-form p{display:flex;flex-direction:column;flex:1 0 14rem;}
             #contact .section .contact-form p.button-wrapper{flex:1 0 20rem;}
             #contact .section .contact-form p label{color:#323232;margin-bottom:5px;}
-            #contact .section .contact-form p .input{border:1px solid transparent;border-bottom:1px solid #323232;background-color:#fff;font-family:'Roboto';font-weight:400;font-size:16px;padding:10px;transition:all.3s ease;}
-            #contact .section .contact-form p .input:focus{outline:none;border-bottom-color:orange;color:#323232;}
+            #contact .section .contact-form p .input{padding:10px 37px 10px 10px;background-color:#212529;border:1px solid #212529;color:#f6f6f6;border-radius:6px;font-size:16px;}
+            #contact .section .contact-form p .input:focus{outline:none;}
             #contact .section .contact-form p.textarea-wrapper textarea{box-sizing:border-box;width:100%;}
             #contact .section .contact-form p button{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:10px 20px;border:1px solid #323232;border-radius:4px;background-color:transparent;color:#323232;transition:all .3s ease;}
             #contact .section .contact-form p button:hover{background-color:#323232;color:#fff;cursor:pointer;}
