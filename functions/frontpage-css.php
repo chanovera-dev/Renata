@@ -161,9 +161,9 @@ function renata_theme_custom_frontpage_css(){
             .certifications .card-item-desc{color:#9198a1;font-size:16px;margin-top:6px;}
 
             /* contact */
-            #contact{background-color:#0C0E12;padding:60px 0 120px;}
+            #contact{background-color:#0C0E12;padding:120px 0;}
             #contact .section{display:grid;border-radius:10px;overflow:hidden;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;}
-            #contact .section h2{font-weight:400;}
+            #contact .section h2{font-family:'Text me one';margin-bottom:20px;}
             #contact .section > div{padding:20px;}
             #contact .section > div:nth-child(1){background-color:#fff;position:relative;}
             #contact .section > div:nth-child(2){background-color:#11151A;display:grid;gap:20px;align-content:baseline;}
