@@ -24,7 +24,7 @@
                 <h2>The message has be send</h2>
             </div>
             <button id="show-form" onclick="showForm()" style="max-height:0;">
-                Nuevo
+                New
             </button>
         </div>
         <div class="contact__information">
