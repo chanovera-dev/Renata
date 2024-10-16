@@ -174,8 +174,8 @@ function renata_theme_custom_frontpage_css(){
             #contact .section .contact-form p .input{padding:10px;background-color:#26303b;border:1px solid #26303b;color:#f6f6f6;border-radius:6px;font-size:16px;}
             #contact .section .contact-form p .input:focus{outline:none;}
             #contact .section .contact-form p.textarea-wrapper textarea{box-sizing:border-box;width:100%;}
-            #contact .section .contact-form p button{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:all .3s ease;}
-            #contact .section .contact-form p button:hover{background-color:#323232;color:#fff;cursor:pointer;}
+            #contact .section .contact-form p button{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;color:#11151A;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:all .3s ease;}
+            #contact .section .contact-form p button:hover{background-color:#fff;cursor:pointer;}
             #contact .section .contact-form p button:focus{outline:none;background-color:orange;color:#fff;border-color:orange;}
             #contact .section .contact-form p :is(button.disabled,button.disabled:hover){border:1px solid #11151A;color:#11151A;background-color:transparent;cursor:auto;}
             #contact .section ul{padding-left:0;margin:0;list-style:none;display:grid;}
