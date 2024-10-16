@@ -174,7 +174,7 @@ function renata_theme_custom_frontpage_css(){
             #contact.container .section h2{font-weight:400;}
             #contact.container .section > div{padding:20px;}
             #contact.container .section > div:nth-child(1){background-color:#fff;position:relative;}
-            #contact.container .section > div:nth-child(2){background-color:#11151A;display:grid;gap:20px;align-content:baseline;}
+            #contact.container .section > div:nth-child(2){background-color:#0C0E12;display:grid;gap:20px;align-content:baseline;}
             #contact.container .section .contact-form{display:flex;flex-wrap:wrap;gap:1rem;overflow:hidden;margin-bottom:0;transition:all .3s ease;}
             #contact.container .section .contact-form p{display:flex;flex-direction:column;flex:1 0 14rem;}
             #contact.container .section .contact-form p.button-wrapper{flex:1 0 20rem;}
