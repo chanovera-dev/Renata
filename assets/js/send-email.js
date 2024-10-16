@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Envío del formulario mediante AJAX
         let xhr = new XMLHttpRequest();
-        xhr.open("POST", "wp-content/themes/Renata/functions/send-email.php", true);
+        xhr.open("POST", my_ajax_obj.send_email_url, true);
         xhr.onreadystatechange = function() {
             if (xhr.readyState === XMLHttpRequest.DONE) {
                 if (xhr.status === 200) {
