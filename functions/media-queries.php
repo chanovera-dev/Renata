@@ -9,6 +9,7 @@ function renata_theme_media_queries() {
                 #mobile-header{display:none;}
                 #desktop-header{display:inherit;}
                 #hero.container .introduction{text-align:left;height:calc(100svh - 114px);}
+                #hero.container .introduction .contact-me{margin-inline:inherit;}
                 .blog main .container .section .posts{grid-template-columns:1fr 1fr;}
                 #skills.container .content .cards__inner{grid-template-columns:repeat(3, 1fr);gap:30px;}
                 #skills.container .content ul li{border-radius:10px;}
