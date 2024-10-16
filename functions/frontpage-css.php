@@ -165,7 +165,7 @@ function renata_theme_custom_frontpage_css(){
             #contact .section{display:grid;border-radius:10px;overflow:hidden;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;}
             #contact .section h2{font-family:'Text me one';margin-bottom:20px;}
             #contact .section > div{padding:20px;}
-            #contact .section > div:nth-child(1){background-color:#fff;position:relative;}
+            #contact .section > div:nth-child(1){background-color:#11151A;position:relative;}
             #contact .section > div:nth-child(2){background-color:#11151A;display:grid;gap:20px;align-content:baseline;}
             #contact .section .contact-form{display:flex;flex-wrap:wrap;gap:1rem;overflow:hidden;margin-bottom:0;transition:all .3s ease;}
             #contact .section .contact-form p{display:flex;flex-direction:column;flex:1 0 14rem;}
