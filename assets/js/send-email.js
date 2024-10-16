@@ -11,28 +11,6 @@ function onloadRecaptcha(entries, observer) {
     });
 }
 
-// Función para manejar la expiración del reCAPTCHA
-function onRecaptchaExpired() {
-    captchaExpired = true; // Marca que el reCAPTCHA ha caducado
-    disableSubmitButton(); // Deshabilita el botón de envío
-}
-
-// Función para deshabilitar el botón de envío
-function disableSubmitButton() {
-    const submitBtn = document.getElementById('submitBtn');
-    submitBtn.setAttribute('disabled', 'true');
-    submitBtn.classList.add('disabled');
-}
-
-// Función para habilitar el botón de envío
-function enableSubmitButton() {
-    const submitBtn = document.getElementById('submitBtn');
-    if (!captchaExpired) {
-        submitBtn.removeAttribute('disabled');
-        submitBtn.classList.remove('disabled');
-    }
-}
-
 // Observador de intersección para la sección
 const observer1 = new IntersectionObserver(onloadRecaptcha, {
     root: null,
@@ -40,22 +18,15 @@ const observer1 = new IntersectionObserver(onloadRecaptcha, {
     threshold: 0.5 // Cuando el 50% de la sección sea visible
 });
 
-// Agrega el evento al reCAPTCHA
-window.onload = function() {
-    if (typeof grecaptcha !== 'undefined') {
-        grecaptcha.render('your-recaptcha-element-id', {
-            'sitekey': 'your-site-key',
-            'callback': enableSubmitButton,
-            'expired-callback': onRecaptchaExpired // Callback cuando caduca
-        });
-    }
-};
-
 // Elemento a observar
 const form = document.getElementById('contact');
 
 observer1.observe(form);
 
+function enableSubmitButton() {
+    document.getElementById('submitBtn').removeAttribute('disabled');
+    document.getElementById('submitBtn').classList.remove('disabled');
+}
 
 document.addEventListener("DOMContentLoaded", function() {
     let form = document.getElementById("contact-form");
