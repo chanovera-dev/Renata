@@ -161,9 +161,9 @@ function renata_theme_custom_frontpage_css(){
             .certifications .card-item-desc{color:#9198a1;font-size:16px;margin-top:6px;}
 
             /* contact */
-            #contact.container{background-color:#434035;padding:85px 0;}
-            #contact.container .section{
-                display:grid;grid-template-columns:repeat(auto-fill, minmax(333px, 1fr));border-radius:6px;overflow:hidden;
+            #contact{background-color:#11151A;padding:60px 0 120px;}
+            #contact .section{
+                display:grid;border-radius:6px;overflow:hidden;
                 box-shadow:0 2px 2px rgb(0 0 0 / 1%),
                             0 4px 4px rgb(0 0 0 / 2%),
                             0 8px 8px rgb(0 0 0 / 3%),
