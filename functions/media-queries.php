@@ -13,6 +13,7 @@ function renata_theme_media_queries() {
                 #skills.container .content .cards__inner{grid-template-columns:repeat(3, 1fr);gap:30px;}
                 #skills.container .content ul li{border-radius:10px;}
                 #experience .certifications .card-timeline{padding-left:216px;}
+                #contact.container .section{grid-template-columns:auto 250px;}
             }
 
             @media(min-width:1024px){
