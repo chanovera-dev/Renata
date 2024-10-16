@@ -2,26 +2,7 @@
     <section class="section content">
         <div id="contact-form__wrapper">
             <h2 id="title--get-in-touch">Get in touch</h2>
-            <form action="" method="post" id="contact-form" class="contact-form" style="max-height:700px;">
-                <p>
-                    <label for="email">Your email</label>
-                    <input id="email" class="input" type="email" value-size="40" name="email" aria-required="true" aria-invalid="false" autocomplete="on" required>
-                </p>
-                <p class="textarea-wrapper">
-                    <label for="message">Your message</label>
-                    <textarea id="message" name="message" class="input" type="text" cols="40" rows="2" aria-invalid="false"></textarea>
-                </p>
-                <div class="g-recaptcha" data-sitekey="6Le4TWMqAAAAAPpdWWeeoaZJpzV3elyQZPO7GCUH" data-callback="enableSubmitButton"></div>
-                <p class="button-wrapper">
-                    <button type="submit" id="submitBtn" disabled class="disabled">Send</button>
-                </p>
-            </form>
-            <div id="message-sent__wrapper" style="max-height:0;">
-                <h2>The message has be send</h2>
-            </div>
-            <button id="show-form" onclick="showForm()" style="max-height:0;">
-                New
-            </button>
+            
         </div>
         <div class="contact__information">
         <ul class="contact__information--address">
