@@ -11,7 +11,7 @@
                     <label for="message">Your message</label>
                     <textarea id="message" name="message" class="input" type="text" cols="40" rows="2" aria-invalid="false"></textarea>
                 </p>
-                <div class="g-recaptcha" data-sitekey="6Lcuq84iAAAAADp02u-ab4InXA3BN96upIUrxbIv" data-callback="enableSubmitButton"></div>
+                <div class="g-recaptcha" data-sitekey="6Le4TWMqAAAAAPpdWWeeoaZJpzV3elyQZPO7GCUH" data-callback="enableSubmitButton"></div>
                 <p class="button-wrapper">
                     <button type="submit" id="submitBtn" disabled class="disabled">Send</button>
                 </p>
