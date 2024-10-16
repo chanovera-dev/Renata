@@ -14,6 +14,11 @@ function renata_frontpage_styles() {
             wp_dequeue_style( 'wc-blocks-style' );
             wp_enqueue_script('skills', get_template_directory_uri() . '/assets/js/skills.js', array(), '1.0', true);
             wp_enqueue_script('send-email', get_template_directory_uri() . '/assets/js/send-email.js', array(), '1.0', true);
+            // Pasar la URL a JavaScript
+            wp_localize_script('send-email', 'my_ajax_obj', array(
+                'ajax_url' => admin_url('admin-ajax.php'),
+                'send_email_url' => get_template_directory_uri() . '/functions/send-email.php'
+            ));
         }
         add_action( 'get_footer', 'load_components_footer_frontpage' );
     }
