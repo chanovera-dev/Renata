@@ -170,7 +170,7 @@ function renata_theme_custom_frontpage_css(){
             #contact .section .contact-form{display:flex;flex-wrap:wrap;gap:1rem;overflow:hidden;margin-bottom:0;transition:all .3s ease;}
             #contact .section .contact-form p{display:flex;flex-direction:column;flex:1 0 14rem;}
             #contact .section .contact-form p.button-wrapper{flex:1 0 20rem;}
-            #contact .section .contact-form p label{color:#323232;margin-bottom:5px;}
+            #contact .section .contact-form p label{color:#fff;margin-bottom:5px;font-size:13px;}
             #contact .section .contact-form p .input{padding:10px;background-color:#26303b;border:1px solid #26303b;color:#f6f6f6;border-radius:6px;font-size:16px;}
             #contact .section .contact-form p .input:focus{outline:none;}
             #contact .section .contact-form p.textarea-wrapper textarea{box-sizing:border-box;width:100%;}
