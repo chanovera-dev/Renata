@@ -15,7 +15,7 @@ function onloadRecaptcha(entries, observer) {
 const observer1 = new IntersectionObserver(onloadRecaptcha, {
     root: null,
     rootMargin: '0px',
-    threshold: 0.5 // Cuando el 50% de la sección sea visible
+    threshold: 0.1 // Cuando el 10% de la sección sea visible
 });
 
 // Elemento a observar
