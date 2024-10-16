@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Envío del formulario mediante AJAX
         let xhr = new XMLHttpRequest();
-        xhr.open("POST", "functions/send-email.php", true);
+        xhr.open("POST", "<?php echo get_template_directory_uri(); ?>/functions/send-email.php", true);
         xhr.onreadystatechange = function() {
             if (xhr.readyState === XMLHttpRequest.DONE) {
                 if (xhr.status === 200) {
