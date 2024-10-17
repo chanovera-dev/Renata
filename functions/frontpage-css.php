@@ -67,7 +67,10 @@ function renata_theme_custom_frontpage_css(){
                 0%    {opacity:0;transform:translateX(-100%);}
                 33.33%{opacity:0;transform:translateX(-100%);}
                 50%   {opacity:1;transform:translateX(0);}
+                60%   {opacity:1;transform:translateX(0);}
                 70%   {opacity:1;transform:translateX(20px);}
+                80%   {opacity:1;transform:translateX(0);}
+                90%   {opacity:1;transform:translateX(20px);}
                 100%  {opacity:1;transform:translateX(0);}
             }
             #hero .introduction .contact-me{margin-inline:auto;padding:6px 16px;border:2px solid #3fb950;border-radius:6px;background-color:#3fb950;color:#11151A;font-size:20px;margin-top:30px;display:flex;align-items:center;gap:10px;transition:all .3s ease;}
