@@ -141,19 +141,26 @@ function custom_archives_link($link_html, $url, $text, $format, $before, $after)
 }
 add_filter('get_archives_link', 'custom_archives_link', 10, 6);
 
-// Personaliza la salida de wp_list_categories()
-function custom_category_list($links, $args) {
-    // Usa la función wp_list_categories con el argumento 'echo' en false para capturar la salida
-    ob_start();
-    wp_list_categories(array_merge($args, array('echo' => false)));
-    $output = ob_get_clean();
-
-    // Modifica la salida HTML
-    $output = str_replace('<a ', '<a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16"><path d="M0 0a1 1 0 0 1 1-1h4a1 1 0 0 1 .707.293l8 8a1 1 0 0 1 0 1.414l-2 2a1 1 0 0 1-1.414 0l-8-8A1 1 0 0 1 0 0zM10 3.414L7.586 1H1a1 1 0 0 0-1 1v6.586L2.414 7H10V3.414zM11 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1z"/></svg> ', $output);
+// Personaliza la salida de las categorías en el widget
+function custom_category_links($output, $args) {
+    // Usa el output original para procesar las categorías
+    $output = preg_replace_callback(
+        '/<a href="([^"]+)">([^<]+)<\/a>/',
+        function ($matches) {
+            // Crea el nuevo enlace con el SVG
+            return '<li><a href="' . esc_url($matches[1]) . '">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+                <path d="M0 0a1 1 0 0 1 1-1h4a1 1 0 0 1 .707.293l8 8a1 1 0 0 1 0 1.414l-2 2a1 1 0 0 1-1.414 0l-8-8A1 1 0 0 1 0 0zM10 3.414L7.586 1H1a1 1 0 0 0-1 1v6.586L2.414 7H10V3.414zM11 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1z"/>
+            </svg>
+            ' . esc_html($matches[2]) . '</a></li>';
+        },
+        $output
+    );
 
     return $output;
 }
-add_filter('wp_list_categories', 'custom_category_list', 10, 2);
+add_filter('wp_list_categories', 'custom_category_links', 10, 2);
+
 
 // A N E X O S
 /* anexo para cargar el css que se usa en todas las páginas */
