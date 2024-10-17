@@ -14,8 +14,8 @@ function renata_theme_custom_frontpage_css(){
             .page-template-front-page #mobile-header .site-brand{animation-name:animation-header-2;}
             .page-template-front-page #mobile-header .open-searchform-mobile--button{animation-name:animation-header-3;}
             @keyframes animation-header-1{
-                0%  {opacity:0;transform:translateY(-60px);}
-                100%{opacity:1;transform:translateY(0);}
+                0%    {opacity:0;transform:translateY(-60px);}
+                33.33%{opacity:1;transform:translateY(0);}
             }
             @keyframes animation-header-2{
                 0%    {opacity:0;transform:translateY(-60px);}
