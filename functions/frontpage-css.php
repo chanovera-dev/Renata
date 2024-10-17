@@ -50,13 +50,23 @@ function renata_theme_custom_frontpage_css(){
                 100% {opacity:1;transform:translateY(0);}
             }
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:#fff;}
-            #hero .introduction h2{opacity:1;animation-name:animation-introduction; animation-direction:normal; animation-duration:1.5s; animation-timing-function:ease; animation-iteration-count:1;}
-            @keyframes animation-introduction{
+            #hero .introduction h2{
+                opacity:1;
+                animation-name:animation-introduction-name; animation-direction:normal; animation-duration:1.5s; animation-timing-function:ease; animation-iteration-count:1;
+            }
+            @keyframes animation-introduction-name{
                 0%   {opacity:0;transform:translateY(60px);}
                 100% {opacity:1;transform:translateY(0);}
             }
             #hero .introduction h2 span{font-size:42px;color:#3fb950;}
-            #hero .introduction p{padding:3px 7px;background-color:#26303b;border:1px solid #26303b;border-radius:4px;color:#d1d1d1;margin-bottom:24px;font-size:13px;display:inline-block;}
+            #hero .introduction p{
+                padding:3px 7px;background-color:#26303b;border:1px solid #26303b;border-radius:4px;color:#d1d1d1;margin-bottom:24px;font-size:13px;display:inline-block;opacity:1;
+                animation-name:animation-introduction-p; animation-direction:normal; animation-duration:1.5s; animation-timing-function:ease; animation-iteration-count:1;
+            }
+            @keyframes animation-introduction-p{
+                50%   {opacity:0;transform:translateX(-100);}
+                100% {opacity:1;transform:translateX(0);}
+            }
             #hero .introduction .contact-me{margin-inline:auto;padding:6px 16px;border:2px solid #3fb950;border-radius:6px;background-color:#3fb950;color:#11151A;font-size:20px;margin-top:30px;display:flex;align-items:center;gap:10px;transition:all .3s ease;}
             #hero .introduction .contact-me:hover{background-color:#fff;cursor:pointer;}
 
