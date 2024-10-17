@@ -143,9 +143,9 @@ add_filter('get_archives_link', 'custom_archives_link', 10, 6);
 
 // Personaliza la salida de las categorías en el widget
 function custom_category_links($output, $args) {
-    // Reemplaza cada enlace de categoría, asegurando que no se generen <li> vacíos
+    // Reemplaza cada enlace de categoría
     $output = preg_replace_callback(
-        '/<li[^>]*><a href="([^"]+)">([^<]+)<\/a><\/li>/',
+        '/<a href="([^"]+)">([^<]+)<\/a>/',
         function ($matches) {
             // Crea el nuevo enlace con el SVG
             return '<li><a href="' . esc_url($matches[1]) . '">
@@ -156,6 +156,9 @@ function custom_category_links($output, $args) {
         },
         $output
     );
+
+    // Asegúrate de que no haya <li> vacíos
+    $output = str_replace('<li></li>', '', $output);
 
     return $output;
 }
