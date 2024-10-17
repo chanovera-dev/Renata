@@ -145,20 +145,24 @@ add_filter('get_archives_link', 'custom_archives_link', 10, 6);
 function custom_category_links($output, $args) {
     // Reemplaza cada enlace de categoría
     $output = preg_replace_callback(
-        '/<a href="([^"]+)">([^<]+)<\/a>/',
+        '/<li[^>]*><a href="([^"]+)">([^<]+)<\/a>(.*?)<\/li>/',
         function ($matches) {
-            // Crea el nuevo enlace con el SVG
-            return '<li><a href="' . esc_url($matches[1]) . '">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
-                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
-            </svg>
-            ' . esc_html($matches[2]) . '</a></li>';
+            // Verifica si el enlace tiene contenido
+            if (!empty($matches[1]) && !empty($matches[2])) {
+                // Crea el nuevo enlace con el SVG
+                return '<li><a href="' . esc_url($matches[1]) . '">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                </svg>
+                ' . esc_html($matches[2]) . '</a></li>';
+            }
+            return ''; // Retorna vacío si no tiene contenido
         },
         $output
     );
 
-    // Asegúrate de que no haya <li> vacíos
-    $output = str_replace('<li></li>', '', $output);
+    // Elimina <li> vacíos
+    $output = preg_replace('/<li>\s*<\/li>/', '', $output);
 
     return $output;
 }
