@@ -11,19 +11,21 @@ function renata_theme_custom_frontpage_css(){
                 opacity:1;
                 animation-name:animation-header-1; animation-direction:normal; animation-duration:1.5s; animation-timing-function:ease; animation-iteration-count:1;
             }
-            .page-template-front-page #mobile-header.container .site-brand{animation-name:animation-header-2;transition-delay:.5s;}
+            .page-template-front-page #mobile-header .site-brand{animation-name:animation-header-2;}
             .page-template-front-page #mobile-header .open-searchform-mobile--button{animation-name:animation-header-3;}
             @keyframes animation-header-1{
                 0%  {opacity:0;transform:translateY(-60px);}
                 100%{opacity:1;transform:translateY(0);}
             }
             @keyframes animation-header-2{
-                0%  {opacity:0;transform:translateY(-60px);}
-                100%{opacity:1;transform:translateY(0);}
+                0%    {opacity:0;transform:translateY(-60px);}
+                23.33%{opacity:0;transform:translateY(-60px);}
+                56.66%{opacity:1;transform:translateY(0);}
             }
             @keyframes animation-header-3{
-                0%  {opacity:0;transform:translateY(-60px);}
-                100%{opacity:1;transform:translateY(0);}
+                0%    {opacity:0;transform:translateY(-60px);}
+                66.66%{opacity:0;transform:translateY(-60px);}
+                100%  {opacity:1;transform:translateY(0);}
             }
             .page-template-front-page #mobile-header .site-brand,
             .page-template-front-page #desktop-header .site-brand{color:#fff;}
