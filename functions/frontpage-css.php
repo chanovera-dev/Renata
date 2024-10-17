@@ -64,6 +64,7 @@ function renata_theme_custom_frontpage_css(){
                 animation-name:animation-introduction-p; animation-direction:normal; animation-duration:1.5s; animation-timing-function:ease; animation-iteration-count:1;
             }
             @keyframes animation-introduction-p{
+                0%    {opacity:0;transform:translateX(-100%);}
                 50%   {opacity:0;transform:translateX(-100%);}
                 100% {opacity:1;transform:translateX(0);}
             }
