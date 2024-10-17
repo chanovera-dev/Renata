@@ -64,7 +64,7 @@ function renata_theme_custom_frontpage_css(){
                 animation-name:animation-introduction-p; animation-direction:normal; animation-duration:1.5s; animation-timing-function:ease; animation-iteration-count:1;
             }
             @keyframes animation-introduction-p{
-                50%   {opacity:0;transform:translateX(-100);}
+                50%   {opacity:0;transform:translateX(-100%);}
                 100% {opacity:1;transform:translateX(0);}
             }
             #hero .introduction .contact-me{margin-inline:auto;padding:6px 16px;border:2px solid #3fb950;border-radius:6px;background-color:#3fb950;color:#11151A;font-size:20px;margin-top:30px;display:flex;align-items:center;gap:10px;transition:all .3s ease;}
