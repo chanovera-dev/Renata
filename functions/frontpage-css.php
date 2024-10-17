@@ -9,7 +9,7 @@ function renata_theme_custom_frontpage_css(){
             .page-template-front-page #desktop-header{background-color:#11151A;}
             .page-template-front-page #mobile-header :is(.open-menu-mobile--button,.site-brand,.open-searchform-mobile--button){
                 opacity:1;
-                animation-name:animation-header; animation-direction:normal; animation-duration:2s; animation-timing-function:ease; animation-iteration-count:1;
+                animation-name:animation-header-1; animation-direction:normal; animation-duration:2s; animation-timing-function:ease; animation-iteration-count:1;
             }
             .page-template-front-page #mobile-header .site-brand{animation-name:animation-header-2;}
             .page-template-front-page #mobile-header .open-searchform-mobile--button{animation-name:animation-header-3;}
