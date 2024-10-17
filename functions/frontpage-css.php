@@ -19,13 +19,13 @@ function renata_theme_custom_frontpage_css(){
             }
             @keyframes animation-header-2{
                 0%    {opacity:0;transform:translateY(-60px);}
-                23.33%{opacity:0;transform:translateY(-60px);}
-                56.66%{opacity:1;transform:translateY(0);}
+                13.33%{opacity:0;transform:translateY(-60px);}
+                46.66%{opacity:1;transform:translateY(0);}
             }
             @keyframes animation-header-3{
                 0%    {opacity:0;transform:translateY(-60px);}
-                66.66%{opacity:0;transform:translateY(-60px);}
-                100%  {opacity:1;transform:translateY(0);}
+                26.66%{opacity:0;transform:translateY(-60px);}
+                56.66%{opacity:1;transform:translateY(0);}
             }
             .page-template-front-page #mobile-header .site-brand,
             .page-template-front-page #desktop-header .site-brand{color:#fff;}
