@@ -141,18 +141,19 @@ function custom_archives_link($link_html, $url, $text, $format, $before, $after)
 }
 add_filter('get_archives_link', 'custom_archives_link', 10, 6);
 
-// salida de wp_list_categories() personalizada
-function custom_category_link($link_html, $term, $taxonomy) {
-    // Modifica $link_html para personalizar la estructura del enlace
-    $custom_link = '<li><a href="' . esc_url($url) . '">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
-        <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-    </svg>
-    ' . $text . '</a></li>';
-    // Return the modified link HTML
-    return $before . $custom_link . $after;
+// Personaliza la salida de wp_list_categories()
+function custom_category_list($links, $args) {
+    // Usa la función wp_list_categories con el argumento 'echo' en false para capturar la salida
+    ob_start();
+    wp_list_categories(array_merge($args, array('echo' => false)));
+    $output = ob_get_clean();
+
+    // Modifica la salida HTML
+    $output = str_replace('<a ', '<a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16"><path d="M0 0a1 1 0 0 1 1-1h4a1 1 0 0 1 .707.293l8 8a1 1 0 0 1 0 1.414l-2 2a1 1 0 0 1-1.414 0l-8-8A1 1 0 0 1 0 0zM10 3.414L7.586 1H1a1 1 0 0 0-1 1v6.586L2.414 7H10V3.414zM11 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1z"/></svg> ', $output);
+
+    return $output;
 }
-add_filter('category_link', 'custom_category_link', 10, 3);
+add_filter('wp_list_categories', 'custom_category_list', 10, 2);
 
 // A N E X O S
 /* anexo para cargar el css que se usa en todas las páginas */
