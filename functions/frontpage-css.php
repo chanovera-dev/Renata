@@ -5,18 +5,19 @@ function renata_theme_custom_frontpage_css(){
         <style>
             body{background-color:#11151A;}
             /* header */
-            .page-template-front-page #mobile-header :is(.open-menu-mobile--button,.site-brand,.open-searchform-mobile--button),
-            .page-template-front-page #desktop-header :is(.open-menu-mobile--button,.site-brand,.open-searchform-mobile--button){
-                background-color:#11151A;opacity:1;
+            .page-template-front-page #mobile-header,
+            .page-template-front-page #desktop-header{background-color:#11151A;}
+            .page-template-front-page #mobile-header :is(.open-menu-mobile--button,.site-brand,.open-searchform-mobile--button){
+                opacity:1;
                 animation-name:animation-header; animation-direction:normal; animation-duration:1.5s; animation-timing-function:ease; animation-iteration-count:1;
             }
+            .page-template-front-page #mobile-header :is(.site-brand,.open-searchform-mobile--button){animation-delay:1.5s;}
             @keyframes animation-header{
                 0%   {opacity:0;transform:translateY(-60px);}
                 100% {opacity:1;transform:translateY(0);}
             }
-            .page-template-front-page #mobile-header .open-searchform-mobile--button{transition-delay:3s;}
             .page-template-front-page #mobile-header .site-brand,
-            .page-template-front-page #desktop-header .site-brand{color:#fff;transition-delay:1.5s;}
+            .page-template-front-page #desktop-header .site-brand{color:#fff;}
             .page-template-front-page #mobile-header .header-content button{background-color:#11151A;color:#fff;}
             .page-template-front-page #desktop-header .header-content ul li a{color:#9198a1;}
             .page-template-front-page #desktop-header .header-content ul li a:hover{color:#fff;}
