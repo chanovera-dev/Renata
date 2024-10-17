@@ -66,7 +66,7 @@ function renata_theme_custom_frontpage_css(){
             @keyframes animation-introduction-p{
                 0%    {opacity:0;transform:translateX(-100%);}
                 33.33%{opacity:0;transform:translateX(-100%);}
-                50%   {opacity:1;transform:translateX(20px);}
+                50%   {opacity:1;transform:translateX(0);}
                 70%   {opacity:1;transform:translateX(20px);}
                 100%  {opacity:1;transform:translateX(0);}
             }
