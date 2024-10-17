@@ -143,7 +143,7 @@ add_filter('get_archives_link', 'custom_archives_link', 10, 6);
 
 // Personaliza la salida de las categorías en el widget
 function custom_category_links($output, $args) {
-    // Usa el output original para procesar las categorías
+    // Reemplaza cada enlace de categoría
     $output = preg_replace_callback(
         '/<a href="([^"]+)">([^<]+)<\/a>/',
         function ($matches) {
@@ -157,10 +157,12 @@ function custom_category_links($output, $args) {
         $output
     );
 
+    // Asegúrate de que no haya <li> vacíos
+    $output = str_replace('<li></li>', '', $output);
+
     return $output;
 }
 add_filter('wp_list_categories', 'custom_category_links', 10, 2);
-
 
 // A N E X O S
 /* anexo para cargar el css que se usa en todas las páginas */
