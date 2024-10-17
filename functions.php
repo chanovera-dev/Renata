@@ -157,9 +157,6 @@ function custom_category_links($output, $args) {
         $output
     );
 
-    // Asegúrate de que no haya <li> vacíos
-    $output = str_replace('<li></li>', '', $output);
-
     return $output;
 }
 add_filter('wp_list_categories', 'custom_category_links', 10, 2);
