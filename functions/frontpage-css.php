@@ -11,7 +11,7 @@ function renata_theme_custom_frontpage_css(){
                 opacity:1;
                 animation-name:animation-header; animation-direction:normal; animation-duration:1.5s; animation-timing-function:ease; animation-iteration-count:1;
             }
-            .page-template-front-page #mobile-header :is(.site-brand,.open-searchform-mobile--button){animation-delay:1s;}
+            .page-template-front-page #mobile-header :is(.site-brand,.open-searchform-mobile--button){animation-delay:.5s;}
             @keyframes animation-header{
                 0%   {opacity:0;transform:translateY(-60px);}
                 100% {opacity:1;transform:translateY(0);}
