@@ -61,12 +61,12 @@ function renata_theme_custom_frontpage_css(){
             #hero .introduction h2 span{font-size:42px;color:#3fb950;}
             #hero .introduction p{
                 padding:3px 7px;background-color:#26303b;border:1px solid #26303b;border-radius:4px;color:#d1d1d1;margin-bottom:24px;font-size:13px;display:inline-block;opacity:1;
-                animation-name:animation-introduction-p; animation-direction:normal; animation-duration:1.5s; animation-timing-function:ease; animation-iteration-count:1;
+                animation-name:animation-introduction-p; animation-direction:normal; animation-duration:2s; animation-timing-function:ease; animation-iteration-count:1;
             }
             @keyframes animation-introduction-p{
                 0%    {opacity:0;transform:translateX(-100%);}
-                33.33%{opacity:0;transform:translateX(-100%);}
-                50%   {opacity:1;transform:translateX(0);}
+                20%   {opacity:0;transform:translateX(-100%);}
+                30%   {opacity:1;transform:translateX(0);}
                 60%   {opacity:1;transform:translateX(0);}
                 70%   {opacity:1;transform:translateX(20px);}
                 80%   {opacity:1;transform:translateX(0);}
