@@ -86,9 +86,9 @@ function renata_theme_custom_frontpage_css(){
             @keyframes animation-introduction-contact-me{
                 0%    {opacity:0;transform:translateX(100%);}
                 66.66%{opacity:0;transform:translateX(100%);}
-                80%   {opacity:1;transform:translateX(0);padding:6px 16px;}
-                90%   {opacity:1;transform:translateX(0);padding:6px 13px;}
-                100%  {opacity:1;transform:translateX(0);padding:6px 16px;}
+                80%   {opacity:1;transform:translateX(0) scale(1, 1);}
+                90%   {opacity:1;transform:translateX(0) scale(.9, 1.1);}
+                100%  {opacity:1;transform:translateX(0) scale(1, 1);}
             }
 
             /* about | skills | portfolio */
