@@ -81,6 +81,7 @@ function renata_theme_custom_frontpage_css(){
             #hero .introduction .contact-me{
                 margin-inline:auto;padding:6px 16px;border:2px solid #3fb950;border-radius:6px;background-color:#3fb950;color:#11151A;font-size:20px;margin-top:30px;display:flex;align-items:center;gap:10px;transition:all .3s ease;
                 animation:bounce-in-right 1.5s 3s both;
+                animation:wobble-hor-top .8s 4.5s both;
             }
             #hero .introduction .contact-me:hover{background-color:#fff;cursor:pointer;}
             @keyframes bounce-in-right{
@@ -92,6 +93,14 @@ function renata_theme_custom_frontpage_css(){
                 90%{transform:translateX(0);animation-timing-function:ease-out;}
                 95%{transform:translateX(8px);animation-timing-function:ease-in;}
                 100%{transform:translateX(0);animation-timing-function:ease-out;}
+            }
+            @keyframes wobble-hor-top{
+                0%,100%{transform:translateX(0);transform-origin:50% 50%}
+                15%{transform:translateX(-30px) rotate(6deg)}
+                30%{transform:translateX(15px) rotate(-6deg)}
+                45%{transform:translateX(-15px) rotate(3.6deg)}
+                60%{transform:translateX(9px) rotate(-2.4deg)}
+                75%{transform:translateX(-6px) rotate(1.2deg)}
             }
             /* about | skills | portfolio */
             :is(#about,#skills,#portfolio){background-color:#0C0E12;color:#fff;}
