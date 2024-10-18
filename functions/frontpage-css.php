@@ -78,8 +78,16 @@ function renata_theme_custom_frontpage_css(){
                 50%  {opacity:0;transform:translateY(60px);}
                 100% {opacity:1;transform:translateY(0);}
             }
-            #hero .introduction .contact-me{margin-inline:auto;padding:6px 16px;border:2px solid #3fb950;border-radius:6px;background-color:#3fb950;color:#11151A;font-size:20px;margin-top:30px;display:flex;align-items:center;gap:10px;transition:all .3s ease;}
+            #hero .introduction .contact-me{
+                margin-inline:auto;padding:6px 16px;border:2px solid #3fb950;border-radius:6px;background-color:#3fb950;color:#11151A;font-size:20px;margin-top:30px;display:flex;align-items:center;gap:10px;transition:all .3s ease;
+                animation-name:animation-introduction-contact-me; animation-direction:normal; animation-duration:4.5s; animation-timing-function:ease; animation-iteration-count:1;
+            }
             #hero .introduction .contact-me:hover{background-color:#fff;cursor:pointer;}
+            @keyframes animation-introduction-contact-me{
+                0%    {opacity:0;transform:translateX(100%);}
+                66.66%{opacity:0;transform:translateX(100%);}
+                100%  {opacity:1;transform:translateX(0);}
+            }
 
             /* about | skills | portfolio */
             :is(#about,#skills,#portfolio){background-color:#0C0E12;color:#fff;}
