@@ -1,8 +1,8 @@
 <div id="portfolio" class="container">
     <section class="section content">
-        <h2>Portfolio</h2>
+        <h2 class="title-portfolio">Portfolio</h2>
         <ul>
-            <li>
+            <li class="card-portfolio">
                 <figure>
                     <picture>
                         <!--
@@ -33,7 +33,7 @@
                     </button>
                 </div>
             </li>
-            <li>
+            <li class="card-portfolio">
                 <figure>
                     <picture>
                         <!-- 
@@ -76,7 +76,7 @@
                     </button>
                 </div>
             </li>
-            <li>
+            <li class="card-portfolio">
                 <figure>
                     <picture>
                         <!--
@@ -107,7 +107,7 @@
                     </button>  
                 </div>
             </li>
-            <li>
+            <li class="card-portfolio">
                 <figure>
                     <picture>
                         <!--
@@ -147,7 +147,7 @@
                     </button>  
                 </div>
             </li>
-            <li>
+            <li class="card-portfolio">
                 <figure>
                     <picture>
                         <!--
@@ -176,7 +176,7 @@
                     </button>
                 </div>  
             </li>
-            <li>
+            <li class="card-portfolio">
                 <figure>
                     <picture>
                         <!--
@@ -216,7 +216,7 @@
                     </button>  
                 </div>
             </li>
-            <li>
+            <li class="card-portfolio">
                 <figure>
                     <picture>
                         <!--
@@ -253,7 +253,7 @@
                     </button>  
                 </div>
             </li>
-            <li>
+            <li class="card-portfolio">
                 <figure>
                     <picture>
                         <!--
@@ -293,7 +293,7 @@
                     </button>  
                 </div>
             </li>
-            <li>
+            <li class="card-portfolio">
                 <figure>
                     <picture>
                         <!--
