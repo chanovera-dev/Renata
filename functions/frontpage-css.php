@@ -69,7 +69,7 @@ function renata_theme_custom_frontpage_css(){
                 95%   {opacity:1;transform:translateX(10px);}
                 100%  {opacity:1;transform:translateX(0);}
             }
-            #hero .introduction h2{
+            #hero .introduction h1{
                 opacity:1;
                 animation-name:animation-introduction-h1; animation-direction:normal; animation-duration:3s; animation-timing-function:ease; animation-iteration-count:1;
             }
