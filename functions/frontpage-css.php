@@ -10,26 +10,15 @@ function renata_theme_custom_frontpage_css(){
             .page-template-front-page #mobile-header :is(.open-menu-mobile--button,.site-brand,.open-searchform-mobile--button),
             .page-template-front-page #desktop-header :is(.site-brand,.menu-primary,.search-form){
                 opacity:1;
-                animation-name:animation-header-1; animation-direction:normal; animation-duration:1.5s; animation-timing-function:ease; animation-iteration-count:1;
+                animation:tilt-in-top-1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
             }
             .page-template-front-page #mobile-header .site-brand,
-            .page-template-front-page #desktop-header .menu-primary{animation-name:animation-header-2;}
+            .page-template-front-page #desktop-header .menu-primary{animation:tilt-in-top-1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;}
             .page-template-front-page #mobile-header .open-searchform-mobile--button,
-            .page-template-front-page #desktop-header .search-form{animation-name:animation-header-3;}
-            
-            @keyframes animation-header-1{
-                0%    {opacity:0;transform:translateY(-60px);}
-                33.33%{opacity:1;transform:translateY(0);}
-            }
-            @keyframes animation-header-2{
-                0%    {opacity:0;transform:translateY(-60px);}
-                13.33%{opacity:0;transform:translateY(-60px);}
-                46.66%{opacity:1;transform:translateY(0);}
-            }
-            @keyframes animation-header-3{
-                0%    {opacity:0;transform:translateY(-60px);}
-                26.66%{opacity:0;transform:translateY(-60px);}
-                56.66%{opacity:1;transform:translateY(0);}
+            .page-template-front-page #desktop-header .search-form{animation:tilt-in-top-1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;}
+            @keyframes tilt-in-top-1 {
+                0%  {transform:rotateY(30deg) translateY(-300px) skewY(-30deg);opacity:0;}
+                100%{transform:rotateY(0deg) translateY(0) skewY(0deg);opacity:1;}
             }
             .page-template-front-page #mobile-header .site-brand,
             .page-template-front-page #desktop-header .site-brand{color:#fff;}
