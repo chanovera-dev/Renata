@@ -84,11 +84,11 @@ function renata_theme_custom_frontpage_css(){
             }
             #hero .introduction .contact-me:hover{background-color:#fff;cursor:pointer;}
             @keyframes animation-introduction-contact-me{
-                0%    {opacity:0;transform:translateX(100%) rotate(7deg);}
-                66.66%{opacity:0;transform:translateX(100%) rotate(7deg);}
-                80%   {opacity:1;transform:translateX(0) rotate(7deg);padding:6px 13px;}
-                90%   {opacity:1;transform:translateX(0) rotate(-3deg);padding:6px 16px;}
-                100%  {opacity:1;transform:translateX(0) rotate(0);padding:6px 16px;}
+                0%    {opacity:0;transform:translateX(100%);}
+                66.66%{opacity:0;transform:translateX(100%);}
+                80%   {opacity:1;transform:translateX(0);padding:6px 13px;}
+                90%   {opacity:1;transform:translateX(0);padding:6px 16px;}
+                100%  {opacity:1;transform:translateX(0);padding:6px 16px;}
             }
 
             /* about | skills | portfolio */
