@@ -88,7 +88,7 @@ function renata_theme_custom_frontpage_css(){
                 66.66%{opacity:0;transform:translateX(100%);}
                 80%   {opacity:1;transform:translateX(0) scale(1, 1);}
                 85%   {opacity:1;transform:translateX(0) scale(.9, 1.1);}
-                85%   {opacity:1;transform:translateX(0) scale(.95, 1.05);}
+                90%   {opacity:1;transform:translateX(0) scale(.95, 1.05);}
                 100%  {opacity:1;transform:translateX(0) scale(1, 1);}
             }
 
