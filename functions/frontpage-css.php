@@ -80,18 +80,19 @@ function renata_theme_custom_frontpage_css(){
             }
             #hero .introduction .contact-me{
                 margin-inline:auto;padding:6px 16px;border:2px solid #3fb950;border-radius:6px;background-color:#3fb950;color:#11151A;font-size:20px;margin-top:30px;display:flex;align-items:center;gap:10px;transition:all .3s ease;
-                animation-name:animation-introduction-contact-me; animation-direction:normal; animation-duration:4.5s; animation-timing-function:ease; animation-iteration-count:infinite;
+                animation:bounce-in-right 1.1s both;
             }
             #hero .introduction .contact-me:hover{background-color:#fff;cursor:pointer;}
-            @keyframes animation-introduction-contact-me{
-                0%    {opacity:0;transform:translateY(-60px);}
-                66.66%{opacity:0;transform:translateY(-60px);}
-                80%   {opacity:1;transform:translateY(-100px);}
-                85%   {opacity:1;transform:translateY(0px);}
-                90%   {opacity:1;transform:translateY(0px);}
-                100%  {opacity:1;transform:translateY(0px);}
+            @keyframes bounce-in-right{
+                0%{transform:translateX(600px);animation-timing-function:ease-in;opacity:0;}
+                38%{transform:translateX(0);animation-timing-function:ease-out;opacity:1;}
+                55%{transform:translateX(68px);animation-timing-function:ease-in;}
+                72%{transform:translateX(0);animation-timing-function:ease-out;}
+                81%{transform:translateX(32px);animation-timing-function:ease-in;}
+                90%{transform:translateX(0);animation-timing-function:ease-out;}
+                95%{transform:translateX(8px);animation-timing-function:ease-in;}
+                100%{transform:translateX(0);animation-timing-function:ease-out;}
             }
-
             /* about | skills | portfolio */
             :is(#about,#skills,#portfolio){background-color:#0C0E12;color:#fff;}
             :is(#about,#skills,#portfolio) .content h2{font-weight:400;font-size:36px;margin-bottom:32px;font-family:'Text me one';color:#fff;}
