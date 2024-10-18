@@ -45,10 +45,6 @@ function renata_theme_custom_frontpage_css(){
             #hero{position:relative;background-color:#11151A;color:#fff;box-shadow:0 18px 20px 0 rgb(0 0 0 / 15%);}
             #hero .section{display:grid;}
             #hero .introduction{min-height:400px;height:calc(100svh - 54px);max-height:1000px;place-content:center;text-align:center;}
-            @keyframes animation-introduction{
-                0%   {opacity:0;transform:translateY(60px);}
-                100% {opacity:1;transform:translateY(0);}
-            }
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:#fff;}
             #hero .introduction h2{
                 opacity:1;
@@ -72,6 +68,15 @@ function renata_theme_custom_frontpage_css(){
                 90%   {opacity:1;transform:translateX(0);}
                 95%   {opacity:1;transform:translateX(10px);}
                 100%  {opacity:1;transform:translateX(0);}
+            }
+            #hero .introduction h2{
+                opacity:1;
+                animation-name:animation-introduction-h1; animation-direction:normal; animation-duration:3s; animation-timing-function:ease; animation-iteration-count:1;
+            }
+            @keyframes animation-introduction-h1{
+                0%   {opacity:0;transform:translateY(60px);}
+                50%  {opacity:0;transform:translateY(60px);}
+                100% {opacity:1;transform:translateY(0);}
             }
             #hero .introduction .contact-me{margin-inline:auto;padding:6px 16px;border:2px solid #3fb950;border-radius:6px;background-color:#3fb950;color:#11151A;font-size:20px;margin-top:30px;display:flex;align-items:center;gap:10px;transition:all .3s ease;}
             #hero .introduction .contact-me:hover{background-color:#fff;cursor:pointer;}
