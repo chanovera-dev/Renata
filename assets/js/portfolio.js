@@ -1,14 +1,14 @@
 // Selecciona todas las tarjetas dentro del contenedor con clase 'cards-portfolio'
-const cards = document.querySelectorAll('.cards-portfolio .card-portfolio');
+const cardsPortfolio = document.querySelectorAll('.cards-portfolio .card-portfolio');
 
 // Función de callback que se ejecuta cuando hay cambios en la visibilidad
-const callback = (entries, observer) => {
+const callback = (entries, observerPortfolio) => {
   entries.forEach(entry => {
     // Verifica si el elemento es visible en al menos un 10%
     if (entry.isIntersecting) {
       entry.target.classList.add('in');
       // Opcionalmente, dejar de observar el elemento después de agregar la clase
-      observer.unobserve(entry.target);
+      observerPortfolio.unobserve(entry.target);
     }
   });
 };
@@ -21,9 +21,9 @@ const options = {
 };
 
 // Crea el observer
-const observer = new IntersectionObserver(callback, options);
+const observerPortfolio = new IntersectionObserver(callback, options);
 
 // Comienza a observar cada tarjeta
-cards.forEach(card => {
-  observer.observe(card);
+cardsPortfolio.forEach(card => {
+  observerPortfolio.observe(card);
 });
