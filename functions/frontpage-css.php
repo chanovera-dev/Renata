@@ -80,7 +80,7 @@ function renata_theme_custom_frontpage_css(){
             }
             #hero .introduction .contact-me{
                 margin-inline:auto;padding:6px 16px;border:2px solid #3fb950;border-radius:6px;background-color:#3fb950;color:#11151A;font-size:20px;margin-top:30px;display:flex;align-items:center;gap:10px;transition:all .3s ease;
-                animation-name:animation-introduction-contact-me; animation-direction:normal; animation-duration:4.5s; animation-timing-function:ease; animation-iteration-count:1;
+                animation-name:animation-introduction-contact-me; animation-direction:normal; animation-duration:4.5s; animation-timing-function:ease; animation-iteration-count:infinite;
             }
             #hero .introduction .contact-me:hover{background-color:#fff;cursor:pointer;}
             @keyframes animation-introduction-contact-me{
