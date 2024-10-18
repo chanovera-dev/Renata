@@ -60,7 +60,7 @@ function renata_theme_custom_frontpage_css(){
             }
             #hero .introduction h1{
                 opacity:1;
-                animation: swing-in-top-fwd 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1.5s both;
+                animation: swing-in-top-fwd 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1.3s both;
             }
             @keyframes swing-in-top-fwd {
                 0%  {transform:translateY(-60px) rotateX(-100deg);transform-origin:top;opacity:0;}
