@@ -13,9 +13,9 @@ function renata_theme_custom_frontpage_css(){
                 animation:tilt-in-top-1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
             }
             .page-template-front-page #mobile-header .site-brand,
-            .page-template-front-page #desktop-header .menu-primary{animation:tilt-in-top-1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;}
+            .page-template-front-page #desktop-header .menu-primary{animation:tilt-in-top-1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .3s both;}
             .page-template-front-page #mobile-header .open-searchform-mobile--button,
-            .page-template-front-page #desktop-header .search-form{animation:tilt-in-top-1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;}
+            .page-template-front-page #desktop-header .search-form{animation:tilt-in-top-1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .6s both;}
             @keyframes tilt-in-top-1 {
                 0%  {transform:rotateY(30deg) translateY(-300px) skewY(-30deg);opacity:0;}
                 100%{transform:rotateY(0deg) translateY(0) skewY(0deg);opacity:1;}
