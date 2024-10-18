@@ -37,7 +37,7 @@ function renata_theme_custom_frontpage_css(){
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:#fff;}
             #hero .introduction h2{
                 opacity:1;
-                animation: tilt-in-fwd-tr 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                animation: tilt-in-fwd-tr 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) .5s both;
             }
             @keyframes tilt-in-fwd-tr {
                 0%  {transform:rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);opacity:0;}
