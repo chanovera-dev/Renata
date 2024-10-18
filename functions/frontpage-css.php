@@ -63,8 +63,8 @@ function renata_theme_custom_frontpage_css(){
                 animation: swing-in-top-fwd 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1.5s both;
             }
             @keyframes swing-in-top-fwd {
-                0%  {transform:rotateX(-100deg);transform-origin:top;opacity:0;}
-                100%{transform:rotateX(0deg);transform-origin:top;opacity:1;}
+                0%  {transform:translateY(-60px) rotateX(-100deg);transform-origin:top;opacity:0;}
+                100%{transform:translateY(0) rotateX(0deg);transform-origin:top;opacity:1;}
             }
             #hero .introduction .contact-me{
                 margin-inline:auto;padding:6px 16px;border:2px solid #3fb950;border-radius:6px;background-color:#3fb950;color:#11151A;font-size:20px;margin-top:30px;display:flex;align-items:center;gap:10px;transition:all .3s ease;
