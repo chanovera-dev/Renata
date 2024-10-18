@@ -37,11 +37,7 @@ function renata_theme_custom_frontpage_css(){
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:#fff;}
             #hero .introduction h2{
                 opacity:1;
-                animation-name:animation-introduction-name; animation-direction:normal; animation-duration:1.5s; animation-timing-function:ease; animation-iteration-count:1;
-            }
-            @keyframes animation-introduction-name{
-                0%   {opacity:0;transform:translateY(60px);}
-                100% {opacity:1;transform:translateY(0);}
+                animation:tilt-in-top-1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
             }
             #hero .introduction h2 span{font-size:42px;color:#3fb950;}
             #hero .introduction p{
