@@ -1,34 +1,29 @@
-// Espera a que el DOM esté completamente cargado
-document.addEventListener("DOMContentLoaded", () => {
-    // Selecciona el elemento con id 'portfolio'
-    const portfolio = document.getElementById('portfolio');
+// Selecciona todas las tarjetas dentro del contenedor con clase 'cards-portfolio'
+const cards = document.querySelectorAll('.cards-portfolio .card-portfolio');
 
-    // Selecciona todas las tarjetas de portfolio
-    const cards = document.querySelectorAll('.card-portfolio');
+// Función de callback que se ejecuta cuando hay cambios en la visibilidad
+const callback = (entries, observer) => {
+  entries.forEach(entry => {
+    // Verifica si el elemento es visible en al menos un 10%
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in');
+      // Opcionalmente, dejar de observar el elemento después de agregar la clase
+      observer.unobserve(entry.target);
+    }
+  });
+};
 
-    // Función que se llamará cuando las tarjetas entren en la vista
-    const handleIntersection = (entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                // Agrega la clase 'in' cuando el elemento es visible
-                entry.target.classList.add('in');
-                // Puedes dejar de observar el elemento si ya no necesitas hacerlo
-                observer.unobserve(entry.target);
-            }
-        });
-    };
+// Configuración del observer
+const options = {
+  root: null, // El viewport del navegador
+  rootMargin: '0px',
+  threshold: 0.1 // 10% de visibilidad
+};
 
-    // Opciones para el observer
-    const options = {
-        root: portfolio, // Elemento raíz
-        threshold: 0.1 // Porcentaje de visibilidad para activar el observer
-    };
+// Crea el observer
+const observer = new IntersectionObserver(callback, options);
 
-    // Crea una instancia del Intersection Observer
-    const observer = new IntersectionObserver(handleIntersection, options);
-
-    // Observa cada tarjeta
-    cards.forEach(card => {
-        observer.observe(card);
-    });
+// Comienza a observar cada tarjeta
+cards.forEach(card => {
+  observer.observe(card);
 });

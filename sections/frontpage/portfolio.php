@@ -1,7 +1,7 @@
 <div id="portfolio" class="container">
     <section class="section content">
         <h2 class="title-portfolio">Portfolio</h2>
-        <ul>
+        <ul class="cards-portfolio">
             <li class="card-portfolio">
                 <figure>
                     <picture>
