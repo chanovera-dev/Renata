@@ -24,6 +24,15 @@ function renata_theme_colors() {
                 --color-button-header:#3D4651;
                 --color-button-header-hover:#000;
 
+                /* menú mobile */
+                --bg-menu-mobile:#dbe1e8;
+                --bg-submenu-mobile-level1:#c3cdd8;
+                --bg-submenu-mobile-level2:#abb9c9;
+                --bg-submenu-mobile-level3:#93a5b9;
+                --border-button-menu-mobile:#dbe1e8;
+                --border-button-menu-mobile-hover:#c3cdd8;
+                --border-button-menu-mobile-focus:#abb9c9;
+
                 /* formularios */
                 --bg-input:#e6ebef;
                 --border-input:#dbe1e8;

@@ -36,16 +36,16 @@ function renata_theme_custom_global_css() {
             #panel-overlay.show{left:0;opacity:1;}
 
             /* contenedor del menú mobile */
-            .menu-mobile--wrapper{position:fixed;top:0;left:-100%;width:100%;max-width:290px;height:100svh;background-color:var(--wp--preset--color--bg-panel);z-index:8;box-shadow:0 10px 21px rgb(0 0 0 / 0%);}
+            .menu-mobile--wrapper{position:fixed;top:0;left:-100%;width:100%;max-width:290px;height:100svh;background-color:var(--bg-menu-mobile);z-index:8;box-shadow:0 10px 21px rgb(0 0 0 / 0%);}
             .menu-mobile--wrapper.open{left:0;box-shadow:var(--wp--preset--shadow--panel);}
             body.lock{overflow:hidden;}
 
             /* nombre del menú y botón de cerrado */
             .menu-mobile--wrapper .name-menu--wrapper{display:flex;align-items:center;justify-content:space-between;height:54px;}
             .menu-mobile--wrapper .name-menu--wrapper .name-menu{padding:0 20px;}
-            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile{width:34px;height:34px;margin:10px;border:none;display:grid;place-content:center;border-radius:6px;background-color:transparent;transition:all .3s ease;}
-            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile:hover{background-color:var(--wp--preset--color--background);}
-            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile:focus{background-color:var(--wp--preset--color--focus);color:#fff;outline:none;}
+            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile{width:34px;height:34px;margin:10px;border:var(--border-button-menu-mobile);display:grid;place-content:center;border-radius:6px;background-color:transparent;transition:all .3s ease;}
+            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile:hover{border-color:var(--border-button-menu-mobile-hover);}
+            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile:focus{border-color:var(--border-button-menu-mobile-focus);outline:none;}
 
             /* menús del menú mobile */
             #menu-mobile{height:100%;overflow-y:scroll;padding-bottom:60px;}
