@@ -5,16 +5,15 @@ function renata_theme_colors() {
     <style>
         @media (prefers-color-scheme: light) {
             :root {
+                --wp--preset--color--bg-header:#fff;
             }
         }
 
         / * Modo oscuro * /
         @media (prefers-color-scheme: dark) {
-
-            body{background-color:#11151A;}
-
-            #mobile-header.container,
-            #desktop-header.container{background-color:#11151A!important;}
+            :root{
+                --wp--preset--color--bg-header:#11151A;
+            }
         }
     </style>
     <?php
