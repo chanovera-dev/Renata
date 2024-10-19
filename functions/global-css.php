@@ -43,7 +43,7 @@ function renata_theme_custom_global_css() {
             /* nombre del menú y botón de cerrado */
             .menu-mobile--wrapper .name-menu--wrapper{display:flex;align-items:center;justify-content:space-between;height:54px;}
             .menu-mobile--wrapper .name-menu--wrapper .name-menu{padding:0 20px;}
-            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile{width:34px;height:34px;margin:10px;border:var(--border-button-menu-mobile);display:grid;place-content:center;border-radius:6px;background-color:transparent;transition:all .3s ease;}
+            .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile{width:34px;height:34px;margin:10px;border:var(--border-button-menu-mobile);display:grid;place-content:center;border-radius:6px;background-color:transparent;color:var(--color-button-header);transition:all .3s ease;}
             .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile:hover{border-color:var(--border-button-menu-mobile-hover);}
             .menu-mobile--wrapper .name-menu--wrapper #close-menu-mobile:focus{border-color:var(--border-button-menu-mobile-focus);outline:none;}
 
