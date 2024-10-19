@@ -11,9 +11,9 @@ function renata_theme_colors() {
         / * Modo oscuro * /
         @media (prefers-color-scheme: dark) {
             :root {
-                --wp--preset--color--bg-header:#11151A;
+                --wp--preset--color--bg-header:#11151A!important;
             }
-            body{background-color:var();}
+            
         }
     </style>
     <?php
