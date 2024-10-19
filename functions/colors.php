@@ -5,6 +5,7 @@ function renata_theme_colors() {
     <style>
         :root {
                 /* generales */
+                --bg-body:#dbe1e8;
                 --white:#f6f6f6;
                 --color-title:#3D4651;
                 --color-text:#3D4651;
@@ -35,6 +36,7 @@ function renata_theme_colors() {
         @media (prefers-color-scheme: dark) {
             :root{
                 /* generales */
+                --bg-body:#171d23;
                 --white:#323232;
                 --color-title:#9198a1;
                 --color-text:#9198a1;
