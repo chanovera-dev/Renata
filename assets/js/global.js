@@ -83,8 +83,8 @@ function menuWithChildrens() {
         var link = item.querySelector('a')
 
         // Agregar la clase 'mobile-links' al enlace
-    link.classList.add('mobile-links');
-    
+        link.classList.add('mobile-links');
+
         // Crear un nuevo botón
         var button = document.createElement('button')
         // Agregar la clase 'mobile-links__item-toggle' al botón
