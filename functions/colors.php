@@ -49,7 +49,7 @@ function renata_theme_colors() {
                 --border-button-header:1px solid #11151A;
                 --border-button-header-hover:#212832;
                 --border-button-header-focus:#303b49;
-                --color-button-header:#3D4651;
+                --color-button-header:#9198a1;
                 --color-button-header-hover:#fff;
 
                 /* formularios */

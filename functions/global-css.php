@@ -24,7 +24,7 @@ function renata_theme_custom_global_css() {
             .page-template-front-page #desktop-header .site-brand a{color:var(--color-text);}
 
             /* botones en el header */
-            #mobile-header .header-content button{display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--bg-button-header);color:var(--color-button-header);border:var(--border-button-header);border-radius:6px;transition:border-color .3s ease;}
+            #mobile-header .header-content button{display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--bg-button-header);color:var(--color-button-header);border:var(--border-button-header);border-radius:6px;transition:all .3s ease;}
             #mobile-header .header-content button:hover{border-color:var(--border-button-header-hover);color:var(--color-button-header-hover);}
             #mobile-header .header-content button:focus{border-color:var(--border-button-header-focus);outline:none;}
 
