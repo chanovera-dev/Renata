@@ -17,6 +17,19 @@ function renata_theme_forms() {
         input[type=url]:hover,
         input[type=search]:hover,
         textarea:hover{border-color:var(--border-input-hover);}
+
+        /* inputs de entrada · placeholder */
+        input[type=text]::placeholder,
+            input[type=email]::placeholder,
+            input[type=tel]::placeholder,
+            input[type=url]::placeholder,
+            input[type=search]::placeholder,
+            textarea::placeholder{
+                font-size:var(--wp--preset--font-size--medium);
+                font-family:var(--wp--preset--font-family--roboto);
+                color:var(--color-placeholder);
+                transition:all .3s ease;
+            }
     </style>
     <?php
 }

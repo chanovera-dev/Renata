@@ -19,6 +19,7 @@ function renata_theme_colors() {
                 --border-input:1px solid #dbe1e8;
                 --border-input-hover:#c3cdd8;
                 --color-input:#3D4651;
+                --color-placeholder:#9fafc1;
             }
 
         /* Modo oscuro */
@@ -39,6 +40,7 @@ function renata_theme_colors() {
                 --border-input:1px solid #2e3a47;
                 --border-input-hover:#3d4d5f;
                 --color-input:#f6f6f6;
+                --color-placeholder:#546a83;
             }
         }
     </style>
