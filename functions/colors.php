@@ -17,6 +17,7 @@ function renata_theme_colors() {
                 /* formularios */
                 --bg-input:#e6ebef;
                 --border-input:1px solid #dbe1e8;
+                --color-input:#3D4651;
                 --border-input-hover:#cfd7e0;
                 --border-color-focus:#c3cdd8;
                 --color-input:#3D4651;
@@ -39,6 +40,7 @@ function renata_theme_colors() {
                 /* formularios */
                 --bg-input:#26303b;
                 --border-input:1px solid #2e3a47;
+                --color-input:#fff;
                 --border-input-hover:#354353;
                 --border-color-focus:#3d4d5f;
                 --color-input:#f6f6f6;
