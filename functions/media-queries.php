@@ -3,6 +3,7 @@
 function renata_theme_media_queries() {
     ?>
         <style>
+            /* header */
             #desktop-header{display:none;}
             
             @media(min-width:768px){

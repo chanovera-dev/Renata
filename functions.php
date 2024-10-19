@@ -174,3 +174,5 @@ require_once(get_template_directory() . '/functions/global-css.php');
 require_once(get_template_directory() . '/functions/media-queries.php');
 // Anexo para definir los componentes personalizados en las plantillas
 require_once(get_template_directory() . '/functions/templates.php');
+// Anexo para definir los colores personalizados en las plantillas
+require_once(get_template_directory() . '/functions/colors.php');
