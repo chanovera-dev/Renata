@@ -9,7 +9,7 @@ function renata_theme_forms() {
         input[type=tel],
         input[type=url],
         input[type=search],
-        textarea{padding:10px;background-color:var(--bg-input);border:var(--border-input);border-radius:6px;font-size:16px;transition:border-color .3s ease;}
+        textarea{padding:10px;background-color:var(--bg-input);border:var(--border-input);border-radius:6px;font-size:16px;color:var(--color-text);transition:border-color .3s ease;}
 
         input[type=text]:hover,
         input[type=email]:hover,
