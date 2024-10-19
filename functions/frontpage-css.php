@@ -18,8 +18,7 @@ function renata_theme_custom_frontpage_css(){
                 0%  {transform:rotateY(30deg) translateY(-300px) skewY(-30deg);opacity:0;}
                 100%{transform:rotateY(0deg) translateY(0) skewY(0deg);opacity:1;}
             }
-            .page-template-front-page #mobile-header .site-brand,
-            .page-template-front-page #desktop-header .site-brand{color:#fff;}
+            
             .page-template-front-page #mobile-header .header-content button{background-color:#11151A;color:#fff;}
             .page-template-front-page #desktop-header .header-content ul li a{color:#9198a1;}
             .page-template-front-page #desktop-header .header-content ul li a:hover{color:#fff;}

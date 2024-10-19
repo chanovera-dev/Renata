@@ -34,7 +34,6 @@ function renata_theme_support(){
         'flex-width'           => true,
         'flex-height'          => true,
         'header-text'          => array( 'site-title', 'site-description' ),
-        'unlink-homepage-logo' => true,
     ) );
 
     add_theme_support( 'html5', array( 

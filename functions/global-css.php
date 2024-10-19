@@ -10,17 +10,21 @@ function renata_theme_custom_global_css() {
             :is(header,footer,aside) :is(ol,ul){padding-left:0;list-style:none;}
             .container .section{width:min(100% - 30px, 1096px);margin-inline:auto;}
             img{display:block;height:auto;}
-            h1,h2,h3,h4,h5,h6{color:var(--wp--preset--color--title);}
-            p{color:var(--wp--preset--color--text);}
-            a{color:var(--wp--preset--color--link);}
+            h1,h2,h3,h4,h5,h6{color:var(--color-title);}
+            p{color:var(--color-text);}
+            a{color:var(--color-link);}
 
             /* C A B E C E R A */
             #mobile-header,
             #desktop-header{position:sticky;top:0;z-index:2;background-color:var(--bg-header);}
             #mobile-header .header-content{position:relative;display:flex;align-items:center;justify-content:space-between;height:54px;}
             
+            /* brand */
+            .page-template-front-page #mobile-header .site-brand a,
+            .page-template-front-page #desktop-header .site-brand a{color:var(--color-text);}
+
             /* botones en el header */
-            #mobile-header .header-content button{display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--wp--preset--color--white);border-radius:6px;transition:all .3s ease;}
+            #mobile-header .header-content button{display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--bg-header);color:var(--color-text);border-radius:6px;transition:all .3s ease;}
             #mobile-header .header-content button:hover{background-color:var(--wp--preset--color--bg-panel);}
             #mobile-header .header-content button:focus{background-color:var(--wp--preset--color--focus);color:#fff;outline:none;}
 
