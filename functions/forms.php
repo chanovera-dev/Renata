@@ -23,7 +23,7 @@ function renata_theme_forms() {
         input[type=tel]:focus,
         input[type=url]:focus,
         input[type=search]:focus,
-        textarea:focus{outline:none;border-color:var(--border-input-focus);}
+        textarea:focus{outline:none;border:1px solid var(--border-input-focus);}
 
         /* inputs de entrada · placeholder */
         input[type=text]::placeholder,
