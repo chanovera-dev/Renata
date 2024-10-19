@@ -82,6 +82,9 @@ function menuWithChildrens() {
         // Obtener el enlace más cercano al elemento li
         var link = item.querySelector('a')
 
+        // Agregar la clase 'mobile-links' al enlace
+    link.classList.add('mobile-links');
+    
         // Crear un nuevo botón
         var button = document.createElement('button')
         // Agregar la clase 'mobile-links__item-toggle' al botón
@@ -123,7 +126,6 @@ function menuWithChildrens() {
         // Deshabilitar el enlace
         link.setAttribute('href', 'javascript:void(0)')
         link.setAttribute('disabled', 'true')
-        link.classList.add('mobile-links')
     })
 }
 menuWithChildrens()
