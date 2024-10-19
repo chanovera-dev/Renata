@@ -32,6 +32,8 @@ function renata_theme_colors() {
                 --border-button-menu-mobile:1px solid #dbe1e8;
                 --border-button-menu-mobile-hover:#c3cdd8;
                 --border-button-menu-mobile-focus:#abb9c9;
+                --bg-color-link-hover:#cfd7e0;
+                --bg-color-link-focus:#c3cdd8;
 
                 /* formularios */
                 --bg-input:#e6ebef;
