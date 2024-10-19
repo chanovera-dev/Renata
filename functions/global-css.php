@@ -70,8 +70,8 @@ function renata_theme_custom_global_css() {
                     #menu-mobile ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 15%);}
                         /* tercer nivel */
                         #menu-mobile ul.sub-menu ul.sub-menu li :is(a, button){padding-left:60px;background-color:var(--bg-submenu-mobile-level5);font-size:12px;}
-                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a:hover, button:hover){background-color:var(--bg-submenu-mobile-level5);}
-                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a:focus, button:focus){background-color:var(--bg-submenu-mobile-level6);}
+                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a:hover, button:hover){background-color:var(--bg-submenu-mobile-level6);}
+                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a:focus, button:focus){background-color:var(--bg-submenu-mobile-level7);}
                         #menu-mobile ul.sub-menu ul.sub-menu li:first-child a{box-shadow:inset 0px 17px 10px -17px rgb(0 0 0 / 30%);}
                         #menu-mobile ul.sub-menu ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 30%);}
 
