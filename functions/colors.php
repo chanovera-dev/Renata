@@ -17,8 +17,8 @@ function renata_theme_colors() {
                 /* formularios */
                 --bg-input:#e6ebef;
                 --border-input:#dbe1e8;
-                --border-input-hover:#cfd7e0;
-                --border-color-focus:#c3cdd8;
+                --border-input-hover:#c3cdd8;
+                --border-input-focus:#abb9c9;
                 --color-input:#3D4651;
                 --color-placeholder:#9fafc1;
             }
@@ -39,8 +39,8 @@ function renata_theme_colors() {
                 /* formularios */
                 --bg-input:#26303b;
                 --border-input:#2e3a47;
-                --border-input-hover:#354353;
-                --border-color-focus:#3d4d5f;
+                --border-input-hover:#3d4d5f;
+                --border-input-focus:#4c6177;
                 --color-input:#fff;
                 --color-placeholder:#546a83;
             }
