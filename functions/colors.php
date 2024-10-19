@@ -17,7 +17,7 @@ function renata_theme_colors() {
 
                 /* botones de cabecera */
                 --bg-button-header:#f2f5f7;
-                --border-button-header:1px solid #dbe1e8;
+                --border-button-header:1px solid #f2f5f7;
                 --border-button-header-hover:#c3cdd8;
                 --border-button-header-focus:#abb9c9;
                 --color-button-header:#3D4651;
