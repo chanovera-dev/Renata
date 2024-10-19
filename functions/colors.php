@@ -52,7 +52,7 @@ function renata_theme_colors() {
             :root{
                 /* generales */
                 --bg-body:#171d23;
-                --bg-panel-overlay:rgb(245 245 247 / 90%);
+                --bg-panel-overlay:rgb(17 21 26 / 90%);
                 --white:#323232;
                 --color-title:#9198a1;
                 --color-text:#9198a1;
