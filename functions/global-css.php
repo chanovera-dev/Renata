@@ -24,9 +24,9 @@ function renata_theme_custom_global_css() {
             .page-template-front-page #desktop-header .site-brand a{color:var(--color-text);}
 
             /* botones en el header */
-            #mobile-header .header-content button{display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--bg-header);color:var(--color-text);border-radius:6px;transition:all .3s ease;}
-            #mobile-header .header-content button:hover{background-color:var(--wp--preset--color--bg-panel);}
-            #mobile-header .header-content button:focus{background-color:var(--wp--preset--color--focus);color:#fff;outline:none;}
+            #mobile-header .header-content button{display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--bg-button-header);color:var(--color-button-header);border:var(--border-button-header);border-radius:6px;transition:border-color .3s ease;}
+            #mobile-header .header-content button:hover{border-color:var(--border-button-header-hover);color:var(--color-button-header-hover);}
+            #mobile-header .header-content button:focus{border-color:var(--border-button-header-focus);outline:none;}
 
             /* estilos del header al hacer scroll */
             :is(.scroll-down,.scroll-up) .main-header{box-shadow:var(--wp--preset--shadow--header);background:var(--wp--preset--color--bg-header-scroll);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);z-index:6;}
@@ -84,9 +84,9 @@ function renata_theme_custom_global_css() {
                 #searchform-mobile input[type=text]:focus{outline:none;}
                 /* botones */
                 #searchform-mobile .buttons-container{display:flex;align-items:center;padding:10px 0 10px 10px;gap:10px;}
-                #searchform-mobile .buttons-container :is(button,.close-searchform-mobile){display:grid;place-content:center;width:34px;height:34px;border:var(--border-button-header);background-color:var(--bg-button-header);color:var(--color-button-header);border-radius:6px;transition:border-color .3s ease;}
-                #searchform-mobile .buttons-container :is(button:hover,.close-searchform-mobile:hover){border-color:var(--border-button-header-hover);}
-                #searchform-mobile .buttons-container :is(button:focus,.close-searchform-mobile:focus){border-color:var(--border-button-header-focus);outline:none;}
+                #searchform-mobile .buttons-container :is(button,.close-searchform-mobile){display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--wp--preset--color--white);color:var(--wp--preset--color--text);border-radius:6px;transition:all .3s ease;}
+                #searchform-mobile .buttons-container :is(button:hover,.close-searchform-mobile:hover){background-color:var(--wp--preset--color--bg-panel);}
+                #searchform-mobile .buttons-container :is(button:focus,.close-searchform-mobile:focus){background-color:var(--wp--preset--color--focus);color:#fff;outline:none;}
 
             /* header desktop */
             #desktop-header .header-content{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:37px 0;transition:padding .3s ease;}
