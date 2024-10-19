@@ -5,7 +5,8 @@ function renata_theme_custom_frontpage_css(){
         <style>
             body{background-color:#11151A;}
             /* header */
-            
+            .page-template-front-page #mobile-header,
+            .page-template-front-page #desktop-header{background-color:#11151A;}
             .page-template-front-page #mobile-header :is(.open-menu-mobile--button,.site-brand,.open-searchform-mobile--button),
             .page-template-front-page #desktop-header :is(.site-brand,.menu-primary,.search-form){
                 opacity:1;
