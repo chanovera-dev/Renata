@@ -54,8 +54,8 @@ function renata_theme_custom_global_css() {
             #menu-mobile ul li a:has(button){padding:0!important;}
             #menu-mobile ul li a:has(button) button{display:flex;align-items:center;justify-content:space-between;}
             #menu-mobile ul li :is(a, button){display:flex;width:100%;padding:12px 20px;background-color:transparent;font-size:16px;font-family:'Roboto';color:var(--wp--preset--color--text);border:none;transition:background-color .3s ease;}
-            #menu-mobile ul li :is(a:hover, button:hover){background-color:var(--bg-color-link-hover);}
-            #menu-mobile ul li :is(a:focus, button:focus){background-color:var(--bg-color-link-focus);outline:none;}
+            #menu-mobile ul li :is(a:hover, button:hover){background-color:var(--bg-submenu-mobile-level1);}
+            #menu-mobile ul li :is(a:focus, button:focus){background-color:var(--bg-submenu-mobile-level2);outline:none;}
                 /* submenús */
                 #menu-mobile ul.sub-menu{overflow:hidden;max-height:0;}
                 #menu-mobile ul.sub-menu.open{display:block;max-height:2200px;}
@@ -63,15 +63,15 @@ function renata_theme_custom_global_css() {
                 #menu-mobile ul .mobile-links__item-toggle svg{transition:all .5s ease;}
                 #menu-mobile ul .mobile-links__item-toggle.rotate svg{transform:rotate(180deg);}
                     /* segundo nivel */
-                    #menu-mobile ul.sub-menu li :is(a, button){font-size:14px;background-color:var(--bg-submenu-mobile-level1);padding:10px 20px;padding-left:40px;}
-                    #menu-mobile ul.sub-menu li :is(a:hover, button:hover){background-color:var(--bg-submenu-mobile-level2);}
-                    #menu-mobile ul.sub-menu li :is(a:focus, button:focus){background-color:var(--wp--preset--color--focus);}
+                    #menu-mobile ul.sub-menu li :is(a, button){font-size:14px;background-color:var(--bg-submenu-mobile-level3);padding:10px 20px;padding-left:40px;}
+                    #menu-mobile ul.sub-menu li :is(a:hover, button:hover){background-color:var(--bg-submenu-mobile-level4);}
+                    #menu-mobile ul.sub-menu li :is(a:focus, button:focus){background-color:var(--bg-submenu-mobile-level5);}
                     #menu-mobile ul.sub-menu li:first-child a{box-shadow:inset 0px 17px 10px -17px rgb(0 0 0 / 15%);}
                     #menu-mobile ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 15%);}
                         /* tercer nivel */
-                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a, button){padding-left:60px;background-color:var(--bg-submenu-mobile-level2);font-size:12px;}
-                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a:hover, button:hover){background-color:var(--bg-submenu-mobile-level3);}
-                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a:focus, button:focus){background-color:var(--wp--preset--color--focus);}
+                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a, button){padding-left:60px;background-color:var(--bg-submenu-mobile-level5);font-size:12px;}
+                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a:hover, button:hover){background-color:var(--bg-submenu-mobile-level5);}
+                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a:focus, button:focus){background-color:var(--bg-submenu-mobile-level6);}
                         #menu-mobile ul.sub-menu ul.sub-menu li:first-child a{box-shadow:inset 0px 17px 10px -17px rgb(0 0 0 / 30%);}
                         #menu-mobile ul.sub-menu ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 30%);}
 
