@@ -63,14 +63,14 @@ function renata_theme_custom_global_css() {
                 #menu-mobile ul .mobile-links__item-toggle svg{transition:all .5s ease;}
                 #menu-mobile ul .mobile-links__item-toggle.rotate svg{transform:rotate(180deg);}
                     /* segundo nivel */
-                    #menu-mobile ul.sub-menu li :is(a, button){font-size:14px;background-color:#f0f0f0;padding:10px 20px;padding-left:40px;}
-                    #menu-mobile ul.sub-menu li :is(a:hover, button:hover){background-color:#f4f4f4;}
+                    #menu-mobile ul.sub-menu li :is(a, button){font-size:14px;background-color:var(--bg-submenu-mobile-level1);padding:10px 20px;padding-left:40px;}
+                    #menu-mobile ul.sub-menu li :is(a:hover, button:hover){background-color:var(--bg-submenu-mobile-level2);}
                     #menu-mobile ul.sub-menu li :is(a:focus, button:focus){background-color:var(--wp--preset--color--focus);}
                     #menu-mobile ul.sub-menu li:first-child a{box-shadow:inset 0px 17px 10px -17px rgb(0 0 0 / 15%);}
                     #menu-mobile ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 15%);}
                         /* tercer nivel */
-                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a, button){padding-left:60px;background-color:#e0e0e0;font-size:12px;}
-                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a:hover, button:hover){background-color:#e4e4e4;}
+                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a, button){padding-left:60px;background-color:var(--bg-submenu-mobile-level2);font-size:12px;}
+                        #menu-mobile ul.sub-menu ul.sub-menu li :is(a:hover, button:hover){background-color:var(--bg-submenu-mobile-level3);}
                         #menu-mobile ul.sub-menu ul.sub-menu li :is(a:focus, button:focus){background-color:var(--wp--preset--color--focus);}
                         #menu-mobile ul.sub-menu ul.sub-menu li:first-child a{box-shadow:inset 0px 17px 10px -17px rgb(0 0 0 / 30%);}
                         #menu-mobile ul.sub-menu ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 30%);}
