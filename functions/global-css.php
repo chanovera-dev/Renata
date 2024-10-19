@@ -16,7 +16,7 @@ function renata_theme_custom_global_css() {
 
             /* C A B E C E R A */
             #mobile-header,
-            #desktop-header{position:sticky;top:0;z-index:2;background-color:var(--wp--preset--color--bg-header);}
+            #desktop-header{position:sticky;top:0;z-index:2;background-color:var(--bg-header);}
             #mobile-header .header-content{position:relative;display:flex;align-items:center;justify-content:space-between;height:54px;}
             
             /* botones en el header */
