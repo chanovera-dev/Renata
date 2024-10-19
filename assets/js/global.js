@@ -82,9 +82,6 @@ function menuWithChildrens() {
         // Obtener el enlace más cercano al elemento li
         var link = item.querySelector('a')
 
-        // Agregar la clase 'mobile-links' al enlace
-        link.classList.add('mobile-links');
-
         // Crear un nuevo botón
         var button = document.createElement('button')
         // Agregar la clase 'mobile-links__item-toggle' al botón
@@ -147,10 +144,16 @@ if (window.innerWidth < 767) {
 
     linkOnMenuMobile.forEach(item => {
         item.addEventListener('click', function(e) {
-            // Verificar si el enlace tiene la clase submenu-toggle
-            if (!item.classList.contains('mobile-links')) {
-                closeMenuMobile();
+            // Verificar si el enlace tiene el atributo disabled
+            if (!item.hasAttribute('disabled')) {
+                // Aquí se aplica la función closeMenuMobile
+                closeMenuMobile(); // Asegúrate de que esta función esté definida en tu código
+            } else {
+                // Si tiene el atributo disabled, puedes realizar otra acción si lo deseas
+                e.preventDefault(); // Evita que se siga el enlace
+                console.log('Enlace deshabilitado');
             }
         });
     });
+
 }
