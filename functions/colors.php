@@ -14,7 +14,7 @@ function renata_theme_colors() {
             body{background-color:#11151A;}
 
             #mobile-header.container,
-            #desktop-header.container{background-color:#11151A;}
+            #desktop-header.container{background-color:#11151A!important;}
         }
     </style>
     <?php
