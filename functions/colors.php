@@ -40,7 +40,7 @@ function renata_theme_colors() {
                 --bg-input:#26303b;
                 --border-input:1px solid #2e3a47;
                 --border-input-hover:#3d4d5f;
-                --border-color-focus:#546a83;
+                --border-color-focus:#5c748f;
                 --color-input:#f6f6f6;
                 --color-placeholder:#546a83;
             }
