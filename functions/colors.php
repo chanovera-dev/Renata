@@ -29,7 +29,7 @@ function renata_theme_colors() {
                 --bg-submenu-mobile-level1:#c3cdd8;
                 --bg-submenu-mobile-level2:#abb9c9;
                 --bg-submenu-mobile-level3:#93a5b9;
-                --border-button-menu-mobile:#dbe1e8;
+                --border-button-menu-mobile:1px solid #dbe1e8;
                 --border-button-menu-mobile-hover:#c3cdd8;
                 --border-button-menu-mobile-focus:#abb9c9;
 
