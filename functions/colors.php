@@ -3,11 +3,9 @@
 function renata_theme_colors() {
     ?>
     <style>
-        @media (prefers-color-scheme: light) {
-            :root {
+        :root {
                 --wp--preset--color--bg-header:#fff;
             }
-        }
 
         / * Modo oscuro * /
         @media (prefers-color-scheme: dark) {
