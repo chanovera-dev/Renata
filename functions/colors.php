@@ -10,7 +10,7 @@ function renata_theme_colors() {
         /* Modo oscuro */
         @media (prefers-color-scheme: dark) {
             :root{
-                --bg-header:rgb(0 0 0 / 100%);
+                --bg-header:rgb(17 21 26 / 100%);
             }
         }
     </style>
