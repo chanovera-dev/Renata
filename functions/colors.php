@@ -14,6 +14,7 @@ function renata_theme_colors() {
 
                 /* cabecera */
                 --bg-header:rgb(245 245 247 / 100%);
+                --bg-header-scroll:rgb(245 245 247 / 80%);
 
                 /* botones de cabecera */
                 --bg-button-header:#f2f5f7;
@@ -45,6 +46,7 @@ function renata_theme_colors() {
 
                 /* cabecera */
                 --bg-header:rgb(17 21 26 / 100%);
+                --bg-header-scroll:rgb(17 21 26 / 80%);
 
                 /* botones de cabecera */
                 --bg-button-header:#11151A;
