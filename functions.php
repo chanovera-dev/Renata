@@ -168,11 +168,11 @@ add_filter('wp_list_categories', 'custom_category_list', 10, 2);
 
 
 // A N E X O S
+require_once(get_template_directory() . '/functions/colors.php');
 /* anexo para cargar el css que se usa en todas las páginas */
 require_once(get_template_directory() . '/functions/global-css.php');
+// Anexo para definir los colores personalizados en las plantillas
 /* anexo para los breakpoints del sitio */
 require_once(get_template_directory() . '/functions/media-queries.php');
 // Anexo para definir los componentes personalizados en las plantillas
 require_once(get_template_directory() . '/functions/templates.php');
-// Anexo para definir los colores personalizados en las plantillas
-require_once(get_template_directory() . '/functions/colors.php');
