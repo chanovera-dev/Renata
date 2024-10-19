@@ -35,7 +35,7 @@ function renata_theme_colors() {
 
                 /* formularios */
                 --bg-input:#26303b;
-                --border-input:1px solid #5c748f;
+                --border-input:1px solid #6f88a2;
                 --color-input:#f6f6f6;
             }
         }
