@@ -18,6 +18,13 @@ function renata_theme_forms() {
         input[type=search]:hover,
         textarea:hover{border-color:var(--border-input-hover);}
 
+        input[type=text]:focus,
+        input[type=email]:focus,
+        input[type=tel]:focus,
+        input[type=url]:focus,
+        input[type=search]:focus,
+        textarea:focus{outline:none;border-color:var(--border-input-focus);}
+
         /* inputs de entrada · placeholder */
         input[type=text]::placeholder,
             input[type=email]::placeholder,
@@ -30,6 +37,16 @@ function renata_theme_forms() {
                 color:var(--color-placeholder);
                 transition:all .3s ease;
             }
+
+        /* botón de búsqueda */
+        input[type=email] + button{position:absolute;top:3px;right:3px;display:grid;place-content:center;width:34px;height:34px;background-color:transparent;border:1px solid transparent;color:var(--color-placeholder);border-radius:4px;transition:all .3s ease;}
+        input[type=email] + button:hover{color:var(--colot-text);}
+
+        /* decorión del cajón de búsqueda al estar activo */        
+        input[type=search]::-webkit-search-decoration,
+        input[type=search]::-webkit-search-cancel-button,
+        input[type=search]::-webkit-search-results-button,
+        input[type=search]::-webkit-search-results-decoration{display:none;}
     </style>
     <?php
 }

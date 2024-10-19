@@ -101,13 +101,6 @@ function renata_theme_custom_global_css() {
             /* searchform */
             #desktop-header .header-content .search-form{margin-left:auto;position:relative;}
             #desktop-header .header-content .search-form .search-field{padding:10px 37px 10px 10px;}
-            #desktop-header .header-content .search-form .search-field::-webkit-search-decoration,
-            #desktop-header .header-content .search-form .search-field::-webkit-search-cancel-button,
-            #desktop-header .header-content .search-form .search-field::-webkit-search-results-button,
-            #desktop-header .header-content .search-form .search-field::-webkit-search-results-decoration{display:none;}
-            #desktop-header .header-content .search-form .search-field:focus{outline:none;}
-            #desktop-header .header-content .search-form .search-submit__button{position:absolute;top:3px;right:3px;display:grid;place-content:center;width:34px;height:34px;background-color:transparent;border:1px solid transparent;border-radius:4px;transition:all .3s ease;}
-            #desktop-header .header-content .search-form .search-submit__button:hover{background-color:var(--wp--preset--color--white);}
 
             /* P O S T S */
             .blog main .container .section{padding-bottom:30px;}

@@ -18,6 +18,7 @@ function renata_theme_colors() {
                 --bg-input:#e6ebef;
                 --border-input:1px solid #dbe1e8;
                 --border-input-hover:#c3cdd8;
+                --border-color-focus:#abb9c9;
                 --color-input:#3D4651;
                 --color-placeholder:#9fafc1;
             }
@@ -39,6 +40,7 @@ function renata_theme_colors() {
                 --bg-input:#26303b;
                 --border-input:1px solid #2e3a47;
                 --border-input-hover:#3d4d5f;
+                --border-color-focus:#4c6177;
                 --color-input:#f6f6f6;
                 --color-placeholder:#546a83;
             }
