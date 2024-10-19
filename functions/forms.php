@@ -39,8 +39,8 @@ function renata_theme_forms() {
             }
 
         /* botón de búsqueda */
-        input[type=email] + button{position:absolute;top:3px;right:3px;display:grid;place-content:center;width:34px;height:34px;background-color:transparent;border:1px solid transparent;color:var(--color-placeholder);border-radius:4px;transition:all .3s ease;}
-        input[type=email] + button:hover{color:var(--colot-text);}
+        .search-submit__button{position:absolute;top:3px;right:3px;display:grid;place-content:center;width:34px;height:34px;background-color:transparent;border:1px solid transparent;color:var(--color-placeholder);border-radius:4px;transition:all .3s ease;}
+        .search-submit__button:hover{color:var(--colot-text);}
 
         /* decorión del cajón de búsqueda al estar activo */        
         input[type=search]::-webkit-search-decoration,
