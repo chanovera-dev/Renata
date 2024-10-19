@@ -76,16 +76,16 @@ function renata_theme_custom_global_css() {
                         #menu-mobile ul.sub-menu ul.sub-menu li:last-child a{box-shadow:inset 0px -17px 6px -17px rgb(0 0 0 / 30%);}
 
             /* searchform mobile */
-            #searchform-mobile{position:absolute;top:-100%;left:0;width:100%;height:100%;background-color:var(--wp--preset--color--white);z-index:8;transition:top .3s ease;}
+            #searchform-mobile{position:absolute;top:-100%;left:0;width:100%;height:100%;background-color:var(--bg-menu-mobile);z-index:8;transition:top .3s ease;}
             #searchform-mobile.open{top:0;box-shadow:var(--wp--preset--shadow--header);}
             #searchform-mobile > div{display:flex;align-items:center;margin-inline:auto;}
                 /* formulario */
                 #searchform-mobile input[type=text]{width:min(100% - 88px);}
                 /* botones */
                 #searchform-mobile .buttons-container{display:flex;align-items:center;padding:10px 0 10px 10px;gap:10px;}
-                #searchform-mobile .buttons-container :is(button,.close-searchform-mobile){display:grid;place-content:center;width:34px;height:34px;border:none;background-color:var(--wp--preset--color--white);color:var(--wp--preset--color--text);border-radius:6px;transition:all .3s ease;}
-                #searchform-mobile .buttons-container :is(button:hover,.close-searchform-mobile:hover){background-color:var(--wp--preset--color--bg-panel);}
-                #searchform-mobile .buttons-container :is(button:focus,.close-searchform-mobile:focus){background-color:var(--wp--preset--color--focus);color:#fff;outline:none;}
+                #searchform-mobile .buttons-container :is(button,.close-searchform-mobile){display:grid;place-content:center;width:34px;height:34px;border:var(--border-button-menu-mobile);background-color:transparent;color:var(--color-button-header);border-radius:6px;transition:border-color .3s ease;}
+                #searchform-mobile .buttons-container :is(button:hover,.close-searchform-mobile:hover){border-color:var(--color-button-header-hover);}
+                #searchform-mobile .buttons-container :is(button:focus,.close-searchform-mobile:focus){border-color:var(--color-button-header-focus);outline:none;}
 
             /* header desktop */
             #desktop-header .header-content{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:37px 0;transition:padding .3s ease;}
