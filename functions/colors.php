@@ -4,7 +4,7 @@ function renata_theme_colors() {
     ?>
     <style>
         :root {
-                --wp--preset--color--bg-header:#fff;
+                --wp--preset--color--bg-header:rgb(255 255 255 / 100%);
             }
 
         / * Modo oscuro * /
