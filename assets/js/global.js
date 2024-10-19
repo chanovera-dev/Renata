@@ -85,7 +85,6 @@ function menuWithChildrens() {
         // Crear un nuevo botón
         var button = document.createElement('button')
         // Agregar la clase 'mobile-links__item-toggle' al botón
-        link.classList.add('mobile-links')
         button.classList.add('mobile-links__item-toggle')
         button.setAttribute('onclick', 'toggleSubMenu(this)')
 
@@ -124,6 +123,7 @@ function menuWithChildrens() {
         // Deshabilitar el enlace
         link.setAttribute('href', 'javascript:void(0)')
         link.setAttribute('disabled', 'true')
+        link.classList.add('mobile-links')
     })
 }
 menuWithChildrens()
