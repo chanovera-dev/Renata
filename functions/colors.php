@@ -69,6 +69,19 @@ function renata_theme_colors() {
                 --color-button-header:#9198a1;
                 --color-button-header-hover:#fff;
 
+                /* menú mobile */
+                --bg-menu-mobile:#303b49;
+                --bg-submenu-mobile-level1:#28323e;
+                --bg-submenu-mobile-level2:#212832;
+                --bg-submenu-mobile-level3:#191f26;
+                --bg-submenu-mobile-level4:#11151a;
+                --bg-submenu-mobile-level5:#090b0e;
+                --bg-submenu-mobile-level6:#010202;
+                --bg-submenu-mobile-level7:#000;
+                --border-button-menu-mobile:1px solid #303b49;
+                --border-button-menu-mobile-hover:#212832;
+                --border-button-menu-mobile-focus:#11151a;
+
                 /* formularios */
                 --bg-input:#26303b;
                 --border-input:#2e3a47;
