@@ -100,7 +100,7 @@ function renata_theme_custom_global_css() {
             #desktop-header .header-content ul li a:hover{color:var(--color-link-hover);}
             /* searchform */
             #desktop-header .header-content .search-form{margin-left:auto;position:relative;}
-            #desktop-header .header-content .search-form .search-field{padding:10px 37px 10px 10px;background-color:var(--bg-input);border:var(--border-input);border-radius:6px;font-size:16px;}
+            #desktop-header .header-content .search-form .search-field{padding:10px 37px 10px 10px;}
             #desktop-header .header-content .search-form .search-field::-webkit-search-decoration,
             #desktop-header .header-content .search-form .search-field::-webkit-search-cancel-button,
             #desktop-header .header-content .search-form .search-field::-webkit-search-results-button,
