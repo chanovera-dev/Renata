@@ -9,6 +9,7 @@ function renata_theme_colors() {
                 --color-title:#3D4651;
                 --color-text:#3D4651;
                 --color-link:#3D4651;
+                --color-link-hover:#323232;
             }
 
         /* Modo oscuro */
@@ -19,6 +20,7 @@ function renata_theme_colors() {
                 --color-title:#9198a1;
                 --color-text:#9198a1;
                 --color-link:#9198a1;
+                --color-link-hover:#f6f6f6;
             }
         }
     </style>
