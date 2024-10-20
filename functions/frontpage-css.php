@@ -34,7 +34,7 @@ function renata_theme_custom_frontpage_css(){
             }
             #hero .introduction h2 span{font-size:42px;color:#3fb950;}
             #hero .introduction p{
-                padding:3px 7px;background-color:#26303b;border:1px solid #26303b;border-radius:4px;color:#d1d1d1;margin-bottom:24px;font-size:13px;display:inline-block;opacity:1;
+                padding:3px 7px;background-color:var(--bg-available-text);border:1px solid var(--bg-available-text);border-radius:4px;color:#d1d1d1;margin-bottom:24px;font-size:13px;display:inline-block;opacity:1;
                 animation-name:animation-introduction-p; animation-direction:normal; animation-duration:3.4s; animation-timing-function:ease; animation-iteration-count:1;
             }
             @keyframes animation-introduction-p{
