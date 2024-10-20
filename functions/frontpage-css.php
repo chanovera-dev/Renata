@@ -156,7 +156,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul > li figure img{width:100%;aspect-ratio:4/3;object-fit:cover;}
             #portfolio .content > ul li figure figcaption{position:absolute;display:grid;gap:16px;align-content:baseline;text-align:left;background-color:rgb(0 0 0 / 75%);padding:20px;width:100%;height:100%;}
             #portfolio .content > ul li figure figcaption h3{font-size:24px;font-weight:400;color:#fff;}
-            #portfolio .content > ul li figure figcaption p{color:#fff;;}
+            #portfolio .content > ul li figure figcaption p{color:#fff;}
             #portfolio .content > ul li > div{display:flex;align-items:center;justify-content:space-between;padding-top:9px;}
             #portfolio .content > ul li > div ul{margin:0;padding-left:0;list-style:none;display:inline-flex;align-items:center;gap:16px;}
             #portfolio .content > ul li > div ul li{line-height:1;}
@@ -194,25 +194,22 @@ function renata_theme_custom_frontpage_css(){
             /* contact */
             #contact{background-color:#0C0E12;padding:120px 0;}
             #contact .section{display:grid;border-radius:10px;overflow:hidden;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;}
-            #contact .section h2{font-family:'Text me one';margin-bottom:20px;color:#fff;}
+            #contact .section h2{font-family:'Text me one';margin-bottom:20px;color:var(--resalted-text);}
             #contact .section > div{padding:20px;}
-            #contact .section > div:nth-child(1){background-color:#1a2129;position:relative;}
-            #contact .section > div:nth-child(2){background-color:#11151A;display:grid;gap:20px;align-content:baseline;}
+            #contact .section > div:nth-child(1){background-color:var(--bg-card-hover);position:relative;}
+            #contact .section > div:nth-child(2){background-color:var(--bg-hero-experience);display:grid;gap:20px;align-content:baseline;}
             #contact .section .contact-form{display:flex;flex-wrap:wrap;gap:1rem;overflow:hidden;margin-bottom:0;transition:all .3s ease;}
             #contact .section .contact-form p{display:flex;flex-direction:column;flex:1 0 14rem;}
             #contact .section .contact-form p.button-wrapper{flex:1 0 20rem;}
             #contact .section .contact-form p label{color:#fff;margin-bottom:5px;font-size:13px;}
-            #contact .section .contact-form p .input{padding:10px;background-color:#26303b;border:1px solid #26303b;color:#f6f6f6;border-radius:6px;font-size:16px;}
-            #contact .section .contact-form p .input:focus{outline:none;}
-            #contact .section .contact-form p.textarea-wrapper textarea{box-sizing:border-box;width:100%;}
             #contact .section .contact-form p button{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;color:#11151A;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:all .3s ease;}
             #contact .section .contact-form p button:hover{background-color:#fff;cursor:pointer;}
             #contact .section .contact-form p button:focus{outline:none;background-color:orange;color:#fff;border-color:orange;}
-            #contact .section .contact-form p :is(button.disabled,button.disabled:hover){border:1px solid #11151A;color:#11151A;background-color:transparent;cursor:auto;}
+            #contact .section .contact-form p :is(button.disabled,button.disabled:hover){border:1px solid var(--bg-hero-experience);color:var(--bg-hero-experience);background-color:transparent;cursor:auto;}
             #contact .section ul{padding-left:0;margin:0;list-style:none;display:grid;}
-            #contact .section ul li{display:inline-flex;align-items:center;gap:10px;height:38px;color:#fff;}
-            #contact .section ul li a{text-decoration:none;display:inline-flex;align-items:center;gap:10px;color:#fff;border-radius:2px;transition:all .3s ease;}
-            #contact .section ul li a:focus{outline:none;background-color:orange;box-shadow: 0 0 0 3px orange;}
+            #contact .section ul li{display:inline-flex;align-items:center;gap:10px;height:38px;color:var(--resalted-text);}
+            #contact .section ul li a{text-decoration:none;display:inline-flex;align-items:center;gap:10px;color:var(--resalted-text);border-radius:2px;transition:all .3s ease;}
+            #contact .section ul li a:focus{outline:none;}
             #contact .section .contact__information--people{display:flex;align-items:center;gap:20px;}
             #title--get-in-touch{overflow:hidden;transition:all .3s ease;}
             #message-sent__wrapper{overflow:hidden;transition:all .3s ease;}
