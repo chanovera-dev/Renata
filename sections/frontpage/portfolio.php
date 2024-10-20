@@ -44,7 +44,7 @@
                     </picture>
                     <figcaption>
                         <h3>Pinplast</h3>
-                        <p>Online Hardware Store</p>
+                        <p>eCommerce Hardware Store</p>
                     </figcaption>
                 </figure>
                 <div>
@@ -117,7 +117,7 @@
                         <img src="<?php echo get_theme_mod('img_portfolio4_webp', get_bloginfo('template_url') . '/assets/img/jesusMendez.webp'); ?>" alt="Picture descriptive for Jesus Mendez Fisioteraphy website" loading="lazy">
                     </picture>
                     <figcaption>
-                        <h3>Jesus Mendez physiotherapy</h3>
+                        <h3>Jesus Mendez Physiotherapy</h3>
                         <p>Specialist in minimal invasive techniques applied to physiotherapy</p>
                     </figcaption>
                 </figure>

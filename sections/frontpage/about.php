@@ -2,8 +2,8 @@
     <section class="section content">
         <h2>About</h2>
         <div>
-            <p>I am a web developer specializing in custom WordPress sites, creating solutions tailored to each client's needs, such as online stores and blogs.</p>
-            <p>My focus on continuous improvement ensures high-quality products that optimize the user experience. I provide a comprehensive service, from planning to maintenance, to ensure that each project adds real value to the business.</p>
+            <p>I'm a web developer specializing in custom WordPress sites, creating solutions tailored to each client's needs, such as online stores and blogs.</p>
+            <p>I’m an expert in building custom websites and eCommerce stores using WooCommerce and WordPress. I deliver fast, scalable, and user-friendly solutions designed to boost conversions and meet business goals.</p>
         </div>
     </section>
 </div>
