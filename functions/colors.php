@@ -51,6 +51,9 @@ function renata_theme_colors() {
                 --bg-hero-experience:#f2f5f7;
                 --bg-available-text:#dbe1e8;
                 --color-available-text:#6f88a2;
+
+                /* other background */
+                --bg-alt:#0C0E12;
             }
 
         /* Modo oscuro */
@@ -103,6 +106,9 @@ function renata_theme_colors() {
                 --bg-hero-experience:#11151a;
                 --bg-available-text:#26303b;
                 --color-available-text:#d1d1d1;
+
+                /* other background */
+                --bg-alt:#dbe1e8;
             }
         }
     </style>
