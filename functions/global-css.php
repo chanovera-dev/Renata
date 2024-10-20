@@ -80,7 +80,8 @@ function renata_theme_custom_global_css() {
             #searchform-mobile.open{top:0;box-shadow:var(--wp--preset--shadow--header);}
             #searchform-mobile > div{display:flex;align-items:center;margin-inline:auto;}
                 /* formulario */
-                #searchform-mobile input[type=text]{width:min(100% - 88px);}
+                #searchform-mobile input[type=text]{width:min(100% - 88px);border-color:var(--border-button-menu-mobile-hover);}
+                #searchform-mobile input[type=text]:hover{border-color:var(--border-button-menu-mobile-focus);}
                 /* botones */
                 #searchform-mobile .buttons-container{display:flex;align-items:center;padding:10px 0 10px 10px;gap:10px;}
                 #searchform-mobile .buttons-container :is(button,.close-searchform-mobile){display:grid;place-content:center;width:34px;height:34px;border:var(--border-button-menu-mobile);background-color:transparent;color:var(--color-button-header);border-radius:6px;transition:border-color .3s ease;}
