@@ -49,7 +49,7 @@ function renata_theme_colors() {
 
                 /* hero */
                 --bg-hero-experience:#f2f5f7;
-                --bg-available-text:#cfd7e0;
+                --bg-available-text:#dbe1e8;
             }
 
         /* Modo oscuro */
