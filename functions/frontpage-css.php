@@ -189,7 +189,7 @@ function renata_theme_custom_frontpage_css(){
                 box-shadow:0 0 15px #3fb950;
             }
             .certifications .card-item-title{font-size:24px;line-height:1.4;color:var(--resalted-text);}
-            .certifications .card-item-desc{color:#9198a1;font-size:16px;margin-top:6px;}
+            .certifications .card-item-desc{color:var(--color-text);font-size:16px;margin-top:6px;}
 
             /* contact */
             #contact{background-color:var(--bg-alt);padding:120px 0;}
