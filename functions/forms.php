@@ -5,14 +5,7 @@ function renata_theme_forms() {
     <style>
         /* etiquetas */
         p:has(label){margin-bottom:20px;}
-            p:has(label) label{color:var(--color-text);}
-            p:has(label) :is(
-                input[type=text],
-                input[type=email],
-                input[type=tel],
-                input[type=url],
-                input[type=search],
-                textarea){margin-bottom:5px;font-size:13px;}
+            p:has(label) label{color:var(--color-text);margin-bottom:5px;font-size:13px;}
 
         /* inputs de entrada · nominal */
         input[type=text],
