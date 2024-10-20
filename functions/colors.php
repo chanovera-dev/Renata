@@ -50,7 +50,7 @@ function renata_theme_colors() {
                 /* hero */
                 --bg-hero-experience:#f2f5f7;
                 --bg-available-text:#dbe1e8;
-                --color-available-text:#586c81;
+                --color-available-text:#4d5f71;
 
                 /* other background */
                 --bg-alt:#cfd7e0;
