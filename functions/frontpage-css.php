@@ -204,7 +204,7 @@ function renata_theme_custom_frontpage_css(){
             #contact .section .contact-form p button{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;color:#11151A;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:all .3s ease;}
             #contact .section .contact-form p button:hover{background-color:#fff;cursor:pointer;}
             #contact .section .contact-form p button:focus{outline:none;background-color:orange;color:#fff;border-color:orange;}
-            #contact .section .contact-form p :is(button.disabled,button.disabled:hover){border:1px solid var(--bg-hero-experience);color:var(--bg-hero-experience);background-color:transparent;cursor:auto;}
+            #contact .section .contact-form p :is(button.disabled,button.disabled:hover){border:1px solid var(--color-placeholder);color:var(--color-placeholder);background-color:transparent;cursor:auto;}
             #contact .section ul{padding-left:0;margin:0;list-style:none;display:grid;}
             #contact .section ul li{display:inline-flex;align-items:center;gap:10px;height:38px;color:var(--resalted-text);}
             #contact .section ul li a{text-decoration:none;display:inline-flex;align-items:center;gap:10px;color:var(--resalted-text);border-radius:2px;transition:all .3s ease;}
