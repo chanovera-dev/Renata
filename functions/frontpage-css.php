@@ -201,7 +201,6 @@ function renata_theme_custom_frontpage_css(){
             #contact .section .contact-form{display:flex;flex-wrap:wrap;gap:1rem;overflow:hidden;margin-bottom:0;transition:all .3s ease;}
             #contact .section .contact-form p{display:flex;flex-direction:column;flex:1 0 14rem;}
             #contact .section .contact-form p.button-wrapper{flex:1 0 20rem;}
-            #contact .section .contact-form p label{color:#fff;margin-bottom:5px;font-size:13px;}
             #contact .section .contact-form p button{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;color:#11151A;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:all .3s ease;}
             #contact .section .contact-form p button:hover{background-color:#fff;cursor:pointer;}
             #contact .section .contact-form p button:focus{outline:none;background-color:orange;color:#fff;border-color:orange;}
