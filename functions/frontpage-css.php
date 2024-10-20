@@ -92,9 +92,9 @@ function renata_theme_custom_frontpage_css(){
                 --hue:148;
                 --saturation:82.49%;
                 --lightness:51.37%;
-                color:#fff;
-                background-color:#11151A;
-                border:1px solid #11151A33;
+                color:var(--resalted-text);
+                background-color:var(--bg-card);
+                border:1px solid #var(--bg-card)33;
                 aspect-ratio:1/1;
                 display:flex;
                 flex-direction:column;
@@ -150,8 +150,8 @@ function renata_theme_custom_frontpage_css(){
 
             /* portfolio */
             #portfolio .content > ul{grid-template-columns:1fr;}
-            #portfolio .content > ul > li{overflow:hidden;background-color:#11151A;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:10px;padding:8px;display:grid;transition:background-color .3s ease;}
-            #portfolio .content > ul > li:hover{background-color:#1a2129;}
+            #portfolio .content > ul > li{overflow:hidden;background-color:var(--bg-card);box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:10px;padding:8px;display:grid;transition:background-color .3s ease;}
+            #portfolio .content > ul > li:hover{background-color:var(--bg-card-hover);}
             #portfolio .content > ul > li figure{position:relative;display:grid;gap:10px;height:100%;border-radius:6px;overflow:hidden;}
             #portfolio .content > ul > li figure img{width:100%;aspect-ratio:4/3;object-fit:cover;}
             #portfolio .content > ul li figure figcaption{position:absolute;display:grid;gap:16px;align-content:baseline;text-align:left;background-color:rgb(0 0 0 / 75%);padding:20px;width:100%;height:100%;}
@@ -160,7 +160,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li > div{display:flex;align-items:center;justify-content:space-between;padding-top:9px;}
             #portfolio .content > ul li > div ul{margin:0;padding-left:0;list-style:none;display:inline-flex;align-items:center;gap:16px;}
             #portfolio .content > ul li > div ul li{line-height:1;}
-            #portfolio .content > ul li > div ul li svg{color:#fff;width:24px;height:24px;}
+            #portfolio .content > ul li > div ul li svg{color:var(--resalted-text);width:24px;height:24px;}
             #portfolio .content > ul li > div .see-more-button{padding:7px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:background-color .3s ease;}
             #portfolio .content > ul li > div .see-more-button:hover{cursor:pointer;background-color:#fff;}
 
