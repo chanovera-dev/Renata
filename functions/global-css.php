@@ -29,7 +29,7 @@ function renata_theme_custom_global_css() {
             #mobile-header .header-content button:focus{border-color:var(--border-button-header-focus);outline:none;}
 
             /* estilos del header al hacer scroll */
-            :is(.scroll-down,.scroll-up) .main-header{box-shadow:var(--wp--preset--shadow--header);background:var(--bg-header-scroll);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);z-index:6;}
+            :is(.scroll-down,.scroll-up) :is(#mobile-header.main-header,#desktop-header.main-header){box-shadow:var(--wp--preset--shadow--header);background:var(--bg-header-scroll);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);z-index:6;}
             
             /* panel que cubre el contenido al abrir el menó mobile */
             #panel-overlay{position:fixed;width:100%;height:100%;top:0;left:-100%;opacity:0;z-index:7;background:var(--bg-panel-overlay);backdrop-filter:blur(20px);transition:opacity .3s ease;}
