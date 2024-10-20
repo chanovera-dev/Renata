@@ -84,8 +84,8 @@ function renata_theme_custom_global_css() {
                 /* botones */
                 #searchform-mobile .buttons-container{display:flex;align-items:center;padding:10px 0 10px 10px;gap:10px;}
                 #searchform-mobile .buttons-container :is(button,.close-searchform-mobile){display:grid;place-content:center;width:34px;height:34px;border:var(--border-button-menu-mobile);background-color:transparent;color:var(--color-button-header);border-radius:6px;transition:border-color .3s ease;}
-                #searchform-mobile .buttons-container :is(button:hover,.close-searchform-mobile:hover){border-color:var(--color-button-header-hover);}
-                #searchform-mobile .buttons-container :is(button:focus,.close-searchform-mobile:focus){border-color:var(--color-button-header-focus);outline:none;}
+                #searchform-mobile .buttons-container :is(button:hover,.close-searchform-mobile:hover){border-color:var(--border-button-menu-mobile-hover);}
+                #searchform-mobile .buttons-container :is(button:focus,.close-searchform-mobile:focus){border-color:var(--border-button-menu-mobile-focus);outline:none;}
 
             /* header desktop */
             #desktop-header .header-content{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:37px 0;transition:padding .3s ease;}
