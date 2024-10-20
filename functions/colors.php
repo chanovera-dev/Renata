@@ -108,7 +108,7 @@ function renata_theme_colors() {
                 --color-available-text:#d1d1d1;
 
                 /* other background */
-                --bg-alt:#dbe1e8;
+                --bg-alt:#0C0E12;
             }
         }
     </style>
