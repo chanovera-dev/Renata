@@ -5,7 +5,7 @@ function renata_theme_forms() {
     <style>
         /* etiquetas */
         p:has(label){margin-bottom:20px;}
-            p:has(label) label{margin-bottom:5px;font-size:13px;color:var(--color-placeholder);}
+            p:has(label) label{margin-bottom:5px;font-size:13px;color:var(--color-text);}
 
         /* inputs de entrada · nominal */
         input[type=text],
