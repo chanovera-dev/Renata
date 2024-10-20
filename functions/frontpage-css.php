@@ -197,7 +197,7 @@ function renata_theme_custom_frontpage_css(){
             #contact .section h2{font-family:'Text me one';margin-bottom:20px;color:var(--resalted-text);}
             #contact .section > div{padding:20px;}
             #contact .section > div:nth-child(1){background-color:var(--bg-form);position:relative;}
-            #contact .section > div:nth-child(2){background-color:var(--bg-hero-experience);display:grid;gap:20px;align-content:baseline;}
+            #contact .section > div:nth-child(2){background-color:var(--bg-address);display:grid;gap:20px;align-content:baseline;}
             #contact .section .contact-form{display:flex;flex-wrap:wrap;gap:1rem;overflow:hidden;margin-bottom:0;transition:all .3s ease;}
             #contact .section .contact-form p{display:flex;flex-direction:column;flex:1 0 14rem;}
             #contact .section .contact-form p.button-wrapper{flex:1 0 20rem;}
