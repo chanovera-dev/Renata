@@ -12,7 +12,7 @@ function renata_theme_colors() {
                 --color-text:#3D4651;
                 --color-link:#3D4651;
                 --color-link-hover:#000;
-                --resalted-text:#9198a1;
+                --resalted-text:#3D4651;
 
                 /* cabecera */
                 --bg-header:rgb(245 245 247 / 100%);
