@@ -53,7 +53,7 @@ function renata_theme_colors() {
                 --color-available-text:#6f88a2;
 
                 /* other background */
-                --bg-alt:#0C0E12;
+                --bg-alt:#cfd7e0;
             }
 
         /* Modo oscuro */
