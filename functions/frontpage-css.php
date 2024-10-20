@@ -165,9 +165,9 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li > div .see-more-button:hover{cursor:pointer;background-color:#fff;}
 
             /* experience */
-            #experience{position:relative;background-color:#11151A;color:#fff;box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
+            #experience{position:relative;background-color:var(--bg-header-experience);color:var(--resalted-text);box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
             #experience .content{padding:57px 0 70px;}
-            #experience .content h2{font-size:36px;font-family:'Text me one';position:relative;color:#fff;}
+            #experience .content h2{font-size:36px;font-family:'Text me one';position:relative;color:var(--resalted-text);}
             .certifications .card-timeline{position:relative;display:grid;padding-left:4px;}
             .certifications{position:relative;display:grid;gap:20px;align-content:flex-start;}
             .certifications .card-item:before{position:absolute;left:4px;width:2px;top:10px;height:calc(100% - 65px);content:'';background:linear-gradient(#3fb950, transparent);}
@@ -188,7 +188,7 @@ function renata_theme_custom_frontpage_css(){
                 background-color:#3fb950;
                 box-shadow:0 0 15px #3fb950;
             }
-            .certifications .card-item-title{font-size:24px;line-height:1.4;}
+            .certifications .card-item-title{font-size:24px;line-height:1.4;color:var(--resalted-text);}
             .certifications .card-item-desc{color:#9198a1;font-size:16px;margin-top:6px;}
 
             /* contact */
