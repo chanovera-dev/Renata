@@ -32,7 +32,7 @@ function renata_theme_custom_frontpage_css(){
                 0%  {transform:rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);opacity:0;}
                 100%{transform:rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);opacity:1;}
             }
-            #hero .introduction h2 span{font-size:42px;color:#3fb950;}
+            #hero .introduction h2 span{font-size:42px;color:var(--color-name);}
             #hero .introduction p{
                 padding:3px 7px;background-color:var(--bg-available-text);border:1px solid var(--bg-available-text);border-radius:4px;color:var(--color-available-text);margin-bottom:24px;font-size:13px;display:inline-block;opacity:1;
                 animation-name:animation-introduction-p; animation-direction:normal; animation-duration:3.4s; animation-timing-function:ease; animation-iteration-count:1;
