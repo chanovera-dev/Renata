@@ -154,7 +154,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul > li:hover{background-color:var(--bg-card-hover);}
             #portfolio .content > ul > li figure{position:relative;display:grid;gap:10px;height:100%;border-radius:6px;overflow:hidden;aspect-ratio:4/3;}
             #portfolio .content > ul > li figure img{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:100%;aspect-ratio:4/3;object-fit:cover;transition:all .3s ease;}
-            #portfolio .content > ul > li figure:hover img{filter:scale(1.15);}
+            #portfolio .content > ul > li figure:hover img{transform:scale(1.15);}
             #portfolio .content > ul li figure figcaption{position:absolute;display:grid;gap:16px;align-content:baseline;text-align:left;background-color:rgb(0 0 0 / 75%);padding:20px;width:100%;height:100%;}
             #portfolio .content > ul li figure figcaption h3{font-size:24px;font-weight:400;color:#fff;}
             #portfolio .content > ul li figure figcaption p{color:#fff;}
