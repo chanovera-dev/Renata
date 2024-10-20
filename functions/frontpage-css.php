@@ -18,9 +18,9 @@ function renata_theme_custom_frontpage_css(){
                 0%  {transform:rotateY(30deg) translateY(-300px) skewY(-30deg);opacity:0;}
                 100%{transform:rotateY(0deg) translateY(0) skewY(0deg);opacity:1;}
             }
-            
+
             /* hero */
-            #hero{position:relative;background-color:#11151A;color:#fff;box-shadow:0 18px 20px 0 rgb(0 0 0 / 15%);}
+            #hero{position:relative;background-color:var(--bg-hero-experience);color:var(--color-text);box-shadow:0 18px 20px 0 rgb(0 0 0 / 15%);}
             #hero .section{display:grid;}
             #hero .introduction{min-height:400px;height:calc(100svh - 54px);max-height:1000px;place-content:center;text-align:center;}
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:#fff;}

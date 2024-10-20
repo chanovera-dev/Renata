@@ -45,6 +45,9 @@ function renata_theme_colors() {
                 --border-input-focus:#abb9c9;
                 --color-input:#3D4651;
                 --color-placeholder:#9fafc1;
+
+                /* hero */
+                --bg-hero-experience:#f2f5f7;
             }
 
         /* Modo oscuro */
@@ -91,6 +94,9 @@ function renata_theme_colors() {
                 --border-input-focus:#4c6177;
                 --color-input:#fff;
                 --color-placeholder:#546a83;
+
+                /* hero */
+                --bg-hero-experience:#11151a;
             }
         }
     </style>
