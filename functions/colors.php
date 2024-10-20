@@ -12,6 +12,7 @@ function renata_theme_colors() {
                 --color-text:#3D4651;
                 --color-link:#3D4651;
                 --color-link-hover:#000;
+                --resalted-text:#9198a1;
 
                 /* cabecera */
                 --bg-header:rgb(245 245 247 / 100%);
@@ -61,6 +62,7 @@ function renata_theme_colors() {
                 --color-text:#9198a1;
                 --color-link:#9198a1;
                 --color-link-hover:#fff;
+                --resalted-text:#fff;
 
                 /* cabecera */
                 --bg-header:rgb(17 21 26 / 100%);
