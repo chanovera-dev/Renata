@@ -131,6 +131,11 @@ add_action( 'widgets_init', 'widgets_areas' );
 function limite_excerpt($limite) { return 25; }
 add_filter ('excerpt_length', 'limite_excerpt', 999);
 
+function eliminar_p_vacios($content) {
+    return preg_replace('/<p>\s*<\/p>/', '', $content);
+}
+add_filter('the_excerpt', 'eliminar_p_vacios');
+
 // salida de wp_archive_list() personalizada
 function custom_archives_link($link_html, $url, $text, $format, $before, $after) {
     // Modify the $link_html to customize the link structure
