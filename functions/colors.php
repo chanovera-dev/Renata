@@ -66,8 +66,8 @@ function renata_theme_colors() {
                 --line-aside-list:1px solid #dbe1e8;
 
                 /* navegación */
-                --nav-hover:#e6ebef;
-                --nav-current:#99afc9;
+                --bg-nav-hover:#e6ebef;
+                --bg-nav-current:#99afc9;
 
                 /* etiquetas en el loop de WordPress */
                 --bg-tag-loop:#dbe1e8;
