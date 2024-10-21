@@ -5,7 +5,7 @@ function renata_theme_custom_blog_css() {
     <style>
         .blog main .container{background-color:var(--bg-header);}
         .blog main .container .section{padding:30px 0;}
-        .blog main .container .section .posts{display:grid;gap:30px;}
+        .blog main .container .section .posts{display:grid;gap:50px;align-content:baseline;}
 
         /* blog */
         .blog main .container .section .posts .post{display:grid;gap:20px;align-content:baseline;}
