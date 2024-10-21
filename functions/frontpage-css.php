@@ -3,8 +3,7 @@
 function renata_theme_custom_frontpage_css(){
     ?>
         <style>
-            /* header */
-            
+            /* header */  
             .page-template-front-page #mobile-header :is(.open-menu-mobile--button,.site-brand,.open-searchform-mobile--button),
             .page-template-front-page #desktop-header :is(.site-brand,.menu-primary,.search-form){
                 opacity:1;
