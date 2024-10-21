@@ -68,6 +68,10 @@ function renata_theme_colors() {
                 /* navegación */
                 --nav-hover:#e6ebef;
                 --nav-current:#99afc9;
+
+                /* etiquetas en el loop de WordPress */
+                --bg-tag-loop:#dbe1e8;
+                --bg-tag-loop-hover:#99afc9;
             }
 
         /* Modo oscuro */
@@ -137,6 +141,10 @@ function renata_theme_colors() {
                 /* navegación */
                 --bg-nav-hover:#26303b;
                 --bg-nav-current:#30435a;
+
+                /* etiquetas en el loop de WordPress */
+                --bg-tag-loop:#d1d1d1;
+                --bg-tag-loop-hover:#30435a;
             }
         }
     </style>
