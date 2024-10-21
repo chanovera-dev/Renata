@@ -143,7 +143,7 @@ function renata_theme_colors() {
                 --bg-nav-current:#30435a;
 
                 /* etiquetas en el loop de WordPress */
-                --bg-tag-loop:#d1d1d1;
+                --bg-tag-loop:#26303b;
                 --bg-tag-loop-hover:#30435a;
             }
         }
