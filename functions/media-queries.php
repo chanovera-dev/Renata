@@ -35,7 +35,7 @@ function renata_theme_media_queries() {
 
             @media(min-width:1024px){
                 /* blog */
-                .blog main .container .section{display:grid;grid-template-columns:1fr 215px;gap:50px;}
+                .blog main .container .section{display:grid;grid-template-columns:1fr 215px;gap:90px;}
 
                 /* skills */
                 #skills.container .content .cards__inner{grid-template-columns:repeat(4, 1fr);gap:30px;}
