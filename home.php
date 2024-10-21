@@ -6,9 +6,11 @@
 
         <section class="section">
 
-            <div class="posts">
+            <div class="posts-wrapper">
                 <?php
                     if ( have_posts() ){
+
+                        echo '<div class="posts">';
 
                         while( have_posts() ){
 
@@ -16,6 +18,8 @@
                             get_template_part( 'templates/content', 'archive' );
 
                         }
+
+                        echo '</div>';
 
                         the_posts_pagination();
 
