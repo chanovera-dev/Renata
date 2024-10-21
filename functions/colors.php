@@ -136,7 +136,7 @@ function renata_theme_colors() {
 
                 /* navegación */
                 --nav-hover:#26303b;
-                --nav-current:#99afc9;
+                --nav-current:#223041;
             }
         }
     </style>
