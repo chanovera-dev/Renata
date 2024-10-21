@@ -9,7 +9,7 @@ function renata_theme_custom_blog_css() {
 
         /* blog */
         .blog main .container .section .posts .post{display:grid;gap:20px;align-content:baseline;}
-        .blog main .container .section .posts .post img{width:100%;aspect-ratio:4/3;object-fit:cover;}
+        .blog main .container .section .posts .post img{width:100%;aspect-ratio:16/9;object-fit:cover;}
     </style>
     <?php
 }
