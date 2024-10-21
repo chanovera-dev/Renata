@@ -15,9 +15,6 @@ function renata_theme_media_queries() {
                 #hero.container .introduction{text-align:left;height:calc(100svh - 114px);}
                 #hero.container .introduction .contact-me{margin-inline:inherit;}
 
-                /* blog */
-                .blog main .container .section .posts{grid-template-columns:1fr 1fr;}
-
                 /* portafolio */
                 #portfolio.container .content > ul{grid-template-columns:1fr 1fr;}
 
@@ -34,9 +31,6 @@ function renata_theme_media_queries() {
             }
 
             @media(min-width:1024px){
-                /* blog */
-                .blog main .container .section{display:grid;grid-template-columns:1fr 215px;gap:90px;}
-
                 /* skills */
                 #skills.container .content .cards__inner{grid-template-columns:repeat(4, 1fr);gap:30px;}
 
