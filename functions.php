@@ -128,7 +128,7 @@ function widgets_areas(){
 add_action( 'widgets_init', 'widgets_areas' );
 
 // Delimita el tamaño del excerpt a 25 palabras
-function limite_excerpt($limite) { return 20; }
+function limite_excerpt($limite) { return 25; }
 add_filter ('excerpt_length', 'limite_excerpt', 999);
 
 // salida de wp_archive_list() personalizada
