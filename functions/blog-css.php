@@ -10,7 +10,8 @@ function renata_theme_custom_blog_css() {
         /* blog */
         .blog main .container .section .posts .post{display:grid;gap:20px;align-content:baseline;}
         .blog main .container .section .posts .post .thumbnail{width:100%;aspect-ratio:16/9;object-fit:cover;}
-        .blog main .container .section .posts .post .permalink .permalink__title{font-family:'Text me one';}
+        .blog main .container .section .posts .post .permalink .permalink__title{}
+        .blog main .container .section .posts .post .excerpt{}
     </style>
     <?php
 }
