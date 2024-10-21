@@ -102,7 +102,7 @@ function renata_theme_custom_global_css() {
             #desktop-header .header-content .search-form .search-field{padding:10px 37px 10px 10px;}
 
             /* P O S T S */
-            .blog main .container .section{padding-bottom:30px;}
+            .blog main .container .section{padding:30px 0;}
             .blog main .container .section .posts{display:grid;gap:30px;}
 
             /* nvegación */
