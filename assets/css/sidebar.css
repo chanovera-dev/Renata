@@ -1,4 +1,5 @@
+:root :where(.is-layout-constrained) > *{margin-block-start:16px!important;}
+
 aside{display:grid;gap:30px;align-content:baseline;}
-aside :root :where(.is-layout-constrained) > *{margin-block-start:16px!important;}
 aside :is(.wp-block-categories-list,.wp-block-archives-list) li:not(:last-child){border-bottom:var(--line-aside-list);}
 aside :is(.wp-block-categories-list,.wp-block-archives-list) li a{padding:10px 0;display:inline-flex;align-items:center;gap:10px;}
