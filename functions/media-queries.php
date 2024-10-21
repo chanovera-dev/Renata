@@ -7,10 +7,6 @@ function renata_theme_media_queries() {
             #desktop-header{display:none;}
             
             @media(min-width:768px){
-                /* cabecera */
-                #mobile-header{display:none;}
-                #desktop-header{display:inherit;}
-
                 /* hero */
                 #hero.container .introduction{text-align:left;height:calc(100svh - 114px);}
                 #hero.container .introduction .contact-me{margin-inline:inherit;}
@@ -31,6 +27,10 @@ function renata_theme_media_queries() {
             }
 
             @media(min-width:1024px){
+                /* cabecera */
+                #mobile-header{display:none;}
+                #desktop-header{display:inherit;}
+                
                 /* skills */
                 #skills.container .content .cards__inner{grid-template-columns:repeat(4, 1fr);gap:30px;}
 
