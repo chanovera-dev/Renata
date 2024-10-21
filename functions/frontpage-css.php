@@ -19,7 +19,7 @@ function renata_theme_custom_frontpage_css(){
             }
 
             /* hero */
-            #hero{position:relative;background-color:var(--bg-hero-experience);color:var(--color-text);box-shadow:0 18px 20px 0 rgb(0 0 0 / 15%);}
+            #hero{position:relative;background-color:var(--bg-header);color:var(--color-text);box-shadow:0 18px 20px 0 rgb(0 0 0 / 15%);}
             #hero .section{display:grid;}
             #hero .introduction{min-height:400px;height:calc(100svh - 54px);max-height:1000px;place-content:center;text-align:center;}
             #hero .introduction :is(h1, h2){font-weight:400;font-size:36px;line-height:1.4;color:var(--resalted-text);}
@@ -165,7 +165,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content > ul li > div .see-more-button:hover{cursor:pointer;background-color:#fff;}
 
             /* experience */
-            #experience{position:relative;background-color:var(--bg-hero-experience);color:var(--resalted-text);box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
+            #experience{position:relative;background-color:var(--bg-header);color:var(--resalted-text);box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
             #experience .content{padding:57px 0 70px;}
             #experience .content h2{font-size:36px;font-family:'Text me one';position:relative;color:var(--resalted-text);}
             .certifications .card-timeline{position:relative;display:grid;padding-left:4px;}
