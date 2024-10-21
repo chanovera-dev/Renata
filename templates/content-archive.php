@@ -9,7 +9,7 @@
     <?php 
         the_excerpt(); 
         if ( ! is_active_sidebar('posts-sidebar') ) {
-            echo get_the_tag_list();
+            echo '<div class="tags">' . get_the_tag_list() . '</div>';
         }
     ?>
 </article>
