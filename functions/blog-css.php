@@ -4,7 +4,7 @@ function renata_theme_custom_blog_css() {
     ?>
     <style>
         .blog main .container{background-color:var(--bg-header);}
-        .blog main .container .section{padding:30px 0;}
+        .blog main .container .section{padding:30px 0;display:grid;gap:50px;}
         .blog main .container .section .posts-wrapper{display:grid;grid-template-rows:1fr auto;gap:50px;}
         .blog main .container .section .posts{display:grid;gap:50px;align-content:baseline;grid-template-columns:repeat(auto-fill, minmax(291px, 1fr));}
 
