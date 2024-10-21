@@ -135,8 +135,8 @@ function renata_theme_colors() {
                 --line-aside-list:1px solid #2e3a47;
 
                 /* navegación */
-                --nav-hover:#26303b;
-                --nav-current:#223041;
+                --bg-nav-hover:#26303b;
+                --bg-nav-current:#30435a;
             }
         }
     </style>
