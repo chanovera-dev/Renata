@@ -6,5 +6,5 @@
         endif;
     ?>
     <a href="<?php the_permalink(); ?>" target="_blank"><?php the_title('<h3>', '</h3>'); ?></a>
-    <p><?php the_excerpt(); ?></p>
+    <p><?php get_the_excerpt(); ?></p>
 </article>
