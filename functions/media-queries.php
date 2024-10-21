@@ -30,7 +30,13 @@ function renata_theme_media_queries() {
                 /* cabecera */
                 #mobile-header{display:none;}
                 #desktop-header{display:inherit;}
-                
+
+                /* blog */
+                <?php
+                    if ( is_active_sidebar('posts-sidebar') ) {
+                        echo '.blog main .container .section{display:grid;grid-template-columns:1fr 215px;gap:90px;}';
+                    }
+                ?>
                 /* skills */
                 #skills.container .content .cards__inner{grid-template-columns:repeat(4, 1fr);gap:30px;}
 

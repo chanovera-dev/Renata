@@ -4,12 +4,6 @@ function renata_theme_custom_blog_css() {
     ?>
     <style>
         .blog main .container{background-color:var(--bg-header);}
-        /* blog */
-        <?php
-            if ( is_active_sidebar('posts-sidebar') ) {
-                echo '.blog main .container .section{display:grid;grid-template-columns:1fr 215px;gap:90px;}';
-            }
-        ?>
         .blog main .container .section{padding:30px 0;}
         .blog main .container .section .posts{display:grid;gap:50px;align-content:baseline;grid-template-columns:repeat(auto-fill, minmax(330px, 1fr));}
 
