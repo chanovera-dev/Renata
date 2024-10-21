@@ -29,7 +29,7 @@
                     echo '<aside>';
                     dynamic_sidebar('posts-sidebar');
                     echo '</aside>';
-                } else { echo 'no hay sidebar';}
+                }
             ?>
 
         </section>
