@@ -1,4 +1,4 @@
-<article>
+<article class="post">
     <?php
         if ( has_post_thumbnail() == false ) :
         else:
