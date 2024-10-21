@@ -10,7 +10,7 @@ function renata_theme_custom_blog_css() {
         main .container .section .posts-wrapper .posts .post{display:grid;gap:16px;align-content:baseline;}
         main .container .section .posts-wrapper .posts .post .thumbnail{width:100%;aspect-ratio:16/9;object-fit:cover;background-color:var(--bg-input);}
         main .container .section .posts-wrapper .posts .post .permalink .permalink__title{}
-        main .container .section .posts-wrapper .posts .post .excerpt{}
+        main .container .section .posts-wrapper .posts .post p{}
     </style>
     <?php
 }
