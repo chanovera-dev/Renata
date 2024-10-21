@@ -101,11 +101,11 @@ function renata_theme_custom_global_css() {
             #desktop-header .header-content .search-form{margin-left:auto;position:relative;}
             #desktop-header .header-content .search-form .search-field{padding:10px 37px 10px 10px;}
 
-            /* nvegación */
+            /* navegación */
             .navigation.pagination{grid-column:1/-1;align-self:end;}
-            .navigation.pagination .nav-links{display:flex;gap:15px;justify-content:center;}
-            .navigation.pagination .nav-links .page-numbers:not(.next){display:flex;justify-content:center;width:35px;padding:10px 0;background-color:var(--wp--preset--color--bg-panel);border-radius:6px;}
-            .navigation.pagination .nav-links .page-numbers.next{padding:10px 15px;background-color:var(--wp--preset--color--bg-panel);border-radius:6px;}
+            .navigation.pagination .nav-links{display:flex;justify-content:center;}
+            .navigation.pagination .nav-links .page-numbers{display:grid;place-content:center;width:35px;height:35px;padding:10px 0;background-color:transparent;border-radius:6px;}
+            .navigation.pagination .nav-links .page-numbers.next{width:auto;padding:10px 15px;}
         </style>
     <?php
 }
