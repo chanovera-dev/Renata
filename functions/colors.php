@@ -61,6 +61,9 @@ function renata_theme_colors() {
                 /* contact */
                 --bg-form:#f2f5f7;
                 --bg-address:#e6ebef;
+
+                /* aside */
+                --line-aside-list:#dbe1e8;
             }
 
         /* Modo oscuro */
@@ -123,6 +126,9 @@ function renata_theme_colors() {
                 /* contact */
                 --bg-form:#1a2129;
                 --bg-address:#11151a;
+
+                /* aside */
+                --line-aside-list:#2e3a47;
             }
         }
     </style>
