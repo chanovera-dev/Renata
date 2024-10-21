@@ -63,7 +63,7 @@ function renata_theme_colors() {
                 --bg-address:#e6ebef;
 
                 /* aside */
-                --line-aside-list:#dbe1e8;
+                --line-aside-list:1px solid #dbe1e8;
             }
 
         /* Modo oscuro */
@@ -128,7 +128,7 @@ function renata_theme_colors() {
                 --bg-address:#11151a;
 
                 /* aside */
-                --line-aside-list:#2e3a47;
+                --line-aside-list:1px solid #2e3a47;
             }
         }
     </style>
