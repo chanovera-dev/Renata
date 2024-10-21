@@ -11,7 +11,8 @@ function renata_theme_custom_blog_css() {
         main .container .section .posts-wrapper .posts .post .thumbnail{width:100%;aspect-ratio:16/9;object-fit:cover;background-color:var(--bg-input);}
         main .container .section .posts-wrapper .posts .post .permalink .permalink__title{}
         main .container .section .posts-wrapper .posts .post p{}
-        main .container .section .posts-wrapper .posts .post .tags a[rel="tag"]{padding: 3px 7px;background-color:var(--bg-available-text);border:1px solid var(--bg-available-text);border-radius:4px;color:var(--color-available-text);margin:0 7px 7px 0;font-size:13px;display:inline-block;}
+        main .container .section .posts-wrapper .posts .post .tags a[rel="tag"]{padding: 3px 7px;background-color:var(--bg-available-text);border:1px solid var(--bg-available-text);border-radius:4px;color:var(--color-available-text);margin:0 7px 7px 0;font-size:13px;display:inline-block;transition:background-color .3s ease;}
+        main .container .section .posts-wrapper .posts .post .tags a[rel="tag"]:hover{}
     </style>
     <?php
 }

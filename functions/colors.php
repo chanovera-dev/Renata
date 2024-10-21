@@ -64,6 +64,10 @@ function renata_theme_colors() {
 
                 /* aside */
                 --line-aside-list:1px solid #dbe1e8;
+
+                /* navegación */
+                --nav-hover:#e6ebef;
+                --nav-current:#99afc9;
             }
 
         /* Modo oscuro */
@@ -129,6 +133,10 @@ function renata_theme_colors() {
 
                 /* aside */
                 --line-aside-list:1px solid #2e3a47;
+
+                /* navegación */
+                --nav-hover:#26303b;
+                --nav-current:#99afc9;
             }
         }
     </style>

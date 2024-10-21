@@ -104,8 +104,8 @@ function renata_theme_custom_global_css() {
             /* navegación */
             .navigation.pagination .nav-links{display:flex;justify-content:center;gap:3px;}
             .navigation.pagination .nav-links .page-numbers{display:grid;place-content:center;width:35px;height:35px;padding:0;background-color:transparent;border-radius:6px;transition:all .3s ease;}
-            .navigation.pagination .nav-links .page-numbers.current{background-color:var(--bg-body);color:var(--resalted-text);}
-            .navigation.pagination .nav-links .page-numbers:not(.current):hover{background-color:var(--bg-input);color:var(--resalted-text);}
+            .navigation.pagination .nav-links .page-numbers.current{background-color:var(--nav-current);color:var(--resalted-text);}
+            .navigation.pagination .nav-links .page-numbers:not(.current):hover{background-color:var(--nav-hover);color:var(--resalted-text);}
             .navigation.pagination .nav-links :is(.prev,.next){width:auto;padding:0 15px;}
         </style>
     <?php
