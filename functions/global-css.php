@@ -105,7 +105,7 @@ function renata_theme_custom_global_css() {
             .navigation.pagination{grid-column:1/-1;align-self:end;}
             .navigation.pagination .nav-links{display:flex;justify-content:center;}
             .navigation.pagination .nav-links .page-numbers{display:grid;place-content:center;width:35px;height:35px;padding:0;background-color:transparent;border-radius:6px;transition:all .3s ease;}
-            .navigation.pagination .nav-links .page-numbers:hover{background-color:var(--bg-input);}
+            .navigation.pagination .nav-links .page-numbers:not(.current):hover{background-color:var(--bg-input);}
             .navigation.pagination .nav-links :is(.prev,.next){width:auto;padding:0 15px;}
         </style>
     <?php
