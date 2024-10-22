@@ -25,12 +25,6 @@ function karlicius_posts_styles() {
     if ( is_home() or is_page_template('home.php') or is_archive() or is_search() ) {
         require_once(get_template_directory() . '/functions/blog-css.php');
         wp_enqueue_style( 'sidebar-styles', get_template_directory_uri() . '/assets/css/sidebar.css' );
-        // if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
-        //     wpcf7_enqueue_scripts();
-        //   }
-        // if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
-        //     wpcf7_enqueue_styles();
-        // }
     }
 }
 add_action( 'wp_enqueue_scripts', 'karlicius_posts_styles' );
