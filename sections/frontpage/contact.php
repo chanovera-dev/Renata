@@ -2,7 +2,7 @@
     <section class="section content">
         <div id="contact-form__wrapper">
             <h2 id="title--get-in-touch">Get in touch</h2>
-            <?php echo do_shortcode( '[contact-form-7 id="8045e19" title="Formulario de contacto"]' ); ?>
+            <?php echo do_shortcode( '[contact-form-7 id="9ad5e89" title="Contact form"]' ); ?>
             <div id="message-sent__wrapper" style="max-height:0;">
                 <h2>The message has be send</h2>
             </div>
