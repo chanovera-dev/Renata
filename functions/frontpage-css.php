@@ -165,8 +165,8 @@ function renata_theme_custom_frontpage_css(){
                 animation-timeline:scroll();
             }
             @keyframes portfolio-card-2 {
-                20%{transform:translateY(-160px);opacity:0;}
-                40%{transform:translateY(0);opacity:1;}
+                10%{transform:translateY(-60px);opacity:0;}
+                30%{transform:translateY(0);opacity:1;}
             }
             #portfolio .content .cards-portfolio .card-portfolio:hover{background-color:var(--bg-card-hover);}
             #portfolio .content .cards-portfolio .card-portfolio figure{position:relative;display:grid;gap:10px;height:100%;border-radius:6px;overflow:hidden;aspect-ratio:4/3;}
