@@ -5,35 +5,38 @@
     <div class="container">
 
         <section class="section">
+        <h1><?php echo esc_html__('Resultados para "', 'renata'); echo the_search_query(); echo esc_html__('"', 'renata') ?></h1>
+            <div class="posts-wrapper">
+                <?php
+                    if ( have_posts() ){
 
-            <h1 class="title"><?php echo esc_html__('Resultados para "', 'renata'); echo the_search_query(); echo esc_html__('"', 'renata') ?></h1>
-        
-            <?php
-                if ( have_posts() ){
+                        echo '<div class="posts">';
 
-                    echo '<div class="posts">';
+                        while( have_posts() ){
 
-                    while( have_posts() ){
+                            the_post();
+                            get_template_part( 'templates/content', 'archive' );
 
-                        the_post();
-                        get_template_part( 'templates/content', 'archive' );
+                        }
 
+                        echo '</div>';
+
+                        the_posts_pagination();
+
+                    } else {
+                        echo esc_html__('No se han encontrado artículos', 'renata');
                     }
-
-                    the_posts_pagination();
-
-                    echo '</div>';
-
-                    if ( is_active_sidebar('search-sidebar') ) {
-                        dynamic_sidebar('search-sidebar'); 
-                    } 
-
-                } else {
-                    echo esc_html__('No se han encontrado artículos', 'renata');
+                ?>
+            </div>
+            <?php
+                if ( is_active_sidebar('posts-sidebar') ) {
+                    echo '<aside>';
+                    dynamic_sidebar('posts-sidebar');
+                    echo '</aside>';
                 }
             ?>
 
-        <section>
+        </section>
 
     </div>
 
