@@ -43,17 +43,28 @@ if (contactSection) {
     observerContact.observe(contactSection);
 }
 
-// Envío del formulario mediante AJAX utilizando Contact Form 7
-document.addEventListener('wpcf7submit', function(event) {
-    // Aquí puedes manejar la respuesta de Contact Form 7
-    if (event.detail.status === 'mail_sent') {
+document.addEventListener("DOMContentLoaded", function() {
+    let form = document.getElementById("contact-form");
+    let message = document.getElementById("message-sent__wrapper");
+    let title = document.getElementById("title--get-in-touch");
+    let showForm = document.getElementById('show-form');
+
+    // Escuchar el evento de envío del formulario
+    form.addEventListener("wpcf7mailsent", function(event) {
         // Mostrar mensaje de éxito y ocultar el formulario
-        
-    } else {
-        // Manejar errores si es necesario
+        title.style.maxHeight = "0";
+        title.style.marginBottom = "0";
+        form.style.maxHeight = "0";
+        message.style.maxHeight = "300px";
+        showForm.style.maxHeight = "100px";
+    });
+
+    // Manejar el error si el envío falla
+    form.addEventListener("wpcf7mailfailed", function(event) {
         console.log("Hubo un error al enviar el formulario.");
-    }
-}, false);
+    });
+});
+
 
 function showForm() {
     let form = document.getElementById("contact-form");
