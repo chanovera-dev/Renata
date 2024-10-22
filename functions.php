@@ -153,27 +153,6 @@ function custom_category_list($output, $args) {
 }
 add_filter('wp_list_categories', 'custom_category_list', 10, 2);
 
-function custom_tag_list_with_svg($tag_list, $before = '', $after = '') {
-    // Define tu SVG aquí
-    $svg_icon = '
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
-            <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0"/>
-            <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1m0 5.586 7 7L13.586 9l-7-7H2z"/>
-        </svg>
-    ';
-
-    // Si hay etiquetas, las modificamos
-    if ($tag_list) {
-        $tag_list = str_replace('<a', '<a>' . $svg_icon, $tag_list);
-    }
-    
-    return $before . $tag_list . $after;
-}
-
-add_filter('get_the_tag_list', 'custom_tag_list_with_svg', 10, 3);
-
-
-
 // A N E X O S
 /* anexo para cargar el css que se usa en todas las páginas */
 require_once(get_template_directory() . '/functions/global-css.php');
