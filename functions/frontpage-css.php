@@ -164,7 +164,7 @@ function renata_theme_custom_frontpage_css(){
                 animation: portfolio-card-2 both;
                 animation-timeline:scroll();
             }
-            @keyframes portfolio-card-1 {
+            @keyframes portfolio-card-2 {
                 20%{transform:translateY(-160px);opacity:0;}
                 40%{transform:translateY(0);opacity:1;}
             }
