@@ -151,17 +151,19 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content .cards-portfolio{grid-template-columns:1fr;}
             #portfolio .content .cards-portfolio .card-portfolio{
                 overflow:hidden;background-color:var(--bg-card);box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:10px;padding:8px;display:grid;transition:background-color .3s ease;
-                animation: tilt-in-fwd-tr 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: tilt-in-fwd-tr cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation-timeline:scroll();
             }
             #portfolio .content .cards-portfolio .card-portfolio:nth-child(2){
-                animation: tilt-in-fwd-tr 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+                animation: tilt-in-fwd-tr cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+                animation-timeline:scroll();
             }
             @keyframes tilt-in-fwd-tr {
-                0% {
+                from {
                     transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
                     opacity: 0;
                 }
-                100% {
+                to {
                     transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
                     opacity: 1;
                 }
