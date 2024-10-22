@@ -157,11 +157,12 @@ function renata_theme_custom_frontpage_css(){
                 animation-timeline:scroll();
             }
             @keyframes portfolio-card-1 {
-                from {
+                0% {
                     transform: translateX(-160px);
                     opacity: 0;
                 }
-                to {
+                25%{opacity:1;}
+                50% {
                     transform: translateX(0);
                     opacity: 1;
                 }
