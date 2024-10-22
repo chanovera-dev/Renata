@@ -2,7 +2,7 @@
     <section class="section content">
         <h2 class="title-portfolio">Portfolio</h2>
         <ul class="cards-portfolio">
-            <li class="card-portfolio card1">
+            <li class="card-portfolio">
                 <figure>
                     <picture>
                         <!--
