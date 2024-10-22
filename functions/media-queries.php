@@ -34,7 +34,10 @@ function renata_theme_media_queries() {
                 /* blog */
                 <?php
                     if ( is_active_sidebar('posts-sidebar') ) {
-                        echo ':is(.blog,.archive) main .container .section{display:grid;grid-template-columns:1fr 256px;gap:30px 90px;padding:0;padding-bottom:30px;}';
+                        echo '
+                        :is(.blog,.archive) main .container .section{display:grid;grid-template-columns:1fr 256px;gap:30px 90px;}
+                        .archive main .container .section{padding:0;padding-bottom:30px;}
+                        ';
                     }
                 ?>
                 /* skills */
