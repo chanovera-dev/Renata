@@ -153,6 +153,10 @@ function custom_category_list($output, $args) {
 }
 add_filter('wp_list_categories', 'custom_category_list', 10, 2);
 
+$tags_list = get_the_tag_list('<span class="tag-item">', ', ', '</span>');
+if ($tags_list) {
+    echo '<div class="tags-list">' . $tags_list . '</div>';
+}
 // personaliza la salida de las etiquetas
 $tags = get_the_tags();
 if ($tags) {
