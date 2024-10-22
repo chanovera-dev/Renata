@@ -18,10 +18,10 @@ const observerContact = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             // Carga los archivos cuando el elemento es visible
             Promise.all([
-                loadScript('/wp-includes/js/dist/hooks.min.js'),
-                loadScript('/wp-includes/js/dist/i18n.min.js'),
-                loadScript('/wp-content/plugins/contact-form-7/includes/js/index.js'),
-                loadScript('/wp-content/plugins/contact-form-7/includes/swv/js/index.js')
+                loadScript('https://www.chanovera.com/wp-includes/js/dist/hooks.min.js'),
+                loadScript('https://www.chanovera.com/wp-includes/js/dist/i18n.min.js'),
+                loadScript('https://www.chanovera.com/wp-content/plugins/contact-form-7/includes/js/index.js'),
+                loadScript('https://www.chanovera.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js')
             ]).then(() => {
                 console.log('Todos los scripts se han cargado correctamente.');
             }).catch((error) => {
