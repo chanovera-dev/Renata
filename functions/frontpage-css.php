@@ -159,7 +159,18 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content .cards-portfolio .card-portfolio figure figcaption p{color:#fff;}
             #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper{display:flex;align-items:center;justify-content:space-between;padding-top:9px;}
             #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .technologies-list{margin:0;padding-left:0;list-style:none;display:inline-flex;align-items:center;gap:16px;}
-            #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .technologies-list li{line-height:1;}
+            #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .technologies-list li{line-height:1;animation: tilt-in-fwd-tr 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}
+            @keyframes tilt-in-fwd-tr {
+            0% {
+                transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+                opacity: 0;
+            }
+            100% {
+                transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+                opacity: 1;
+            }
+            }
+
             #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .technologies-list li svg{color:var(--resalted-text);width:24px;height:24px;}
             #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .see-more-button{padding:7px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:background-color .3s ease;}
             #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .see-more-button:hover{cursor:pointer;background-color:#fff;}
