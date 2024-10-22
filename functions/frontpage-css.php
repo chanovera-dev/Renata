@@ -150,18 +150,18 @@ function renata_theme_custom_frontpage_css(){
             /* portfolio */
             #portfolio .content .cards-portfolio{grid-template-columns:1fr;}
             #portfolio .content .cards-portfolio .card-portfolio{
-                overflow:hidden;background-color:var(--bg-card);box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:10px;padding:8px;display:grid;transition:background-color .3s ease;
-                animation: swing-in-top-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+                overflow:hidden;background-color:var(--bg-card);box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:10px;padding:8px;display:grid;opacity:1;transition:background-color .3s ease;
+                animation: portfolio-card 1s both;
                 
             }
-            @keyframes swing-in-top-fwd {
+            @keyframes portfolio-card {
                 0% {
-                    transform: rotateX(-100deg);
+                    transform: translateY(-60px) scale(1.25);
                     transform-origin: top;
                     opacity: 0;
                 }
                 100% {
-                    transform: rotateX(0deg);
+                    transform: translateY(0) scale(1);
                     transform-origin: top;
                     opacity: 1;
                 }
