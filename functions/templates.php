@@ -13,7 +13,7 @@ function renata_frontpage_styles() {
         function load_components_footer_frontpage(){
             wp_dequeue_style( 'wc-blocks-style' );
             wp_enqueue_script('skills', get_template_directory_uri() . '/assets/js/skills.js', array(), '1.0', true);
-            wp_enqueue_script('send-email', get_template_directory_uri() . '/assets/js/send-email.js', array(), '1.0', true);
+            // wp_enqueue_script('send-email', get_template_directory_uri() . '/assets/js/send-email.js', array(), '1.0', true);
         }
         add_action( 'get_footer', 'load_components_footer_frontpage' );
     }
@@ -25,6 +25,12 @@ function karlicius_posts_styles() {
     if ( is_home() or is_page_template('home.php') or is_archive() or is_search() ) {
         require_once(get_template_directory() . '/functions/blog-css.php');
         wp_enqueue_style( 'sidebar-styles', get_template_directory_uri() . '/assets/css/sidebar.css' );
+        if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
+            wpcf7_enqueue_scripts();
+          }
+        if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
+            wpcf7_enqueue_styles();
+        }
     }
 }
 add_action( 'wp_enqueue_scripts', 'karlicius_posts_styles' );
