@@ -51,6 +51,9 @@ function renata_theme_forms() {
         input[type=search]::-webkit-search-cancel-button,
         input[type=search]::-webkit-search-results-button,
         input[type=search]::-webkit-search-results-decoration{display:none;}
+
+        /* Contact form 7 */
+        .wpcf7 form .wpcf7-response-output{margin:1em 0 0;}
     </style>
     <?php
 }
