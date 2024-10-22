@@ -44,7 +44,7 @@ if (contactSection) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    let form = document.getElementById("contact-form");
+    let form = document.querySelector(".wpcf7-form.init");
     let message = document.getElementById("message-sent__wrapper");
     let title = document.getElementById("title--get-in-touch");
     let showForm = document.getElementById('show-form');
