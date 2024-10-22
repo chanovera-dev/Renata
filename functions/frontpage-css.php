@@ -159,11 +159,11 @@ function renata_theme_custom_frontpage_css(){
                 animation-timeline:scroll();
             }
             @keyframes tilt-in-fwd-tr {
-                from {
+                0% {
                     transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
                     opacity: 0;
                 }
-                to {
+                25% {
                     transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
                     opacity: 1;
                 }
