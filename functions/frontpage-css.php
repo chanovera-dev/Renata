@@ -165,7 +165,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content .cards-portfolio .card-portfolio:nth-child(2){
                 animation: portfolio-card-2;
                 animation-timeline:view();
-                animation-range:entry 20% contain 10%;
+                animation-range:entry 30% contain 10%;
                 animation-fill-mode:both;
             }
             @keyframes portfolio-card-2 {
@@ -175,7 +175,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content .cards-portfolio .card-portfolio:nth-child(3){
                 animation: portfolio-card-3;
                 animation-timeline:view();
-                animation-range:entry 20% contain 10%;
+                animation-range:entry 40% contain 10%;
                 animation-fill-mode:both;
             }
             @keyframes portfolio-card-3 {
