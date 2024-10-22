@@ -158,7 +158,7 @@ function renata_theme_custom_frontpage_css(){
             }
             @keyframes portfolio-card-1 {
                 10%{transform:translateX(-160px);opacity:0;}
-                40%{transform:translateX(0);opacity:1;}
+                30%{transform:translateX(0);opacity:1;}
                 50%{transform:translateX(0);opacity:1;}
                 70%{transform:translateX(-160px);opacity:0;}
             }
