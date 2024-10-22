@@ -154,8 +154,8 @@ function custom_category_list($output, $args) {
 add_filter('wp_list_categories', 'custom_category_list', 10, 2);
 
 // deshabilita contact form 7 en todas las páginas | revisar functions/templates.php para ver que páginas tienen habilitado contact form 7
-add_filter( 'wpcf7_load_js', '__return_false' );
-add_filter( 'wpcf7_load_css', '__return_false' );
+// add_filter( 'wpcf7_load_js', '__return_false' );
+// add_filter( 'wpcf7_load_css', '__return_false' );
 
 // A N E X O S
 /* anexo para cargar el css que se usa en todas las páginas */
