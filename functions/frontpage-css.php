@@ -161,7 +161,6 @@ function renata_theme_custom_frontpage_css(){
                     transform: translateX(-160px);
                     opacity: 0;
                 }
-                25%{opacity:1;}
                 30% {
                     transform: translateX(0);
                     opacity: 1;
