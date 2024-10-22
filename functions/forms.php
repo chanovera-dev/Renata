@@ -53,7 +53,7 @@ function renata_theme_forms() {
         input[type=search]::-webkit-search-results-decoration{display:none;}
 
         /* Contact form 7 */
-        .wpcf7 form .wpcf7-response-output{margin:1em 0 0;}
+        .wpcf7 form .wpcf7-response-output{margin:1em 0 0;padding:0;border:none;}
     </style>
     <?php
 }
