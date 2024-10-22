@@ -148,21 +148,21 @@ function renata_theme_custom_frontpage_css(){
             }
 
             /* portfolio */
-            #portfolio .content > ul{grid-template-columns:1fr;}
-            #portfolio .content > ul > li{overflow:hidden;background-color:var(--bg-card);box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:10px;padding:8px;display:grid;transition:background-color .3s ease;}
-            #portfolio .content > ul > li:hover{background-color:var(--bg-card-hover);}
-            #portfolio .content > ul > li figure{position:relative;display:grid;gap:10px;height:100%;border-radius:6px;overflow:hidden;aspect-ratio:4/3;}
-            #portfolio .content > ul > li figure img{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:100%;aspect-ratio:4/3;object-fit:cover;transition:all .3s ease;}
-            #portfolio .content > ul > li:hover figure img{transform:translate(-50%, -50%) scale(1.3);filter:blur(15px);}
-            #portfolio .content > ul li figure figcaption{position:absolute;display:grid;gap:16px;align-content:baseline;text-align:left;background-color:rgb(0 0 0 / 75%);padding:20px;width:100%;height:100%;}
-            #portfolio .content > ul li figure figcaption h3{font-size:24px;font-weight:400;color:#fff;}
-            #portfolio .content > ul li figure figcaption p{color:#fff;}
-            #portfolio .content > ul li > div{display:flex;align-items:center;justify-content:space-between;padding-top:9px;}
-            #portfolio .content > ul li > div ul{margin:0;padding-left:0;list-style:none;display:inline-flex;align-items:center;gap:16px;}
-            #portfolio .content > ul li > div ul li{line-height:1;}
-            #portfolio .content > ul li > div ul li svg{color:var(--resalted-text);width:24px;height:24px;}
-            #portfolio .content > ul li > div .see-more-button{padding:7px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:background-color .3s ease;}
-            #portfolio .content > ul li > div .see-more-button:hover{cursor:pointer;background-color:#fff;}
+            #portfolio .content .cards-portfolio{grid-template-columns:1fr;}
+            #portfolio .content .cards-portfolio .card-portfolio{overflow:hidden;background-color:var(--bg-card);box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;border-radius:10px;padding:8px;display:grid;transition:background-color .3s ease;}
+            #portfolio .content .cards-portfolio .card-portfolio:hover{background-color:var(--bg-card-hover);}
+            #portfolio .content .cards-portfolio .card-portfolio figure{position:relative;display:grid;gap:10px;height:100%;border-radius:6px;overflow:hidden;aspect-ratio:4/3;}
+            #portfolio .content .cards-portfolio .card-portfolio figure img{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:100%;aspect-ratio:4/3;object-fit:cover;transition:all .3s ease;}
+            #portfolio .content .cards-portfolio .card-portfolio:hover figure img{transform:translate(-50%, -50%) scale(1.3);filter:blur(15px);}
+            #portfolio .content .cards-portfolio .card-portfolio figure figcaption{position:absolute;display:grid;gap:16px;align-content:baseline;text-align:left;background-color:rgb(0 0 0 / 75%);padding:20px;width:100%;height:100%;}
+            #portfolio .content .cards-portfolio .card-portfolio figure figcaption h3{font-size:24px;font-weight:400;color:#fff;}
+            #portfolio .content .cards-portfolio .card-portfolio figure figcaption p{color:#fff;}
+            #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper{display:flex;align-items:center;justify-content:space-between;padding-top:9px;}
+            #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .technologies-list{margin:0;padding-left:0;list-style:none;display:inline-flex;align-items:center;gap:16px;}
+            #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .technologies-list li{line-height:1;}
+            #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .technologies-list li svg{color:var(--resalted-text);width:24px;height:24px;}
+            #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .see-more-button{padding:7px;display:inline-flex;gap:6px;align-items:center;background-color:#3fb950;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:background-color .3s ease;}
+            #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .see-more-button:hover{cursor:pointer;background-color:#fff;}
 
             /* experience */
             #experience{position:relative;background-color:var(--bg-header);color:var(--resalted-text);box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
