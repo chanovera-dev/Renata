@@ -160,7 +160,7 @@ function renata_theme_custom_frontpage_css(){
                     transform-origin: top;
                     opacity: 0;
                 }
-                25% {
+                10% {
                     transform: translateY(0);
                     transform-origin: top;
                     opacity: 1;
