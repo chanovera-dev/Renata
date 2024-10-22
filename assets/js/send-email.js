@@ -16,5 +16,5 @@ const callback = (mutationsList) => {
     }
 };
 
-const observer = new MutationObserver(callback);
-observer.observe(targetNode, config);
+const observerContact = new MutationObserver(callback);
+observerContact.observe(targetNode, config);
