@@ -44,27 +44,28 @@ if (contactSection) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    let form = document.querySelector(".wpcf7-form.init");
-    let message = document.getElementById("message-sent__wrapper");
-    let title = document.getElementById("title--get-in-touch");
-    let showForm = document.getElementById('show-form');
+    // Escuchar el evento de inicialización de Contact Form 7
+    document.addEventListener('wpcf7init', function() {
+        let form = document.getElementById("contact-form");
+        let message = document.getElementById("message-sent__wrapper");
+        let title = document.getElementById("title--get-in-touch");
+        let showForm = document.getElementById('show-form');
 
-    // Escuchar el evento de envío del formulario
-    form.addEventListener("wpcf7mailsent", function(event) {
-        // Mostrar mensaje de éxito y ocultar el formulario
-        title.style.maxHeight = "0";
-        title.style.marginBottom = "0";
-        form.style.maxHeight = "0";
-        message.style.maxHeight = "300px";
-        showForm.style.maxHeight = "100px";
-    });
+        // Escuchar el evento de envío exitoso
+        form.addEventListener("wpcf7mailsent", function(event) {
+            title.style.maxHeight = "0";
+            title.style.marginBottom = "0";
+            form.style.maxHeight = "0";
+            message.style.maxHeight = "300px";
+            showForm.style.maxHeight = "100px";
+        });
 
-    // Manejar el error si el envío falla
-    form.addEventListener("wpcf7mailfailed", function(event) {
-        console.log("Hubo un error al enviar el formulario.");
+        // Manejar el error si el envío falla
+        form.addEventListener("wpcf7mailfailed", function(event) {
+            console.log("Hubo un error al enviar el formulario.");
+        });
     });
 });
-
 
 function showForm() {
     let form = document.getElementById("contact-form");
