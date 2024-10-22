@@ -22,7 +22,7 @@ const observerContact = new IntersectionObserver((entries) => {
                 loadScript('https://www.chanovera.com/wp-includes/js/dist/i18n.min.js'),
                 loadScript('https://www.chanovera.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js'),
                 loadScript('https://www.chanovera.com/wp-content/plugins/contact-form-7/includes/js/index.js'),
-                loadscript('https://www.chanovera.com/wp-content/plugins/contact-form-7/includes/css/styles.css')
+                loadScript('https://www.chanovera.com/wp-content/plugins/contact-form-7/includes/css/styles.css')
                 
             ]).then(() => {
                 console.log('Todos los scripts se han cargado correctamente.');
