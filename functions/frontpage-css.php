@@ -162,7 +162,7 @@ function renata_theme_custom_frontpage_css(){
                     opacity: 0;
                 }
                 to {
-                    transform: translateY(0);
+                    transform: translateX(0);
                     opacity: 1;
                 }
             }
