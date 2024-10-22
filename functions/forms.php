@@ -13,7 +13,7 @@ function renata_theme_forms() {
         input[type=tel],
         input[type=url],
         input[type=search],
-        textarea{padding:10px;background-color:var(--bg-input);border:1px solid var(--border-input);border-radius:6px;font-size:16px;color:var(--color-input);width:100%;transition:border-color .3s ease;}
+        textarea{padding:10px;background-color:var(--bg-input);border:1px solid var(--border-input);border-radius:6px;font-family:'Roboto';font-size:16px;color:var(--color-input);width:100%;transition:border-color .3s ease;}
 
         input[type=text]:hover,
         input[type=email]:hover,
