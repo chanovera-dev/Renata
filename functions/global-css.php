@@ -98,7 +98,7 @@ function renata_theme_custom_global_css() {
             #desktop-header .header-content ul li a{transition:color .3s ease;}
             #desktop-header .header-content ul li a:hover{color:var(--color-link-hover);}
             /* searchform */
-            #desktop-header .header-content .search-form{margin-left:auto;position:relative;}
+            #desktop-header .header-content .search-form{margin-left:auto;position:relative;width:256px;}
             #desktop-header .header-content .search-form .search-field{padding:10px 37px 10px 10px;}
 
             /* navegación */
