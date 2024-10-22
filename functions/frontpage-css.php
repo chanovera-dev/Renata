@@ -159,8 +159,8 @@ function renata_theme_custom_frontpage_css(){
             @keyframes portfolio-card-1 {
                 0% {transform:translateX(-160px);opacity:0;}
                 30% {transform:translateX(0);opacity:1;}
-                70% {transform:translateX(0);opacity:1;}
-                100%{transform:translateX(-160px);opacity:0;}
+                50% {transform:translateX(0);opacity:1;}
+                70%{transform:translateX(-160px);opacity:0;}
             }
 
             #portfolio .content .cards-portfolio .card-portfolio:hover{background-color:var(--bg-card-hover);}
