@@ -156,12 +156,12 @@ function renata_theme_custom_frontpage_css(){
             }
             @keyframes portfolio-card {
                 0% {
-                    transform: translateY(-60px) scale(1.25);
+                    transform: translateY(-60px);
                     transform-origin: top;
                     opacity: 0;
                 }
                 100% {
-                    transform: translateY(0) scale(1);
+                    transform: translateY(0);
                     transform-origin: top;
                     opacity: 1;
                 }
