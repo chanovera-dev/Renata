@@ -1,22 +1,22 @@
-function onloadRecaptcha(entries, observer) {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            // Cargar el archivo JavaScript
-            const script = document.createElement('script');
-            script.src = 'https://www.google.com/recaptcha/api.js';
-            document.body.appendChild(script);
-            // Dejar de observar la sección una vez que se carga el script
-            observer.unobserve(entry.target);
-        }
-    });
-}
+// function onloadRecaptcha(entries, observer) {
+//     entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//             // Cargar el archivo JavaScript
+//             const script = document.createElement('script');
+//             script.src = 'https://www.google.com/recaptcha/api.js';
+//             document.body.appendChild(script);
+//             // Dejar de observar la sección una vez que se carga el script
+//             observer.unobserve(entry.target);
+//         }
+//     });
+// }
 
-// Observador de intersección para la sección
-const observer1 = new IntersectionObserver(onloadRecaptcha, {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1 // Cuando el 10% de la sección sea visible
-});
+// // Observador de intersección para la sección
+// const observer1 = new IntersectionObserver(onloadRecaptcha, {
+//     root: null,
+//     rootMargin: '0px',
+//     threshold: 0.1 // Cuando el 10% de la sección sea visible
+// });
 
 // Elemento a observar
 const form = document.getElementById('contact');
@@ -29,7 +29,7 @@ function enableSubmitButton() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    let form = document.getElementById("contact-form");
+    let form = document.querySelector(".wpcf7-form");
     let message = document.getElementById("message-sent__wrapper");
     let title = document.getElementById("title--get-in-touch");
     let showForm = document.getElementById('show-form');
