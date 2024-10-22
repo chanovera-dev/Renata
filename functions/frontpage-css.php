@@ -157,24 +157,24 @@ function renata_theme_custom_frontpage_css(){
                 animation-timeline:scroll();
             }
             @keyframes portfolio-card-1 {
-                10%{transform:translateX(-160px);opacity:0;}
-                30%{transform:translateX(0);opacity:1;}
+                10%{transform:translateY(-60px);opacity:0;}
+                30%{transform:translateY(0);opacity:1;}
             }
             #portfolio .content .cards-portfolio .card-portfolio:nth-child(2){
                 animation: portfolio-card-2 both;
                 animation-timeline:scroll();
             }
             @keyframes portfolio-card-2 {
-                10%{transform:translateY(-60px);opacity:0;}
-                30%{transform:translateY(0);opacity:1;}
+                13%{transform:translateY(-60px);opacity:0;}
+                33%{transform:translateY(0);opacity:1;}
             }
             #portfolio .content .cards-portfolio .card-portfolio:nth-child(3){
                 animation: portfolio-card-3 both;
                 animation-timeline:scroll();
             }
             @keyframes portfolio-card-3 {
-                10%{transform:translateX(160px);opacity:0;}
-                30%{transform:translateX(0);opacity:1;}
+                16%{transform:translateY(-60px);opacity:0;}
+                36%{transform:translateY(0);opacity:1;}
             }
             #portfolio .content .cards-portfolio .card-portfolio:hover{background-color:var(--bg-card-hover);}
             #portfolio .content .cards-portfolio .card-portfolio figure{position:relative;display:grid;gap:10px;height:100%;border-radius:6px;overflow:hidden;aspect-ratio:4/3;}
