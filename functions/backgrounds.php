@@ -13,7 +13,8 @@ function renata_theme_custom_backgrounds() {
                 :is(.page-template-default,.post-template-default) .header-post .title-and-data__wrapper .title-post,
                 .post-template-default .header-post .title-and-data__wrapper .author .author-name,
                 .post-template-default .header-post .title-and-data__wrapper .author .author-ocupation,
-                .post-template-default .header-post .title-and-data__wrapper .date{color:#fff;}
+                .post-template-default .header-post .title-and-data__wrapper .date,
+                .post-template-default .header-post .title-and-data__wrapper .share{color:#fff;}
             <?php endif; ?>
 
         </style>
