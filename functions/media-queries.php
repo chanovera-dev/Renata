@@ -4,14 +4,14 @@ function renata_theme_media_queries() {
     ?>
         <style>
             :root{
-                --height--header:auto;
+                --padding-bg-header:50px;
             }
             /* header */
             #desktop-header{display:none;}
             
             @media(min-width:768px){
                 :root{
-                    --height--header:70px;
+                    --padding-bg-header:70px;
                 }
 
                 /* hero */

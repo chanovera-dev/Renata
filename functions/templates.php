@@ -32,7 +32,7 @@ add_action( 'wp_enqueue_scripts', 'karlicius_posts_styles' );
 // Estilos para todos los artículos y páginas
 function single_styles() {
     if ( is_single() or is_page() ) {
-        
+        wp_enqueue_style( 'single-styles', get_template_directory_uri() . '/assets/css/single.css' );
     }
 }
 add_action( 'wp_enqueue_scripts', 'single_styles' );
