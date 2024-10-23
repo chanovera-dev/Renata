@@ -158,6 +158,8 @@ add_filter('wp_list_categories', 'custom_category_list', 10, 2);
 require_once(get_template_directory() . '/functions/global-css.php');
 // Anexo para definir los colores personalizados en las plantillas
 require_once(get_template_directory() . '/functions/colors.php');
+// Anexo para definir los fondos personalizados en las plantillas
+require_once(get_template_directory() . '/functions/backgrounds.php');
 /* anexo para cargar los estilos de los formularios */
 require_once(get_template_directory() . '/functions/forms.php');
 /* anexo para los breakpoints del sitio */
