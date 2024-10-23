@@ -19,7 +19,7 @@ function renata_theme_custom_frontpage_css(){
 
             /* C U E R P O */
             :is(.page-template-default,.post-template-default) .body-post{padding:30px 0;}
-            :is(.page-template-default,.post-template-default) .body-post .section .content{max-width:675px;}
+            :is(.page-template-default,.post-template-default) .body-post .section .content-post{max-width:675px;}
         </style>
     <?php
 }
