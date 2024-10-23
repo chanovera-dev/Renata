@@ -8,7 +8,8 @@ function checkClassAndChangeStyles() {
 
     if (form.classList.contains('sent')) {
         titleElement.style.maxHeight = '0';
-        showFormElement.style.maxHeight = 'auto';
+        titleElement.style.marginBottom = '0';
+        showFormElement.style.maxHeight = '100px';
     }
 }
 
@@ -28,3 +29,12 @@ if (form) {
 
 // Llamamos a la función al cargar la página por si ya tiene la clase 'sent'
 checkClassAndChangeStyles();
+
+function showForm() {
+    const titleElement = document.getElementById('title--get-in-touch');
+    const showFormElement = document.getElementById('show-form');
+
+    titleElement.style.maxHeight = 'auto';
+    titleElement.style.marginBottom = '20px';
+    showFormElement.style.maxHeight = '0';
+}
