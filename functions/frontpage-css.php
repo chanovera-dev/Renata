@@ -200,9 +200,9 @@ function renata_theme_custom_frontpage_css(){
             #contact .section > div:nth-child(2){background-color:var(--bg-address);display:grid;gap:20px;align-content:baseline;}
             /* formulario de contacto */
             #contact .section .wpcf7-form,
-            #contact .section .contact-form{display:flex;flex-wrap:wrap;gap:1rem;overflow:hidden;margin-bottom:0;transition:all .3s ease;}
+            #contact .section .contact-form{}
             #contact .section .wpcf7-form p,
-            #contact .section .contact-form p{display:flex;flex-direction:column;flex:1 0 14rem;max-height:100px;transition:all .3s ease;}
+            #contact .section .contact-form p{transition:all .3s ease;}
             #contact .section .wpcf7-form.sent p{max-height:0;margin:0;}
             #contact .section .contact-form p.button-wrapper{flex:1 0 20rem;}
             .wpcf7-form-control.wpcf7-submit,
