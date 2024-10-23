@@ -7,9 +7,8 @@ function checkClassAndChangeStyles() {
     const showFormElement = document.getElementById('show-form');
 
     if (form.classList.contains('sent')) {
-        titleElement.style.maxHeight = '0';
-        titleElement.style.marginBottom = '0';
-        showFormElement.style.maxHeight = '100px';
+        titleElement.classList.add('hide');
+        showFormElement.classList.add('show');
     }
 }
 
@@ -35,8 +34,7 @@ function showForm() {
     const showFormElement = document.getElementById('show-form');
     const form = document.querySelector('.wpcf7-form');
 
-    titleElement.style.maxHeight = 'auto';
-    titleElement.style.marginBottom = '20px';
-    showFormElement.style.maxHeight = '0';
+    titleElement.classList.remove('hide');
+    showFormElement.classList.remove('show');
     form.classList.remove('sent');
 }
