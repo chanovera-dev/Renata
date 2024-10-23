@@ -11,5 +11,17 @@
                 ?>
             </section>
         </div>
+        <div class="container body-post">
+            <section class="section">
+                <div class="content-post"></div>
+                <?php
+                    if ( is_active_sidebar('single-sidebar') ) {
+                        echo '<aside>';
+                        dynamic_sidebar('single-sidebar');
+                        echo '</aside>';
+                    }
+                ?>
+            </section>
+        </div>
     </article>
 </main>
