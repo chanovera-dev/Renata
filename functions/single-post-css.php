@@ -21,6 +21,7 @@ function renata_theme_custom_frontpage_css(){
             :is(.page-template-default,.post-template-default) .body-post{padding:30px 0;background-color:var(--white);}
             :is(.page-template-default,.post-template-default) .body-post .section .content-post{max-width:675px;margin-inline:auto;line-height:1.9;}
             :is(.page-template-default,.post-template-default) .body-post .section .content-post > *:not(:last-child){margin-bottom:19px;}
+            :is(.page-template-default,.post-template-default) .body-post .section .content-post > h2{font-size:var(--wp--preset--font-size--x-large);font-weight:400;color:var(--resalted-text);margin-top:40px;border-bottom:var(--line-aside-list);}
         </style>
     <?php
 }
