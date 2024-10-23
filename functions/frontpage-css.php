@@ -194,7 +194,7 @@ function renata_theme_custom_frontpage_css(){
             /* contact */
             #contact{background-color:var(--bg-alt);padding:120px 0;}
             #contact .section{display:grid;border-radius:10px;overflow:hidden;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;}
-            #contact .section #title--get-in-touch{font-family:'Text me one';margin-bottom:20px;color:var(--resalted-text);overflow:hidden;transition:all .3s ease;}
+            #contact .section #title--get-in-touch{font-family:'Text me one';max-height:100px;margin-bottom:20px;color:var(--resalted-text);overflow:hidden;transition:all .3s ease;}
             #contact .section #title--get-in-touch.hide{max-height:0;margin-bottom:0;}
             #contact .section > div{padding:20px;}
             #contact .section > div:nth-child(1){background-color:var(--bg-form);position:relative;}
@@ -203,7 +203,7 @@ function renata_theme_custom_frontpage_css(){
             #show-form.show{max-height:100px;padding:6px 9px;border:2px solid var(--color-text);}
             #show-form:hover{cursor:pointer;color:var(--resalted-text);border-color:var(--resalted-text);}
                 /* formulario de contacto */
-                #contact .section .wpcf7-form p{overflow:hidden;transition:all .3s ease;}
+                #contact .section .wpcf7-form p{overflow:hidden;max-height:270px;transition:all .3s ease;}
                 #contact .section :is(.wpcf7-form.submitting,.wpcf7-form.resetting,.wpcf7-form.sent) p{max-height:0;margin:0;}
                 /* botón de envío */
                 #contact .section .wpcf7-form .wpcf7-form-control.wpcf7-submit{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;color:#11151A;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:all .3s ease;}
