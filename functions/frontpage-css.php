@@ -198,15 +198,14 @@ function renata_theme_custom_frontpage_css(){
             #contact .section > div{padding:20px;}
             #contact .section > div:nth-child(1){background-color:var(--bg-form);position:relative;}
             #contact .section > div:nth-child(2){background-color:var(--bg-address);display:grid;gap:20px;align-content:baseline;}
-            #contact .section .contact-form{display:flex;flex-wrap:wrap;gap:1rem;overflow:hidden;margin-bottom:0;transition:all .3s ease;}
-            #contact .section .contact-form p{display:flex;flex-direction:column;flex:1 0 14rem;}
-            #contact .section .contact-form p.button-wrapper{flex:1 0 20rem;}
-            .wpcf7-form-control.wpcf7-submit,
-            #contact .section .contact-form p button{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;color:#11151A;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:all .3s ease;}
-            .wpcf7-form-control.wpcf7-submit:hover,
-            #contact .section .contact-form p button:hover{background-color:#fff;cursor:pointer;}
-            .wpcf7-form-control.wpcf7-submit:focus,
-            #contact .section .contact-form p button:focus{outline:none;}
+
+            .wpcf7-form{}
+            .wpcf7-form > p{max-height:100px;transition:all .3s ease;}
+            .wpcf7-form.sent > p{max-height:0;margin:0;}
+            .wpcf7-form-control.wpcf7-submit{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;color:#11151A;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:all .3s ease;}
+            .wpcf7-form-control.wpcf7-submit:hover{background-color:#fff;cursor:pointer;}
+            .wpcf7-form-control.wpcf7-submit:focus{outline:none;}
+
             #contact .section .contact-form p :is(button.disabled,button.disabled:hover){border:1px solid var(--color-placeholder);color:var(--color-placeholder);background-color:transparent;cursor:auto;}
             #contact .section ul{padding-left:0;margin:0;list-style:none;display:grid;}
             #contact .section ul li{display:inline-flex;align-items:center;gap:10px;height:38px;color:var(--resalted-text);}
