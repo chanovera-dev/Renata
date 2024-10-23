@@ -18,7 +18,7 @@ function renata_theme_custom_frontpage_css(){
             .post-template-default .header-post .title-and-data__wrapper .share a{color:var(--color-text);}
 
             /* C U E R P O */
-            :is(.page-template-default,.post-template-default) .body-post{padding:30px 0;}
+            :is(.page-template-default,.post-template-default) .body-post{padding:30px 0;background-color:var(--white);}
             :is(.page-template-default,.post-template-default) .body-post .section .content-post{max-width:675px;margin-inline:auto;}
         </style>
     <?php
