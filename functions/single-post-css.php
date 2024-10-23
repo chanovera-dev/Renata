@@ -19,7 +19,8 @@ function renata_theme_custom_frontpage_css(){
 
             /* C U E R P O */
             :is(.page-template-default,.post-template-default) .body-post{padding:30px 0;background-color:var(--white);}
-            :is(.page-template-default,.post-template-default) .body-post .section .content-post{max-width:675px;margin-inline:auto;}
+            :is(.page-template-default,.post-template-default) .body-post .section .content-post{max-width:675px;margin-inline:auto;line-height:1.9;}
+            :is(.page-template-default,.post-template-default) .body-post .section .content-post > *:not(:last-child){margin-bottom:19px;}
         </style>
     <?php
 }
