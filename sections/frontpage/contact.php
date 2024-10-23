@@ -4,7 +4,7 @@
             <h2 id="title--get-in-touch">Get in touch</h2>
             <?php echo do_shortcode( '[contact-form-7 id="9ad5e89" title="Contact form"]' ); ?>
             <button id="show-form" onclick="showForm()">
-                New
+                Send another message
             </button>
         </div>
         <div class="contact__information">
