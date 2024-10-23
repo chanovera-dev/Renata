@@ -16,6 +16,9 @@ function renata_theme_custom_frontpage_css(){
             /* compartir */
             .post-template-default .header-post .title-and-data__wrapper .share{display:flex;align-items:center;justify-content:center;line-height:1;gap:20px;color:var(--color-text);}
             .post-template-default .header-post .title-and-data__wrapper .share a{color:var(--color-text);}
+
+            /* C U E R P O */
+            
         </style>
     <?php
 }

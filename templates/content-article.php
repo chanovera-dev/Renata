@@ -13,7 +13,9 @@
         </div>
         <div class="container body-post">
             <section class="section">
-                <div class="content-post"></div>
+                <div class="content-post">
+                    <?php the_content(); ?>
+                </div>
                 <?php
                     if ( is_active_sidebar('single-sidebar') ) {
                         echo '<aside>';
