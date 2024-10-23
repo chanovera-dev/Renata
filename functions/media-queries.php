@@ -3,10 +3,17 @@
 function renata_theme_media_queries() {
     ?>
         <style>
+            :root{
+                --height--header:auto;
+            }
             /* header */
             #desktop-header{display:none;}
             
             @media(min-width:768px){
+                :root{
+                    --height--header:70px;
+                }
+
                 /* hero */
                 #hero.container .introduction{text-align:left;height:calc(100svh - 114px);}
                 #hero.container .introduction .contact-me{margin-inline:inherit;}
