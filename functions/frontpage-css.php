@@ -195,7 +195,7 @@ function renata_theme_custom_frontpage_css(){
             #contact{background-color:var(--bg-alt);padding:120px 0;}
             #contact .section{display:grid;border-radius:10px;overflow:hidden;box-shadow:rgb(255 255 255 / 5%) 0px 1px 1px 0px inset, rgb(0 0 0 / 15%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;}
             #contact .section #title--get-in-touch{font-family:'Text me one';margin-bottom:20px;color:var(--resalted-text);overflow:hidden;transition:all .3s ease;}
-            #contact .section #title--get-in-touch.hide{max-height:0;}
+            #contact .section #title--get-in-touch.hide{max-height:0;margin-bottom:0;}
             #contact .section > div{padding:20px;}
             #contact .section > div:nth-child(1){background-color:var(--bg-form);position:relative;}
             #contact .section > div:nth-child(2){background-color:var(--bg-address);display:grid;gap:20px;align-content:baseline;}

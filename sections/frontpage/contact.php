@@ -3,7 +3,7 @@
         <div id="contact-form__wrapper">
             <h2 id="title--get-in-touch">Get in touch</h2>
             <?php echo do_shortcode( '[contact-form-7 id="9ad5e89" title="Contact form"]' ); ?>
-            <button id="show-form" onclick="showForm()" style="max-height:0;">
+            <button id="show-form" onclick="showForm()">
                 New
             </button>
         </div>
