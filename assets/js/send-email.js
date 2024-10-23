@@ -37,4 +37,5 @@ function showForm() {
     titleElement.classList.remove('hide');
     showFormElement.classList.remove('show');
     form.classList.remove('sent');
+    form.setAttribute('data-status', 'init'); 
 }
