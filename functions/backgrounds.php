@@ -14,7 +14,8 @@ function renata_theme_custom_backgrounds() {
                 .post-template-default .header-post .title-and-data__wrapper .author .author-name,
                 .post-template-default .header-post .title-and-data__wrapper .author .author-ocupation,
                 .post-template-default .header-post .title-and-data__wrapper .date,
-                .post-template-default .header-post .title-and-data__wrapper .share{color:#fff;}
+                .post-template-default .header-post .title-and-data__wrapper .share,
+                .post-template-default .header-post .title-and-data__wrapper .share a{color:#fff;}
             <?php endif; ?>
 
         </style>
