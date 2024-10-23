@@ -13,7 +13,7 @@ function checkClassAndChangeStyles() {
 }
 
 // Creamos un observador para los cambios en las clases de la forma
-const observer = new MutationObserver((mutations) => {
+const observerContact = new MutationObserver((mutations) => {
     mutations.forEach(mutation => {
         if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
             checkClassAndChangeStyles();
@@ -23,7 +23,7 @@ const observer = new MutationObserver((mutations) => {
 
 // Iniciamos el observador
 if (form) {
-    observer.observe(form, { attributes: true });
+    observerContact.observe(form, { attributes: true });
 }
 
 // Llamamos a la función al cargar la página por si ya tiene la clase 'sent'
