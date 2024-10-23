@@ -33,10 +33,10 @@ checkClassAndChangeStyles();
 function showForm() {
     const titleElement = document.getElementById('title--get-in-touch');
     const showFormElement = document.getElementById('show-form');
-    const formContent = document.querySelector('.wpcf7-form p');
+    const form = document.querySelector('.wpcf7-form');
 
     titleElement.style.maxHeight = 'auto';
     titleElement.style.marginBottom = '20px';
     showFormElement.style.maxHeight = '0';
-    formContent.style.maxHeight = '100px';
+    form.classList.remove('sent');
 }
