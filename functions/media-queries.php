@@ -47,6 +47,14 @@ function renata_theme_media_queries() {
                         ';
                     }
                 ?>
+
+                /* single post */
+                <?php
+                    if ( is_active_sidebar('article-sidebar') ) {
+                        echo ':is(.page-template-default,.post-template-default) .body-post{display:grid;grid-template-columns:1fr 256px;gap:30px 90px;}';
+                    }
+                ?>
+
                 /* skills */
                 #skills.container .content .cards__inner{grid-template-columns:repeat(4, 1fr);gap:30px;}
 
