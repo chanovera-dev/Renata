@@ -22,7 +22,7 @@ add_action( 'wp_enqueue_scripts', 'renata_frontpage_styles' );
 
 // Estilos para la página archivo                                                           
 function karlicius_posts_styles() {
-    if ( is_home() or is_page_template('home.php') or is_archive() or is_search() ) {
+    if ( is_home() or is_page_template('home.php') or is_archive() or is_search() && ! is_front_page() ) {
         require_once(get_template_directory() . '/functions/blog-css.php');
         wp_enqueue_style( 'sidebar-styles', get_template_directory_uri() . '/assets/css/sidebar.css' );
     }
@@ -31,7 +31,7 @@ add_action( 'wp_enqueue_scripts', 'karlicius_posts_styles' );
 
 // Estilos para todos los artículos y páginas
 function single_styles() {
-    if ( is_single() ) {
+    if ( is_single() or is_page() && ! is_front_page() ) {
         wp_enqueue_style( 'single-styles', get_template_directory_uri() . '/assets/css/single.css' );
     }
 }
