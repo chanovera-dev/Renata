@@ -6,7 +6,7 @@ function checkClassAndChangeStyles() {
     const titleElement = document.getElementById('title--get-in-touch');
     const showFormElement = document.getElementById('show-form');
 
-    if (form.classList.contains('sent')) {
+    if (form.classList.contains('sent') | form.classList.contains('submitting') | form.classList.contains('resetting')) {
         titleElement.classList.add('hide');
         showFormElement.classList.add('show');
     }
