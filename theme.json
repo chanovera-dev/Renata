@@ -77,7 +77,7 @@
         },
         "layout": {
             "contentSize": "675px",
-            "wideSize": "921px"
+            "wideSize": "675px"
         },
         "typography": {
             "fluid": false,
