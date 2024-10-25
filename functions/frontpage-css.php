@@ -23,14 +23,14 @@ function renata_theme_custom_frontpage_css(){
             #hero .section{display:grid;}
             #hero .introduction{min-height:400px;height:calc(100svh - 54px);max-height:1000px;place-content:center;text-align:center;}
             #hero .introduction h2{
-                opacity:1;font-weight:400;font-size:36px;line-height:1.4;color:var(--resalted-text);
+                opacity:1;font-weight:400;color:var(--resalted-text);
                 animation: tilt-in-fwd-tr 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) .5s both;
             }
             @keyframes tilt-in-fwd-tr {
                 0%  {transform:rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);opacity:0;}
                 100%{transform:rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);opacity:1;}
             }
-            #hero .introduction h2 span{font-size:42px;color:var(--color-name);}
+            #hero .introduction h2 span{font-size:var(--wp--preset--font-size--x-large);color:var(--color-name);}
             #hero .introduction p{
                 padding:3px 7px;background-color:var(--bg-available-text);border:1px solid var(--bg-available-text);border-radius:4px;color:var(--color-available-text);margin-bottom:24px;font-size:13px;display:inline-block;opacity:1;
                 animation-name:animation-introduction-p; animation-direction:normal; animation-duration:3.4s; animation-timing-function:ease; animation-iteration-count:1;
