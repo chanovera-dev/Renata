@@ -1,6 +1,6 @@
 /* E N C A B E Z A D O */
 :is(.page-template-default,.post-template-default) .header-post .title-and-data__wrapper{position:relative;padding:var(--padding-bg-header) 0;text-align:center;display:grid;gap:20px;}
-:is(.page-template-default,.post-template-default) .header-post .title-and-data__wrapper .title-post{font-weight:400;font-size:30px;}
+:is(.page-template-default,.post-template-default) .header-post .title-and-data__wrapper .title-post{}
 /* autor */
 .post-template-default .header-post .title-and-data__wrapper .author{display:grid;grid-template-columns:auto auto;column-gap:13px;max-width:140px;text-align:left;margin-inline:auto;}
 .post-template-default .header-post .title-and-data__wrapper .author .author-name{color:var(--color-text);}
