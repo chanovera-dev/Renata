@@ -34,7 +34,7 @@ function renata_theme_media_queries() {
                 #contact.container .section > div:nth-child(1){min-width:400px;}
             }
 
-            @media(min-width:500px) and (max-width:720px){
+            @media(min-width:500px) and (max-width:768px){
                 /* blog */
                     /* aside */
                     aside div:nth-child(1){grid-column:1/-1;}
