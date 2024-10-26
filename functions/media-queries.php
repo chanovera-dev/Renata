@@ -37,14 +37,7 @@ function renata_theme_media_queries() {
             @media(min-width:500px) and (max-width:720px){
                 /* blog */
                     /* aside */
-                    aside{grid-template-columns:1fr 1fr;}
                     aside div:nth-child(1){grid-column:1/-1;}
-            }
-
-            @media(min-width:721px) and (max-width:1023px){
-                /* blog */
-                    /* aside */
-                    aside{grid-template-columns:repeat(3, 1fr);}
             }
 
             @media(min-width:1024px){
