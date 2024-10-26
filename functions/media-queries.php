@@ -34,10 +34,11 @@ function renata_theme_media_queries() {
                 #contact.container .section > div:nth-child(1){min-width:400px;}
             }
 
-            @media(min-width:768px) and (max-width:1023px){
+            @media(min-width:500px) and (max-width:1023px){
                 /* blog */
                     /* aside */
                     aside{grid-template-columns:1fr 1fr;}
+                    aside div:nth-child(1){grid-column:1/-1;}
             }
 
             @media(min-width:1024px){
