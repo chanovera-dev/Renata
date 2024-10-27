@@ -47,7 +47,7 @@ function renata_theme_forms() {
         .search-submit__button:hover{color:var(--color-input);}
 
         /* botón de envío */
-        #contact .section .wpcf7-form .wpcf7-form-control.wpcf7-submit{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;color:#11151A;border:1px solid #3fb950;border-radius:6px;transition:all .3s ease;background-image:linear-gradient(-60deg, transparent, transparent 40%, #ffffff44 40%, #ffffff44 60%, transparent 60%, transparent 100%);background-size:200% 100%;background-position-x:150%;background-repeat:no-repeat;}
+        #contact .section .wpcf7-form .wpcf7-form-control.wpcf7-submit{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;color:#11151A;border:2px solid #3fb950;border-radius:6px;transition:all .3s ease;background-image:linear-gradient(-60deg, transparent, transparent 40%, #ffffff44 40%, #ffffff44 60%, transparent 60%, transparent 100%);background-size:200% 100%;background-position-x:150%;background-repeat:no-repeat;}
             #contact .section .wpcf7-form .wpcf7-form-control.wpcf7-submit:hover{cursor:pointer;background-position-x:-150%;transition:background-position-x 1s;}
             #contact .section .wpcf7-form .wpcf7-form-control.wpcf7-submit:focus{outline:none;}
 
