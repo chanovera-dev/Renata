@@ -49,7 +49,7 @@ function renata_theme_colors() {
                 --color-placeholder:#9fafc1;
                 --bg-button:#3fb950;
                 --bg-button-hover:#59c668;
-                --border-button:2px solid #359c43;
+                --border-button:2px solid #3aaa4a;
 
                 /* hero */
                 --bg-hero-experience:#f2f5f7;
