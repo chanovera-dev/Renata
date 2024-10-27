@@ -5,7 +5,7 @@
     <div class="container">
 
         <section class="section">
-        <h1><?php echo esc_html__('Resultados para "', 'renata'); echo the_search_query(); echo esc_html__('"', 'renata') ?></h1>
+        <h1><?php echo esc_html__('Search for "', 'renata'); echo the_search_query(); echo esc_html__('"', 'renata') ?></h1>
             <div class="posts-wrapper">
                 <?php
                     if ( have_posts() ){
@@ -24,7 +24,7 @@
                         the_posts_pagination();
 
                     } else {
-                        echo esc_html__('No se han encontrado artículos', 'renata');
+                        echo esc_html__('No posts found', 'renata');
                     }
                 ?>
             </div>
