@@ -57,7 +57,7 @@ function renata_theme_custom_frontpage_css(){
                 margin-inline:auto;padding:6px 16px;border:var(--border-button);border-radius:6px;background-color:var(--bg-button);color:#11151A;font-size:20px;margin-top:30px;display:flex;align-items:center;gap:10px;transition:all .3s ease;background-image:linear-gradient(-60deg, transparent, transparent 40%, #ffffff44 40%, #ffffff44 60%, transparent 60%, transparent 100%);background-size:200% 100%;background-position-x:150%;background-repeat:no-repeat;
                 animation:bounce-in-right 1.5s 3.5s both;
             }
-            #hero .introduction .contact-me:hover{cursor:pointer;background-position-x:-150%;transition:background-position-x 1s;background-color:var(--bg-button-hover);}
+            #hero .introduction .contact-me:hover{cursor:pointer;background-position-x:-150%;transition:all 1s;background-color:var(--bg-button-hover);}
             @keyframes bounce-in-right{
                 0%{transform:translateX(600px);animation-timing-function:ease-in;opacity:0;}
                 38%{transform:translateX(0);animation-timing-function:ease-out;opacity:1;}
@@ -161,7 +161,7 @@ function renata_theme_custom_frontpage_css(){
             #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .technologies-list li{line-height:1;}
             #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .technologies-list li svg{color:var(--resalted-text);width:24px;height:24px;}
             #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .see-more-button{padding:7px;display:inline-flex;gap:6px;align-items:center;background-color:var(--bg-button);border:var(--border-button);border-radius:6px;color:#11151A;transition:background-color .3s ease;background-image:linear-gradient(-60deg, transparent, transparent 40%, #ffffff44 40%, #ffffff44 60%, transparent 60%, transparent 100%);background-size:200% 100%;background-position-x:150%;background-repeat:no-repeat;}
-            #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .see-more-button:hover{cursor:pointer;background-position-x:-150%;transition:background-position-x 1s;background-color:var(--bg-button-hover);}
+            #portfolio .content .cards-portfolio .card-portfolio .technologies-list__wrapper .see-more-button:hover{cursor:pointer;background-position-x:-150%;transition:all 1s;background-color:var(--bg-button-hover);}
 
             /* experience */
             #experience{position:relative;background-color:var(--bg-header);color:var(--resalted-text);box-shadow:0 -18px 20px 0 rgb(0 0 0 / 15%);}
