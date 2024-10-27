@@ -10,7 +10,7 @@ function renata_theme_colors() {
                 --white:#f6f6f6;
                 --color-title:#3D4651;
                 --color-text:#3D4651;
-                --color-link:#3D4651;
+                --color-link:#1a73e8;
                 --color-link-hover:#000;
                 --resalted-text:#000;
 
@@ -83,7 +83,7 @@ function renata_theme_colors() {
                 --white:#323232;
                 --color-title:#9198a1;
                 --color-text:#9198a1;
-                --color-link:#9198a1;
+                --color-link:#1a73e8;
                 --color-link-hover:#fff;
                 --resalted-text:#fff;
 
