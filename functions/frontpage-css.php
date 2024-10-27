@@ -205,7 +205,7 @@ function renata_theme_custom_frontpage_css(){
                 #contact .section .wpcf7-form p{overflow:hidden;max-height:270px;transition:all .3s ease;}
                 #contact .section :is(.wpcf7-form.submitting,.wpcf7-form.resetting,.wpcf7-form.sent) p{max-height:0;margin:0;}
                 /* botón de envío */
-                #contact .section .wpcf7-form .wpcf7-form-control.wpcf7-submit{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;color:#11151A;border:1px solid #3fb950;border-radius:6px;color:#11151A;transition:all .3s ease;}
+                #contact .section .wpcf7-form .wpcf7-form-control.wpcf7-submit{margin-right:auto;font-family:'Roboto', sans-serif;font-size:16px;padding:6px 17px;background-color:#3fb950;color:#11151A;border:1px solid #3fb950;border-radius:6px;transition:all .3s ease;}
                 #contact .section .wpcf7-form .wpcf7-form-control.wpcf7-submit:hover{background-color:#fff;cursor:pointer;}
                 #contact .section .wpcf7-form .wpcf7-form-control.wpcf7-submit:focus{outline:none;}
                 #contact .section .contact-form p :is(button.disabled,button.disabled:hover){border:1px solid var(--color-placeholder);color:var(--color-placeholder);background-color:transparent;cursor:auto;}
