@@ -49,13 +49,8 @@ function renata_theme_media_queries() {
                 <?php
                     if ( is_active_sidebar('posts-sidebar') ) {
                         echo '
-                        :is(.blog,.archive) main .container .section{display:grid;grid-template-columns:1fr 256px;gap:30px 90px;}
-                        :is(.archive) main .container .section{padding:0;padding-bottom:30px;}
-                        ';
-                    }
-                    if ( is_active_sidebar('search-sidebar') ) {
-                        echo '
-                        .search main .container .section{display:grid;grid-template-columns:1fr 256px;gap:30px 90px;padding:0;padding-bottom:30px;}
+                        :is(.blog,.archive,.search) main .container .section{display:grid;grid-template-columns:1fr 256px;gap:30px 90px;}
+                        :is(.archive,.search) main .container .section{padding:0;padding-bottom:30px;}
                         ';
                     }
                 ?>
