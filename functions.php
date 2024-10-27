@@ -111,18 +111,6 @@ function widgets_areas(){
             'after_widget' => '',
         )
     );
-
-    register_sidebar(
-        array(
-            'name' => __('Search Sidebar','renata'),
-            'id' => 'search-sidebar',
-            'description' => __('Sidebar Widget Area','renata'),
-            'before_title' => '<h3 class="widget-title">',
-            'after_title' => '</h3>',
-            'before_widget' => '',
-            'after_widget' => '',
-        )
-    );
     
 }
 add_action( 'widgets_init', 'widgets_areas' );

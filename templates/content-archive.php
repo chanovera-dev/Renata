@@ -9,10 +9,8 @@
     <?php 
         the_excerpt();
 
-        if ( is_home() or is_page_template('home.php') or is_archive() && ! is_active_sidebar('posts-sidebar') ) {
+        if ( ! is_active_sidebar('posts-sidebar') ) {
             echo '<div class="tags">' . get_the_tag_list() . '</div>';
-        } elseif ( is_search() && ! is_active_sidebar('search-sidebar') ) {
-            echo '<div class="tags">' . get_the_tag_list() . '</div>'; 
-        }        
+        }   
     ?>
 </article>

@@ -29,9 +29,9 @@
                 ?>
             </div>
             <?php
-                if ( is_active_sidebar('search-sidebar') ) {
+                if ( is_active_sidebar('posts-sidebar') ) {
                     echo '<aside>';
-                    dynamic_sidebar('search-sidebar');
+                    dynamic_sidebar('posts-sidebar');
                     echo '</aside>';
                 }
             ?>
