@@ -36,6 +36,9 @@ function karlicius_posts_styles() {
         wp_dequeue_style( 'wc-blocks-style' );
     }
     add_action( 'get_footer', 'load_components_footer_blog' );
+    // deshabilita contact form 7 en todas las páginas | revisar templates.php para ver que páginas tienen habilitado contact form 7
+    add_filter( 'wpcf7_load_js', '__return_false' );
+    add_filter( 'wpcf7_load_css', '__return_false' );
 }
 add_action( 'wp_enqueue_scripts', 'karlicius_posts_styles' );
 
