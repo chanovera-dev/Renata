@@ -102,6 +102,7 @@ function renata_theme_custom_global_css() {
             #desktop-header .header-content .search-form .search-field{padding:10px 37px 10px 10px;}
 
             /* navegación */
+            .navigation.pagination .screen-reader-text{display:none;}
             .navigation.pagination .nav-links{display:flex;justify-content:center;gap:3px;}
             .navigation.pagination .nav-links .page-numbers{display:grid;place-content:center;width:35px;height:35px;padding:0;background-color:transparent;border-radius:6px;transition:all .3s ease;}
             .navigation.pagination .nav-links .page-numbers.current{background-color:var(--bg-nav-current);color:var(--resalted-text);}
