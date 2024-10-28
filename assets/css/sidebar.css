@@ -3,7 +3,7 @@
 aside{display:grid;gap:40px;align-content:baseline;grid-template-columns:repeat(auto-fill, minmax(225px, 1fr));}
 aside a{color:var(--color-link);transition:color .3s ease;}
 aside a:hover{color:var(--color-link-hover);}
-aside p.wp-block-tag-cloud a{margin:10px;}
+aside p.wp-block-tag-cloud a{margin:13px;}
 aside .wp-block-group :is(ul,ol,p){visibility:hidden;}
 aside .wp-block-group :is(ul,ol,p) > *{visibility:visible;transition:opacity .3s;}
 aside .wp-block-group :is(ul:hover,ol:hover,p:hover) > :not(:hover){opacity:.25;}
