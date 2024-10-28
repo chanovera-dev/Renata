@@ -26,6 +26,8 @@ function karlicius_posts_styles() {
         wp_dequeue_style( 'wp-block-library' );
         wp_deregister_script('wp-polyfill');
         wp_deregister_script('regenerator-runtime');
+        add_filter( 'wpcf7_load_js', '__return_false' );
+        add_filter( 'wpcf7_load_css', '__return_false' );
     }
     add_action( 'wp_enqueue_scripts', 'load_parts_header_blog', 100 );
     if ( is_home() or is_page_template('home.php') or is_archive() or is_search() && ! is_front_page() ) {
@@ -37,8 +39,6 @@ function karlicius_posts_styles() {
     }
     add_action( 'get_footer', 'load_components_footer_blog' );
     // deshabilita contact form 7 en todas las páginas | revisar templates.php para ver que páginas tienen habilitado contact form 7
-    add_filter( 'wpcf7_load_js', '__return_false' );
-    add_filter( 'wpcf7_load_css', '__return_false' );
 }
 add_action( 'wp_enqueue_scripts', 'karlicius_posts_styles' );
 
