@@ -22,10 +22,20 @@ add_action( 'wp_enqueue_scripts', 'renata_frontpage_styles' );
 
 // Estilos para la página archivo                                                           
 function karlicius_posts_styles() {
+    function load_parts_header_blog() {
+        wp_dequeue_style( 'wp-block-library' );
+        wp_deregister_script('wp-polyfill');
+        wp_deregister_script('regenerator-runtime');
+    }
+    add_action( 'wp_enqueue_scripts', 'load_parts_header_blog', 100 );
     if ( is_home() or is_page_template('home.php') or is_archive() or is_search() && ! is_front_page() ) {
         require_once(get_template_directory() . '/functions/blog-css.php');
         wp_enqueue_style( 'sidebar-styles', get_template_directory_uri() . '/assets/css/sidebar.css' );
     }
+    function load_components_footer_blog(){
+        wp_dequeue_style( 'wc-blocks-style' );
+    }
+    add_action( 'get_footer', 'load_components_footer_blog' );
 }
 add_action( 'wp_enqueue_scripts', 'karlicius_posts_styles' );
 
