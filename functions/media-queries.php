@@ -15,7 +15,7 @@ function renata_theme_media_queries() {
                 }
 
                 /* hero */
-                #hero.container .introduction{text-align:left;height:calc(100svh - 114px);}
+                #hero.container .introduction{text-align:left;height:calc(100svh - 100px);}
                 #hero.container .introduction h1{text-align:left;}
                 #hero.container .introduction .contact-me{margin-inline:inherit;}
 

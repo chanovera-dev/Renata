@@ -88,7 +88,7 @@ function renata_theme_custom_global_css() {
                 #searchform-mobile .buttons-container :is(button:focus,.close-searchform-mobile:focus){border-color:var(--border-button-header-focus);outline:none;}
 
             /* header desktop */
-            #desktop-header .header-content{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:37px 0;transition:padding .3s ease;}
+            #desktop-header .header-content{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:30px 0;transition:padding .3s ease;}
 
             /* estilos del header al hacer scroll */
             :is(.scroll-down,.scroll-up) #desktop-header .header-content{padding:7px 0;}
