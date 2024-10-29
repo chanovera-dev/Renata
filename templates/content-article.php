@@ -11,7 +11,7 @@
                 ?>
             </section>
         </div>
-        <?php get_breadcrumb(); ?>
+        <?php include(TEMPLATEPATH.'/sections/widgets/breadcrumb.php'); ?>
         <div class="container body-post">
             <section class="section">
                 <div class="content-post">
