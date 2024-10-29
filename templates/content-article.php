@@ -2,7 +2,7 @@
     <article>
         <div class="container header-post">
             <div class="blur"></div>
-            <section class="section"><?php get_breadcrumb(); ?></section>
+            <section class="section breadcrumb"><?php get_breadcrumb(); ?></section>
             <section class="section title-and-data__wrapper">
                 <?php
                     the_title('<h1 class="title-post">', '</h1>');
