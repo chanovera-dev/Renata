@@ -2,6 +2,9 @@
 
 <main>
 
+    <div id="breadcrumb" class="container">
+        <section class="section breadcrumb"><?php get_breadcrumb(); ?></section>
+    </div>
     <div class="container">
 
         <section class="section">
