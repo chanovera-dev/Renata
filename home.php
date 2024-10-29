@@ -2,9 +2,8 @@
 
 <main>
 
-    <div id="breadcrumb" class="container">
-        <section class="section breadcrumb"><?php get_breadcrumb(); ?></section>
-    </div>
+    <?php include( TEMPLATEPATH.'/sections/widgets/breadcrumb.php' ); ?>
+
     <div class="container">
 
         <section class="section">

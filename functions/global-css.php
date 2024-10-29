@@ -108,6 +108,11 @@ function renata_theme_custom_global_css() {
             .navigation.pagination .nav-links .page-numbers.current{background-color:var(--bg-nav-current);color:var(--resalted-text);}
             .navigation.pagination .nav-links .page-numbers:not(.current):hover{background-color:var(--bg-nav-hover);color:var(--resalted-text);}
             .navigation.pagination .nav-links :is(.prev,.next){width:auto;padding:0 15px;}
+
+            /* breadcrumb */
+            #breadcrumb.container{background-color:var(--bg-alt);}
+            #breadcrumb.container .section{padding:10px 0;grid-column:1/-1;}
+            #breadcrumb.container .section a{}
         </style>
     <?php
 }
