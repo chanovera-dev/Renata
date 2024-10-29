@@ -166,7 +166,7 @@ function get_breadcrumb() {
         echo "";
         
             if (is_single()) {
-                echo "";
+                category_list();
                 
             }
     } elseif (is_page()) {
