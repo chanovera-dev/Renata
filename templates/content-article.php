@@ -11,6 +11,7 @@
                 ?>
             </section>
         </div>
+        <?php get_breadcrumb(); ?>
         <div class="container body-post">
             <section class="section">
                 <div class="content-post">
