@@ -9,6 +9,7 @@ function renata_theme_custom_blog_css() {
             #breadcrumb.container .section div{display:flex;gap:7px;align-items:center;color:var(--color-text);}
             #breadcrumb.container .section div a{display:inline-flex;align-items:center;gap:7px;transition:color .3s ease;}
             #breadcrumb.container .section div a:hover{color:var(--color-link-hover);}
+            #breadcrumb.container .section div a.go-home svg{width:18px;height:18px;position:relative;bottom:2px;}
             #breadcrumb.container .section svg{height:1cap;}
         
         main .container{background-color:var(--bg-header);}
