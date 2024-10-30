@@ -4,6 +4,7 @@
 .post-template-default .header-post .top .category-list .category-item a{background-color:red;color:#fff;padding:3px 9px;border-radius:0 0 4px 4px;position:relative;top:-10px;}
 :is(.page-template-default,.post-template-default) .header-post .top :is(.breadcrumb,.breadcrumb a,.category-item a){display:inline-flex;align-items:center;gap:7px;}
 :is(.page-template-default,.post-template-default) .header-post .top :is(.breadcrumb,.breadcrumb a,.category-item a) svg{height:1cap;}
+:is(.page-template-default,.post-template-default) .header-post .top .breadcrumb a.go-home svg{width:18px;height:18px;position:relative;bottom:2px;}
 :is(.page-template-default,.post-template-default) .header-post .title-and-data__wrapper{position:relative;padding:var(--padding-bg-header) 0;text-align:center;display:grid;gap:20px;}
 :is(.page-template-default,.post-template-default) .header-post .title-and-data__wrapper .title-post{}
 /* autor */
