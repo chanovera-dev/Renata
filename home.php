@@ -3,7 +3,7 @@
 <main>
 
     <div id="breadcrumb" class="container">
-        <section class="section"><?php get_breadcrumb(); ?></section>
+        <section class="section"><div><?php get_breadcrumb(); ?></div></section>
     </div>
 
     <div class="container">
