@@ -2,10 +2,12 @@
     <article>
         <div class="container header-post">
             <div class="blur"></div>
-            <section class="section top">
-                <div class="breadcrumb"><?php get_breadcrumb(); ?></div>
-                <?php echo the_category(); ?>
-            </section>
+            <div id="breadcrumb" class="container">
+                <section class="section top">
+                    <div class="breadcrumb"><?php get_breadcrumb(); ?></div>
+                    <?php echo the_category(); ?>
+                </section>
+            </div>
             <section class="section title-and-data__wrapper">
                 <?php
                     the_title('<h1 class="title-post">', '</h1>');
