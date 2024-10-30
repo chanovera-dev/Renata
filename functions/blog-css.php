@@ -4,7 +4,7 @@ function renata_theme_custom_blog_css() {
     ?>
     <style>
         /* breadcrumb */
-            #breadcrumb.container{background-color:var(--bg-alt);}
+            #breadcrumb.container{background-color:var(--bg-input);}
             #breadcrumb.container .section{padding:10px 0;display:flex;gap:7px;align-items:center;}
             #breadcrumb.container .section a{display:inline-flex;align-items:center;gap:7px;transition:color .3s ease;}
             #breadcrumb.container .section a:hover{color:var(--color-link-hover);}
