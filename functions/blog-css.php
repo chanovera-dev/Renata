@@ -3,7 +3,12 @@
 function renata_theme_custom_blog_css() {
     ?>
     <style>
-        main #breadcrumb.container .section{grid-template-columns:1fr;}
+        /* breadcrumb */
+            #breadcrumb.container{background-color:var(--bg-alt);}
+            #breadcrumb.container .section{padding:10px 0;display:flex;gap:7px;}
+            #breadcrumb.container .section a{display:inline-flex;align-items:center;gap:7px;}
+            #breadcrumb.container .section a svg{height:1cap;}
+        
         main .container{background-color:var(--bg-header);}
         main .container .section{padding:30px 0;display:grid;gap:50px;}
         main .container .section .posts-wrapper{display:grid;grid-template-rows:1fr auto;gap:50px;}
