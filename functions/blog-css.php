@@ -10,6 +10,10 @@ function renata_theme_custom_blog_css() {
             #breadcrumb.container .section div a{display:inline-flex;align-items:center;gap:7px;transition:color .3s ease;}
             #breadcrumb.container .section div a:hover{color:var(--color-link-hover);}
             #breadcrumb.container .section svg{height:1cap;}
+
+            #breadcrumb.container .section .category-list{padding:0;list-style:none;display:flex;align-items:center;gap:20px;}
+            #breadcrumb.container .section .category-list li a{display:inline-flex;align-items:center;gap:7px;}
+            #breadcrumb.container .section .category-list li a svg{height:1cap;}
         
         main .container{background-color:var(--bg-header);}
         main .container .section{padding:50px 0;display:grid;gap:50px;}
