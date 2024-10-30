@@ -5,7 +5,7 @@ function renata_theme_custom_blog_css() {
     <style>
         /* breadcrumb */
             #breadcrumb.container{background-color:var(--bg-input);border-top:1px solid var(--border-input);border-bottom:1px solid var(--border-input);}
-            #breadcrumb.container .section{padding:10px 0;display:flex;gap:7px;align-items:center;}
+            #breadcrumb.container .section{padding:10px 0;display:flex;gap:7px;align-items:center;color:var(--color-text);}
             #breadcrumb.container .section a{display:inline-flex;align-items:center;gap:7px;transition:color .3s ease;}
             #breadcrumb.container .section a:hover{color:var(--color-link-hover);}
             #breadcrumb.container .section svg{height:1cap;}
