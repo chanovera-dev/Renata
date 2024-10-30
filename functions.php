@@ -153,6 +153,30 @@ function custom_category_list($output, $args) {
 }
 add_filter('wp_list_categories', 'custom_category_list', 10, 2);
 
+function custom_the_category($thelist, $separator = ', ') {
+    // Obtener las categorías
+    $categories = get_the_category();
+    $output = '';
+
+    if ($categories) {
+        foreach ($categories as $category) {
+            // Crear el SVG
+            $svg_icon = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16"><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/></svg>';
+
+            // Formatear la salida
+            $output .= '<span class="category-item">' . $svg_icon . esc_html($category->name) . '</span>' . $separator;
+        }
+
+        // Eliminar el último separador
+        $output = rtrim($output, $separator);
+    }
+
+    return $output;
+}
+
+// Reemplazar la salida de the_category
+add_filter('the_category', 'custom_the_category', 10, 2);
+
 /* activa las migas de pan (breadcrumb) */
 function get_breadcrumb() {
     echo 
