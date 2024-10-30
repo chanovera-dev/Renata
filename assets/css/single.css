@@ -1,5 +1,5 @@
 /* E N C A B E Z A D O */
-:is(.page-template-default,.post-template-default) .header-post :is(.top,.bottom){position:relative;padding:10px 0;display:flex;justify-content:space-between;gap:30px;}
+:is(.page-template-default,.post-template-default) .header-post :is(.top,.bottom){position:relative;padding:20px 0;display:flex;justify-content:space-between;gap:30px;}
 :is(.page-template-default,.post-template-default) .header-post .top .category-list{padding:0;list-style:none;display:inline-flex;align-items:center;gap:20px;}
 :is(.page-template-default,.post-template-default) .header-post .top :is(.breadcrumb,.breadcrumb a,.category-item a){display:inline-flex;align-items:center;gap:7px;}
 :is(.page-template-default,.post-template-default) .header-post .top :is(.breadcrumb,.breadcrumb a,.category-item a) svg{height:1cap;}
