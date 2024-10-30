@@ -4,6 +4,7 @@ function renata_theme_custom_backgrounds() {
     ?>
         <style>
             <?php if ( has_post_thumbnail() == false ) : ?>
+                :is(.page-template-default,.post-template-default) main .header-post .top{background-color:var(--bg-input);padding:10px 0;border-top:1px solid var(--border-input);border-bottom:1px solid var(--border-input);}
                 :is(.page-template-default,.post-template-default) .header-post{background-color:var(--bg-header);}
                 :is(.page-template-default,.post-template-default) .header-post .blur{display:none;}
                 :is(.page-template-default,.post-template-default) .header-post .title-and-data__wrapper .title-post{color:var(--resalted-text);}
