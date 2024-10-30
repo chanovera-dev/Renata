@@ -3,7 +3,7 @@
         <div class="container header-post">
             <div class="blur"></div>
             <section class="section">
-                <div class="breadcrumb"><?php the_breadcrumb(); ?></div>
+                <div class="breadcrumb"><?php get_breadcrumb(); ?></div>
                 <?php echo the_category(); ?>
             </section>
             <section class="section title-and-data__wrapper">
