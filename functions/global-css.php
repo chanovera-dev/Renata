@@ -113,6 +113,7 @@ function renata_theme_custom_global_css() {
             #breadcrumb.container{background-color:var(--bg-alt);}
             #breadcrumb.container .section{padding:10px 0;grid-column:1/-1;}
             #breadcrumb.container .section a{display:inline-flex;align-items:center;gap:7px;}
+            #breadcrumb.container .section a svg{height:1cap;}
         </style>
     <?php
 }
