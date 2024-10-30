@@ -2,8 +2,8 @@
 
 /* E N C A B E Z A D O */
 :is(.page-template-default,.post-template-default) .header-post .top{position:relative;padding-top:10px;display:flex;justify-content:space-between;gap:30px;}
-:is(.page-template-default,.post-template-default) .header-post .top :is(.breadcrumb,.breadcrumb a){display:inline-flex;align-items:center;gap:7px;}
-:is(.page-template-default,.post-template-default) .header-post .top :is(.breadcrumb,.breadcrumb a) svg{height:1cap;}
+:is(.page-template-default,.post-template-default) .header-post .top :is(.breadcrumb,.breadcrumb a,.category-item a){display:inline-flex;align-items:center;gap:7px;}
+:is(.page-template-default,.post-template-default) .header-post .top :is(.breadcrumb,.breadcrumb a,.category-item a) svg{height:1cap;}
 :is(.page-template-default,.post-template-default) .header-post .title-and-data__wrapper{position:relative;padding:var(--padding-bg-header) 0;text-align:center;display:grid;gap:20px;}
 :is(.page-template-default,.post-template-default) .header-post .title-and-data__wrapper .title-post{}
 /* autor */
