@@ -1,7 +1,7 @@
 :is(.page-template-default,.post-template-default) #desktop-header .header-content{padding:15px 0;}
 
 /* E N C A B E Z A D O */
-:is(.page-template-default,.post-template-default) .header-post .breadcrumb{position:relative;padding-top:20px;}
+:is(.page-template-default,.post-template-default) .header-post .top{position:relative;padding-top:20px;}
 :is(.page-template-default,.post-template-default) .header-post .title-and-data__wrapper{position:relative;padding:var(--padding-bg-header) 0;text-align:center;display:grid;gap:20px;}
 :is(.page-template-default,.post-template-default) .header-post .title-and-data__wrapper .title-post{}
 /* autor */

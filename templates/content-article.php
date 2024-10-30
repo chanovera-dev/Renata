@@ -2,7 +2,7 @@
     <article>
         <div class="container header-post">
             <div class="blur"></div>
-            <section class="section">
+            <section class="section top">
                 <div class="breadcrumb"><?php get_breadcrumb(); ?></div>
                 <?php echo the_category(); ?>
             </section>
