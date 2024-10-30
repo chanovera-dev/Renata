@@ -5,9 +5,9 @@ function renata_theme_custom_blog_css() {
     <style>
         /* breadcrumb */
             #breadcrumb.container{background-color:var(--bg-alt);}
-            #breadcrumb.container .section{padding:10px 0;display:flex;gap:7px;}
+            #breadcrumb.container .section{padding:10px 0;display:flex;gap:7px;align-items:center;}
             #breadcrumb.container .section a{display:inline-flex;align-items:center;gap:7px;}
-            #breadcrumb.container .section a svg{height:1cap;}
+            #breadcrumb.container .section svg{height:1cap;}
         
         main .container{background-color:var(--bg-header);}
         main .container .section{padding:30px 0;display:grid;gap:50px;}
