@@ -80,9 +80,6 @@ function widgets_areas(){
         array(
             'name' => __('Blog Sidebar','renata'),
             'id' => 'posts-sidebar',
-            'description' => __('Sidebar Widget Area','renata'),
-            'before_title' => '<h3 class="widget-title">',
-            'after_title' => '</h3>',
             'before_widget' => '',
             'after_widget' => '',
         )
