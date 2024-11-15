@@ -9,8 +9,7 @@
 </head>
 <body <?php body_class(); ?>>
     <div class="site">
-        <?php include(TEMPLATEPATH.'/sections/header/menu-mobile.php'); ?>
-        
+        <?php get_template_part('sections/header/menu', 'mobile'); ?>
         <div id="panel-overlay"></div>
         <header id="mobile-header" class="container main-header">
             <section class="section header-content">
